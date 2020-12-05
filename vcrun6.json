@@ -3,6 +3,8 @@
     "Description": "Visual C++ 6 SP4 libraries",
     "Dependencies": [],
     "Steps": {
-      "install_exe": "https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe"
+      "install_exe": {
+          "file_name": "VC6RedistSetup_deu.exe",
+          "url": "https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe"
     }
 }
