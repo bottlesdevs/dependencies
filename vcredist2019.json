@@ -14,6 +14,11 @@
           "file_name": "vc_redist.x86.exe",
           "url": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
           "rename": "vcredist2019_x86.exe"
+      },
+      "install_exe": {
+          "file_name": "vc_redist.x64.exe",
+          "url": "https://aka.ms/vs/16/release/vc_redist.x64.exe",
+          "rename": "vcredist2019_x64.exe"
       }
     }
 }
