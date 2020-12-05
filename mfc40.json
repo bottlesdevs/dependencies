@@ -1,0 +1,9 @@
+
+{
+    "Name": "mfc40",
+    "Description" : "Microsoft Foundation Classes from win7sp1",
+    "Dependencies" : [],
+    "Steps" : {
+      "install_dll" : ""
+    }
+}
