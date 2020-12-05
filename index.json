@@ -1,11 +1,11 @@
 {
-    "corefonts" : {
-        "Description" : "Microsoft Core Fonts"
+    "corefonts": {
+        "Description": "Microsoft Core Fonts"
     },
-    "vcrun6" : {
-        "Description" : "Visual C++ 6 SP4 libraries"
+    "vcrun6": {
+        "Description": "Visual C++ 6 SP4 libraries"
     },
-    "mfc40" : {
-        "Description" : "Microsoft Foundation Classes from win7sp1"
+    "mfc40": {
+        "Description": "Microsoft Foundation Classes from win7sp1"
     }
 }
