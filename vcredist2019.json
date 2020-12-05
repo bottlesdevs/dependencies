@@ -1,0 +1,18 @@
+{
+    "Name": "vcredist2019",
+    "Description": "Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325",
+    "Dependencies": [],
+    "Steps": {
+      "delete_sys32_dlls": [
+          "comcat.dll",
+          "msvcrt.dll",
+          "oleaut32.dll",
+          "olepro32.dll",
+          "stdole2.tlb"
+      ],
+      "install_exe": {
+          "file_name": "vc_redist.x86.exe",
+          "url": "https://aka.ms/vs/16/release/vc_redist.x86.exe"
+      }
+    }
+}
