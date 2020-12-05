@@ -1,0 +1,8 @@
+{
+    "Name": "vcrun6",
+    "Description" : "Visual C++ 6 SP4 libraries",
+    "Dependencies" : [],
+    "Steps" : {
+      "install_exe" : "https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe"
+    }
+}
