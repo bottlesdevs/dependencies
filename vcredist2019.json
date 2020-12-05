@@ -11,12 +11,12 @@
           "stdole2.dll"
       ],
       "install_exe": {
-          "file_name": "vc_redist.x86.exe",
+          "file_name": "VC_redist.x86.exe",
           "url": "https://download.visualstudio.microsoft.com/download/pr/8ecb9800-52fd-432d-83ee-d6e037e96cc2/50A3E92ADE4C2D8F310A2812D46322459104039B9DEADBD7FDD483B5C697C0C8/VC_redist.x86.exe",
           "rename": "vcredist2019_x86.exe"
       },
       "install_exe": {
-          "file_name": "vc_redist.x64.exe",
+          "file_name": "VC_redist.x64.exe",
           "url": "https://download.visualstudio.microsoft.com/download/pr/89a3b9df-4a09-492e-8474-8f92c115c51d/B1A32C71A6B7D5978904FB223763263EA5A7EB23B2C44A0D60E90D234AD99178/VC_redist.x64.exe",
           "rename": "vcredist2019_x64.exe"
       }
