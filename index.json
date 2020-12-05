@@ -1,7 +1,10 @@
 {
-    "dependencies" : [
-        "corefonts",
-        "vcrun6",
-        "mfc40"
-    ]
+    "dependencies" : {
+        "corefonts" : {
+            "Description" : "Microsoft Core Fonts",
+        },
+        "vcrun6" : {
+            "Description" : "Visual C++ 6 SP4 libraries",
+        }
+    }
 }
