@@ -40,3 +40,8 @@ The manifest name should be the same declared inside in the `Name` parameter, fo
       "stdole2.dll"
   ],
   ```
+
+### Best practices/Rules
+- Provide links to official, tangible, reliable and possibly immutable resources
+- Do not self-host resources
+- Don't post any copyright infringing resources
