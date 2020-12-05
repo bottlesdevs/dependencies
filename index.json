@@ -1,4 +1,5 @@
 [
     "corefonts",
-    "vcrun6"
+    "vcrun6",
+    "mfc40",
 ]
