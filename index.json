@@ -1,5 +1,5 @@
 {
-    [
+    "dependencies" : [
         "corefonts",
         "vcrun6",
         "mfc40",
