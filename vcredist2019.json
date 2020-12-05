@@ -8,7 +8,7 @@
           "msvcrt.dll",
           "oleaut32.dll",
           "olepro32.dll",
-          "stdole2.tlb"
+          "stdole2.dll"
       ],
       "install_exe": {
           "file_name": "vc_redist.x86.exe",
