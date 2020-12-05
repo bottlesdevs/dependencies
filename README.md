@@ -47,3 +47,4 @@ When a pull requests is verified and merged, a moderator will add your new depen
 - Provide links to official, tangible, reliable and possibly immutable resources
 - Do not self-host resources
 - Don't post any copyright infringing resources
+- Do not delete manifests, when a dependency should be removed from Bottles, just remove it from `index.json`, unless it violates the rules, in that case it will be eliminated.
