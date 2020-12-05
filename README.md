@@ -41,6 +41,8 @@ The manifest name should be the same declared inside in the `Name` parameter, fo
   ],
   ```
 
+When a pull requests is verified and merged, a moderator will add your new dependency to the `index.json` file, this will make your work discoverable by Bottles.
+
 ### Best practices/Rules
 - Provide links to official, tangible, reliable and possibly immutable resources
 - Do not self-host resources
