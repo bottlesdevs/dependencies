@@ -1,5 +1,7 @@
-[
-    "corefonts",
-    "vcrun6",
-    "mfc40",
-]
+{
+    [
+        "corefonts",
+        "vcrun6",
+        "mfc40",
+    ]
+}
