@@ -10,7 +10,7 @@ assignees: mirkobrombin, francescomasala
 **Which dependency?**
 e.g. vcredist2019
 
-** Problem type**
+**Problem type**
 - download failed/broken url
 - failed to install (provide your bottle.json)
 - other (describe)
