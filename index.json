@@ -13,5 +13,8 @@
     },
     "dotnet40": {
         "Description": "Microsoft .NET Framework 4"
+    },
+    "dotnet472": {
+        "Description": "Microsoft .NET Framework 4.7.2"
     }
 }
