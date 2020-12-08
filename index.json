@@ -5,10 +5,10 @@
     "vcredist2019": {
         "Description": "Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325"
     },
-    "dotnet35": {
-        "Description": "Microsoft .NET Framework 3.5"
-    },
     "dotnet40": {
         "Description": "Microsoft .NET Framework 4"
+    }
+    "dotnet35sp1": {
+        "Description": "Microsoft .NET Framework 3.5 Service Pack 1 (Full Package)"
     }
 }
