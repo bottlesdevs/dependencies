@@ -7,7 +7,7 @@
     },
     "dotnet40": {
         "Description": "Microsoft .NET Framework 4"
-    }
+    },
     "dotnet35sp1": {
         "Description": "Microsoft .NET Framework 3.5 Service Pack 1 (Full Package)"
     }
