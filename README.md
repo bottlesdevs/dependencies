@@ -27,7 +27,8 @@ The manifest name should be the same declared inside in the `Name` parameter, fo
   "install_exe": {
       "file_name": "VC_redist.x86.exe",
       "url": "https://download.visualstudio.microsoft.com/downloa.../vc_redist.x86.exe",
-      "rename": "vcredist2019_x86.exe"
+      "rename": "vcredist2019_x86.exe",
+      "file_checksum": "251743dfd3fda414570524bac9e55381"
   },
   ```
   the method `install_exe` can be used multiple time to install more than one executable. The `rename` parameter is optional and must be used rename a downloaded file to a more specific one. Another method can be `delete_sys32_dlls`, this must be used to delete one or more `dll` from the `C:\Windows\System32` path, to avoid conflicts, e.g.:
@@ -40,6 +41,8 @@ The manifest name should be the same declared inside in the `Name` parameter, fo
       "stdole2.dll"
   ],
   ```
+
+> Note that every file should declare its checksum (MD5), this should used by Bottles to validate every file, checking for damaged or partials downloads.
 
 When a pull requests is verified and merged, a moderator will add your new dependency to the `index.json` file, this will make your work discoverable by Bottles.
 
