@@ -1,0 +1,12 @@
+{
+    "Name": "impact32",
+    "Description": "Impact Font 32 bit",
+    "Dependencies": [],
+    "Steps": {
+      "install_exe": {
+          "file_name": "impact32.exe",
+          "url": "https://mirrors.kernel.org/gentoo/distfiles/impact32.exe",
+          "file_checksum": "7907C7DD6684E9BADE91CFF82683D9D7"
+      }
+    }
+}

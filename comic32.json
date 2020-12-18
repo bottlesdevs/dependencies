@@ -1,0 +1,12 @@
+{
+    "Name": "comic32",
+    "Description": "Comic Sans Font 32 bit",
+    "Dependencies": [],
+    "Steps": {
+      "install_exe": {
+          "file_name": "comic32.exe",
+          "url": "https://mirrors.kernel.org/gentoo/distfiles/comic32.exe",
+          "file_checksum": "2B30DE40BB5E803A0452C7715FC835D1"
+      }
+    }
+}
