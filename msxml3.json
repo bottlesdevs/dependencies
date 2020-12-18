@@ -3,7 +3,7 @@
     "Description": "MSXML (Microsoft XML Parser) 3.0 Software Development Kit (SDK)",
     "Dependencies": [],
     "Steps": {
-      "install_exe": {
+      "install_msi": {
           "file_name": "xmlsdk.msi",
           "url": "https://download.microsoft.com/download/c/7/5/c75d4b79-35ad-4ae1-acbe-9ba7aa44d1c2/xmlsdk.msi",
           "file_checksum": "0d8798fe26f5b9aa6d9d70e018b41452"
