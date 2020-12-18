@@ -1,5 +1,5 @@
 {
-    "Name": "msxml3",
+    "Name": "xmlsdk",
     "Description": "MSXML (Microsoft XML Parser) 3.0 Software Development Kit (SDK)",
     "Dependencies": [],
     "Steps": {
