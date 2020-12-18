@@ -31,7 +31,7 @@ The manifest name should be the same declared inside in the `Name` parameter, fo
       "file_checksum": "251743dfd3fda414570524bac9e55381"
   },
   ```
-  the method `install_exe` can be used multiple time to install more than one executable. The `rename` parameter is optional and must be used rename a downloaded file to a more specific one. Another method can be `delete_sys32_dlls`, this must be used to delete one or more `dll` from the `C:\Windows\System32` path, to avoid conflicts, e.g.:
+  the method `install_exe` can be used multiple time to install more than one executable (use `install_msi` with the same syntax for `.msi` files). The `rename` parameter is optional and must be used rename a downloaded file to a more specific one. Another method can be `delete_sys32_dlls`, this must be used to delete one or more `dll` from the `C:\Windows\System32` path, to avoid conflicts, e.g.:
   ```
   "delete_sys32_dlls": [
       "comcat.dll",
