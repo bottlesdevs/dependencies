@@ -4,7 +4,7 @@
     "Dependencies": [],
     "Steps": {
       "install_exe": {
-          "file_name": "msxml6.exe",
+          "file_name": "msxml6.msi",
           "url": "https://download.microsoft.com/download/2/e/0/2e01308a-e17f-4bf9-bf48-161356cf9c81/msxml6.msi",
           "file_checksum": "a13bff305ec8ab7ab89c2a1758c55cb9"
       },
