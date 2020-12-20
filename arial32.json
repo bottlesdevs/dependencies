@@ -1,6 +1,6 @@
 {
     "Name": "arial32",
-    "Description": "Arial Font 32 bit",
+    "Description": "Arial Font",
     "Dependencies": [],
     "Steps": {
       "install_exe": {
