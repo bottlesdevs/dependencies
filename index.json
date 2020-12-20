@@ -17,6 +17,9 @@
     "dotnet472": {
         "Description": "Microsoft .NET Framework 4.7.2"
     },
+    "dotnet48": {
+        "Description": "Microsoft .NET Framework 4.8"
+    },
     "xmlsdk": {
         "Description": "MSXML (Microsoft XML Parser) 3.0 Software Development Kit (SDK)"
     },
