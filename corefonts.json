@@ -37,7 +37,7 @@
             "action": "install_exe",
             "file_name": "georgi32.exe",
             "url": "https://mirrors.kernel.org/gentoo/distfiles/georgi32.exe",
-            "file_checksum": " 4D90016026E2DA447593B41A8D8FA8BD"
+            "file_checksum": "4D90016026E2DA447593B41A8D8FA8BD"
         },
         {
             "action": "install_exe",
