@@ -1,6 +1,6 @@
 {
     "Name": "comic32",
-    "Description": "Comic Sans Font 32 bit",
+    "Description": "Comic Sans Font",
     "Dependencies": [],
     "Steps": {
       "install_exe": {
