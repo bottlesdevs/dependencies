@@ -1,6 +1,6 @@
 {
     "Name": "trebuc32",
-    "Description": "Trebuchet Font 32 bit",
+    "Description": "Trebuchet Font",
     "Dependencies": [],
     "Steps": {
       "install_exe": {
