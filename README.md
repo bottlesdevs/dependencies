@@ -38,7 +38,7 @@ To submit a new dependency, just commit a new manifest file. This must follow th
   ```
 - **delete_sys32_dlls** This should be used when you need to remove system .dlls
   ```
-    "Steps": [{
+    {
 		"action": "delete_sys32_dlls",
 		"dlls": [
 			"comcat.dll",
@@ -47,8 +47,7 @@ To submit a new dependency, just commit a new manifest file. This must follow th
 			"olepro32.dll",
 			"stdole2.dll"
 		]
-	},
-
+    }
   ```
 The manifest name should be the same declared inside in the `Name` parameter, followed by the `.json` extension.
 
