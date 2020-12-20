@@ -1,6 +1,6 @@
 {
     "Name": "impact32",
-    "Description": "Impact Font 32 bit",
+    "Description": "Impact Font",
     "Dependencies": [],
     "Steps": {
       "install_exe": {
