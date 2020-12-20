@@ -1,6 +1,6 @@
 {
     "Name": "verdan32",
-    "Description": "Verdana Font 32 bit",
+    "Description": "Verdana Font",
     "Dependencies": [],
     "Steps": {
       "install_exe": {
