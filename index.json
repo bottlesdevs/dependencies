@@ -22,7 +22,7 @@
     },
     "msxml6": {
         "Description": "Microsoft Core XML Services (MSXML) 6.0"
-    }
+    },
     "corefonts": {
         "Description": "Microsoft Core Fonts"
     }
