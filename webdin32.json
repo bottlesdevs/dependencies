@@ -1,6 +1,6 @@
 {
     "Name": "webdin32",
-    "Description": "Webdings Font 32 bit",
+    "Description": "Webdings Font",
     "Dependencies": [],
     "Steps": {
       "install_exe": {
