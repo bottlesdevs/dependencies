@@ -1,6 +1,6 @@
 {
     "Name": "georgi32",
-    "Description": "Georgia Font 32 bit",
+    "Description": "Georgia Font",
     "Dependencies": [],
     "Steps": {
       "install_exe": {
