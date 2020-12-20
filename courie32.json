@@ -1,6 +1,6 @@
 {
     "Name": "courie32",
-    "Description": "Courie Font 32 bit",
+    "Description": "Courie Font",
     "Dependencies": [],
     "Steps": {
       "install_exe": {
