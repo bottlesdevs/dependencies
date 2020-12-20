@@ -1,6 +1,6 @@
 {
     "Name": "times32",
-    "Description": "Times New Roman Font 32 bit",
+    "Description": "Times New Roman Font",
     "Dependencies": [],
     "Steps": {
       "install_exe": {
