@@ -2,11 +2,12 @@
     "Name": "trebuc32",
     "Description": "Trebuchet Font",
     "Dependencies": [],
-    "Steps": {
-      "install_exe": {
+    "Steps": [
+      {
+          "action": "install_exe",
           "file_name": "trebuc32.exe",
           "url": "https://mirrors.kernel.org/gentoo/distfiles/trebuc32.exe",
           "file_checksum": "0D7EA16CAC6261F8513A061FBFCDB2B5"
       }
-    }
+    ]
 }

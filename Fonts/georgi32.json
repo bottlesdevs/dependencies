@@ -2,11 +2,12 @@
     "Name": "georgi32",
     "Description": "Georgia Font",
     "Dependencies": [],
-    "Steps": {
-      "install_exe": {
+    "Steps": [
+      {
+          "action": "install_exe",
           "file_name": "georgi32.exe",
           "url": "https://mirrors.kernel.org/gentoo/distfiles/georgi32.exe",
-          "file_checksum": " 4d90016026e2da447593b41a8d8fa8bd"
+          "file_checksum": "4D90016026E2DA447593B41A8D8FA8BD"
       }
-    }
+    ]
 }

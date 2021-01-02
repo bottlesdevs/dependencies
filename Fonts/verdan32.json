@@ -2,11 +2,12 @@
     "Name": "verdan32",
     "Description": "Verdana Font",
     "Dependencies": [],
-    "Steps": {
-      "install_exe": {
+    "Steps": [
+      {
+          "action": "install_exe",
           "file_name": "verdan32.exe",
           "url": "https://mirrors.kernel.org/gentoo/distfiles/verdan32.exe",
           "file_checksum": "12D2A75F8156E10607BE1EAA8E8EF120"
       }
-    }
+    ]
 }
