@@ -26,6 +26,9 @@
     "msxml6": {
         "Description": "Microsoft Core XML Services (MSXML) 6.0"
     },
+    "arial32": {
+        "Description": "Microsoft Arial Font"
+    },
     "corefonts": {
         "Description": "Microsoft Core Fonts"
     }
