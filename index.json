@@ -1,44 +1,58 @@
 {
     "vcredist2013": {
-        "Description": "Microsoft Visual C++ Redistributable (2013) 12.0"
+        "Description": "Microsoft Visual C++ Redistributable (2013) 12.0",
+        "Category": "Essentials"
     },
     "vcredist2019": {
-        "Description": "Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325"
+        "Description": "Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325",
+        "Category": "Essentials"
     },
     "dotnet35": {
-        "Description": "Microsoft .NET Framework 3.5"
+        "Description": "Microsoft .NET Framework 3.5",
+        "Category": "Essentials"
     },
     "dotnet35sp1": {
-        "Description": "Microsoft .NET Framework 3.5 Service Pack 1"
+        "Description": "Microsoft .NET Framework 3.5 Service Pack 1",
+        "Category": "Essentials"
     },
     "dotnet40": {
-        "Description": "Microsoft .NET Framework 4"
+        "Description": "Microsoft .NET Framework 4",
+        "Category": "Essentials"
     },
     "dotnet472": {
-        "Description": "Microsoft .NET Framework 4.7.2"
+        "Description": "Microsoft .NET Framework 4.7.2",
+        "Category": "Essentials"
     },
     "dotnet48": {
-        "Description": "Microsoft .NET Framework 4.8"
+        "Description": "Microsoft .NET Framework 4.8",
+        "Category": "Essentials"
     },
     "xmlsdk": {
-        "Description": "MSXML (Microsoft XML Parser) 3.0 Software Development Kit (SDK)"
+        "Description": "MSXML (Microsoft XML Parser) 3.0 Software Development Kit (SDK)",
+        "Category": "Essentials"
     },
     "msxml6": {
-        "Description": "Microsoft Core XML Services (MSXML) 6.0"
+        "Description": "Microsoft Core XML Services (MSXML) 6.0",
+        "Category": "Essentials"
     },
     "corefonts": {
-        "Description": "Microsoft Core Fonts"
+        "Description": "Microsoft Core Fonts",
+        "Category": "Fonts"
     },
     "arial32": {
-        "Description": "Microsoft Arial Font"
+        "Description": "Microsoft Arial Font",
+        "Category": "Fonts"
     },
     "comic32": {
-        "Description": "Microsoft Comic Font"
+        "Description": "Microsoft Comic Font",
+        "Category": "Fonts"
     },
     "courie32": {
-        "Description": "Microsoft Courie Font"
+        "Description": "Microsoft Courie Font",
+        "Category": "Fonts"
     },
     "times32": {
-        "Description": "Microsoft Times New Roman Font"
+        "Description": "Microsoft Times New Roman Font",
+        "Category": "Fonts"
     }
 }
