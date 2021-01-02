@@ -26,10 +26,19 @@
     "msxml6": {
         "Description": "Microsoft Core XML Services (MSXML) 6.0"
     },
+    "corefonts": {
+        "Description": "Microsoft Core Fonts"
+    },
     "arial32": {
         "Description": "Microsoft Arial Font"
     },
-    "corefonts": {
-        "Description": "Microsoft Core Fonts"
+    "comic32": {
+        "Description": "Microsoft Comic Font"
+    },
+    "courie32": {
+        "Description": "Microsoft Courie Font"
+    },
+    "times32": {
+        "Description": "Microsoft Times New Roman Font"
     }
 }
