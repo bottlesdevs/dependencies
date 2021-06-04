@@ -31,10 +31,6 @@
         "Description": "Microsoft .NET Framework 4.8",
         "Category": "Essentials"
     },
-    "msxml6": {
-        "Description": "Microsoft Core XML Services (MSXML) 6.0",
-        "Category": "Essentials"
-    },
     "corefonts": {
         "Description": "Microsoft Core Fonts",
         "Category": "Fonts"
