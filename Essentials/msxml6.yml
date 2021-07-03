@@ -2,11 +2,15 @@ Name: msxml6
 Description: Microsoft Core XML Services (MSXML) 6.0
 Dependencies: []
 Steps:
-- action: install_msi
+- action: cab_extract
+  file_name: msxml6-KB973686-enu-amd64.exe
+  url: https://web.archive.org/web/20190122095451/https://download.microsoft.com/download/1/5/8/158F681A-E595-472B-B15E-62B649B1B6FF/msxml6-KB973686-enu-amd64.exe
+  file_checksum: 13a292beb9ebe46ac97b8a4352fe2cd5
+  
+- action: cab_extract
   file_name: msxml6.msi
-  url: https://download.microsoft.com/download/2/e/0/2e01308a-e17f-4bf9-bf48-161356cf9c81/msxml6.msi
-  file_checksum: a13bff305ec8ab7ab89c2a1758c55cb9
-- action: install_msi
-  file_name: msxml6_x64.msi
-  url: https://download.microsoft.com/download/2/e/0/2e01308a-e17f-4bf9-bf48-161356cf9c81/msxml6_x64.msi
-  file_checksum: 109c400eae269ec1c8761589b81884a0
+  url: temp/msxml6
+  
+- action: copy_cab_dll
+  file_name: msxml6.dll
+  url: temp/msxml6
