@@ -30,3 +30,7 @@ Steps:
   file_name: msxml6r.dll.1ECC0691_D2EB_4A33_9CBF_5487E5CB17DB
   url: temp/msxml6r
   dest: windows/syswow64/msxml6r.dll
+  
+- action: override_dll
+  dll: msxml6
+  type: native,builtin
