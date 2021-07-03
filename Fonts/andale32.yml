@@ -1,0 +1,9 @@
+Name: andale32
+Description: Andale Font 32 bit
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: andale32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/andale32.exe
+  file_checksum: CBDC2FDD7D2ED0832795E86A8B9EE19A
+  
