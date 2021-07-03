@@ -1,0 +1,48 @@
+Name: corefonts
+Description: Microsoft Core Fonts
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: arial32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/arial32.exe
+  file_checksum: 9637DF0E91703179F0723EC095A36CB5
+- action: install_exe
+  file_name: arialb32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/arialb32.exe
+  file_checksum: C9089AE0C3B3D0D8C4B0A95979BB9FF0
+- action: install_exe
+  file_name: andale32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/andale32.exe
+  file_checksum: CBDC2FDD7D2ED0832795E86A8B9EE19A
+- action: install_exe
+  file_name: comic32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/comic32.exe
+  file_checksum: 2B30DE40BB5E803A0452C7715FC835D1
+- action: install_exe
+  file_name: courie32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/courie32.exe
+  file_checksum: 4E412C772294403AB62FB2D247D85C60
+- action: install_exe
+  file_name: georgi32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/georgi32.exe
+  file_checksum: 4D90016026E2DA447593B41A8D8FA8BD
+- action: install_exe
+  file_name: impact32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/impact32.exe
+  file_checksum: 7907C7DD6684E9BADE91CFF82683D9D7
+- action: install_exe
+  file_name: times32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/times32.exe
+  file_checksum: ED39C8EF91B9FB80F76F702568291BD5
+- action: install_exe
+  file_name: trebuc32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/trebuc32.exe
+  file_checksum: 0D7EA16CAC6261F8513A061FBFCDB2B5
+- action: install_exe
+  file_name: verdan32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/verdan32.exe
+  file_checksum: 12D2A75F8156E10607BE1EAA8E8EF120
+- action: install_exe
+  file_name: webdin32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/webdin32.exe
+  file_checksum: 230A1D13A365B22815F502EB24D9149B
