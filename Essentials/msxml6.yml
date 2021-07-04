@@ -2,6 +2,9 @@
 
 Name: msxml6
 Description: Microsoft Core XML Services (MSXML) 6.0
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
 - action: cab_extract
