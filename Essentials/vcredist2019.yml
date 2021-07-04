@@ -1,5 +1,8 @@
 Name: vcredist2019
 Description: Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
 - action: delete_sys32_dlls
