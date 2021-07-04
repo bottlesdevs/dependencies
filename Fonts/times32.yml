@@ -1,5 +1,8 @@
 Name: times32
 Description: Times New Roman Font
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
 - action: install_exe
