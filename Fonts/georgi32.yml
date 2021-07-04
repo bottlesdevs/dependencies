@@ -1,5 +1,8 @@
 Name: georgi32
 Description: Georgia Font
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
 - action: install_exe
