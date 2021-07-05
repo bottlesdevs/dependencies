@@ -8,6 +8,9 @@ Dependencies: []
 Replaces:
 - mono
 
+Uninstaller:
+- name: Microsoft .NET Framework 4 Extended
+
 Steps:
 - action: install_exe
   environment: 
