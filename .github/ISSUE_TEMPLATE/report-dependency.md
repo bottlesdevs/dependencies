@@ -3,7 +3,7 @@ name: Report dependency
 about: Report a problem with a dependency.
 title: "[Report]"
 labels: ''
-assignees: mirkobrombin, francescomasala
+assignees: francescomasala, mirkobrombin
 
 ---
 
