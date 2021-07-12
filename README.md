@@ -16,6 +16,7 @@ Steps: []
 ```
 
 **Steps:**
+
 **install_exe** can be used when you want to install a dependency (*.exe)
 ```yaml
 - action: install_exe
