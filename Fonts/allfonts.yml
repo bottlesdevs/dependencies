@@ -10,7 +10,57 @@ Steps:
   file_name: arial32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/arial32.exe
   file_checksum: 9637DF0E91703179F0723EC095A36CB5
-
+  
+- action: cab_extract
+  file_name: arialb32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/arialb32.exe
+  file_checksum: C9089AE0C3B3D0D8C4B0A95979BB9FF0
+  
+- action: cab_extract
+  file_name: andale32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/andale32.exe
+  file_checksum: CBDC2FDD7D2ED0832795E86A8B9EE19A
+  
+- action: cab_extract
+  file_name: comic32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/comic32.exe
+  file_checksum: 2B30DE40BB5E803A0452C7715FC835D1
+  
+- action: cab_extract
+  file_name: courie32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/courie32.exe
+  file_checksum: 4E412C772294403AB62FB2D247D85C60
+  
+- action: cab_extract
+  file_name: georgi32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/georgi32.exe
+  file_checksum: 4D90016026E2DA447593B41A8D8FA8BD
+  
+- action: cab_extract
+  file_name: impact32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/impact32.exe
+  file_checksum: 7907C7DD6684E9BADE91CFF82683D9D7
+  
+- action: cab_extract
+  file_name: times32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/times32.exe
+  file_checksum: ED39C8EF91B9FB80F76F702568291BD5
+  
+- action: cab_extract
+  file_name: trebuc32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/trebuc32.exe
+  file_checksum: 0D7EA16CAC6261F8513A061FBFCDB2B5
+  
+- action: cab_extract
+  file_name: verdan32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/verdan32.exe
+  file_checksum: 12D2A75F8156E10607BE1EAA8E8EF120
+  
+- action: cab_extract
+  file_name: webdin32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/webdin32.exe
+  file_checksum: 230A1D13A365B22815F502EB24D9149B
+  
 - action: install_cab_fonts
   url: temp/arial32
   fonts: 
@@ -18,3 +68,85 @@ Steps:
    - Arialbd.TTF
    - Arialbi.TTF
    - Arial.TTF
+  
+- action: install_cab_fonts
+  url: temp/arialb32
+  fonts: 
+   - AriBlk.TTF
+  
+- action: install_cab_fonts
+  url: temp/arial32
+  fonts: 
+   - Ariali.TTF
+   - Arialbd.TTF
+   - Arialbi.TTF
+   - Arial.TTF
+  
+- action: install_cab_fonts
+  url: temp/andale32
+  fonts: 
+   - AndaleMo.TTF
+  
+- action: install_cab_fonts
+  url: temp/comic32
+  fonts: 
+   - Comicbd.TTF
+   - Comic.TTF
+  
+- action: install_cab_fonts
+  url: temp/courie32
+  fonts: 
+   - cour.ttf
+   - courbd.ttf
+   - courbi.ttf
+   - couri.ttf
+  
+- action: install_cab_fonts
+  url: temp/georgi32
+  fonts: 
+   - Georgiaz.TTF
+   - Georgiab.TTF
+   - Georgiai.TTF
+   - Georgia.TTF
+  
+- action: install_cab_fonts
+  url: temp/arial32
+  fonts: 
+   - Ariali.TTF
+   - Arialbd.TTF
+   - Arialbi.TTF
+   - Arial.TTF
+  
+- action: install_cab_fonts
+  url: temp/impact32
+  fonts: 
+   - Impact.TTF
+  
+- action: install_cab_fonts
+  url: temp/times32
+  fonts: 
+   - Times.TTF
+   - Timesbd.TTF
+   - Timesbi.TTF
+   - Timesi.TTF
+  
+- action: install_cab_fonts
+  url: temp/trebuc32
+  fonts: 
+   - trebuc.ttf
+   - Trebucbd.ttf
+   - trebucbi.ttf
+   - trebucit.ttf
+  
+- action: install_cab_fonts
+  url: temp/verdan32
+  fonts: 
+   - Verdanab.TTF
+   - Verdanai.TTF
+   - Verdanaz.TTF
+   - Verdana.TTF
+  
+- action: install_cab_fonts
+  url: temp/webdin32
+  fonts: 
+   - Webdings.TTF
