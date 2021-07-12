@@ -1,3 +1,7 @@
 msxml6:
   Description: Microsoft Core XML Services (MSXML) 6.0
   Category: Essentials
+  
+allfonts:
+  Description: All Microsoft and Adobe essential fonts
+  Category: Fonts
