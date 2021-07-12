@@ -1,7 +1,7 @@
 Name: allfonts
 Description: All Microsoft and Adobe essential fonts
-Provider: Microsoft
-License: Microsoft EULA
+Provider: Various
+License: Mostly Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 
