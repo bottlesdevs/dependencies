@@ -18,20 +18,20 @@ Steps: []
 **Steps:**
 **install_exe** can be used when you want to install a dependency (*.exe)
 ```yaml
-action: install_exe
-file_name: vcredist_x64.exe
-url: https://download.visualstudio.microsoft.com/download/pr/10912041/cee5d6bca2ddbcd039da727bf4acb48a/vcredist_x64.exe
-rename: vcredist2013_x64.exe
-file_checksum: 49b1164f8e95ec6409ea83cdb352d8da
+- action: install_exe
+  file_name: vcredist_x64.exe
+  url: https://download.visualstudio.microsoft.com/download/pr/10912041/cee5d6bca2ddbcd039da727bf4acb48a/vcredist_x64.exe
+  rename: vcredist2013_x64.exe
+  file_checksum: 49b1164f8e95ec6409ea83cdb352d8da
 ```
   
 **install_msi** can be used when you want to install a dependency (*.msi)
 ```yaml
-action: install_msi
-file_name: msxml6.msi
-url: https://download.microsoft.com/download/2/e/0/2e01308a-e17f-4bf9-bf48-161356cf9c81/msxml6.msi
-rename: vcredist2013_x64.exe
-file_checksum: a13bff305ec8ab7ab89c2a1758c55cb9
+- action: install_msi
+  file_name: msxml6.msi
+  url: https://download.microsoft.com/download/2/e/0/2e01308a-e17f-4bf9-bf48-161356cf9c81/msxml6.msi
+  rename: vcredist2013_x64.exe
+  file_checksum: a13bff305ec8ab7ab89c2a1758c55cb9
 ```
 
 **delete_sys32_dlls** can be used when you need to remove system .dlls
