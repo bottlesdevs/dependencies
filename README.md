@@ -9,9 +9,17 @@ This is a fully community driven repository. This mean that other users can open
 
 To submit a new dependency, just commit a new manifest file. This must follow the structure:
 ```yaml
-Name: dependency_name
-Description: Dependency complete name
-Dependencies: []
+Name: dotnet40
+Description: Microsoft .NET Framework 4
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+
+Dependencies: [] # not implemented
+Conflicts: # not implemented
+- mono
+
+Uninstaller: Microsoft .NET Framework 4 Extended
 Steps: []
 ```
 
@@ -78,9 +86,13 @@ The manifest name should be the same declared inside in the `Name` parameter, fo
 
 **Parameters:**
 
-- **Name** should be a concise name for the dependency, no spaces, use underscore instead (e.g. vcredist2019)
-- **Description** this is not a full description, this is just the complete name (e.g. Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325)
+- **Name** should be a concise name for the dependency, no spaces, use underscore instead (e.g. dotnet40)
+- **Description** this is not a full description, this is just the complete name (e.g. Microsoft .NET Framework 4)
+- **Provider** this is the dependency provider (e.g. Microsoft)
+- **License** this is the author license (e.g. Microsoft EULA)
+- **License_url** this is the license URL (e.g. https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm)
 - **Dependencies** at this time is not used, in the future it will be used to indicate other dependencies needed to install this one
+- **Uninstaller** the name of the uninstaller (e.g. Microsoft .NET Framework 4 Extended) this will be used by wine uninstaller
 - **Steps** this contains all steps that Bootles should perform to install this dependency, e.g.:
 ```yaml
 action: install_exe
