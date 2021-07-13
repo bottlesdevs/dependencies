@@ -22,8 +22,11 @@ dotnet472:
 dotnet48:
   Description: Microsoft .NET Framework 4.8
   Category: Essentials
-corefonts:
-  Description: Microsoft Core Fonts
+msxml6:
+  Description: Microsoft Core XML Services (MSXML) 6.0
+  Category: Essentials
+allfonts:
+  Description: All Microsoft and Adobe essential fonts
   Category: Fonts
 arial32:
   Description: Microsoft Arial Font
