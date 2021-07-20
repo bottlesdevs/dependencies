@@ -1,0 +1,14 @@
+Name: ffdshow 
+Description: ffdshow video codecs
+Provider: doom9 folks
+License: GPLv2
+License_url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: ffdshow_beta7_rev3154_20091209.exe
+  url: https://downloads.sourceforge.net/ffdshow-tryout/ffdshow_beta7_rev3154_20091209.exe
+  rename: ffdshow_beta7_rev3154_20091209.exe
+  arguments:
+    - /silent
+  file_checksum: c3f75f29521f749f9c9fc5489544cb04
