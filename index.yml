@@ -31,6 +31,9 @@ msxml6:
 ffdshow:
   Description: ffdshow video codecs
   Category: Essentials
+dirac:
+  Description: The Dirac directshow filter v1.0.2
+  Category: Essentials
   
 allfonts:
   Description: All Microsoft and Adobe essential fonts
