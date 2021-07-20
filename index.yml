@@ -31,6 +31,10 @@ jet40:
   Description: MS Jet 4.0 Service Pack 8
   Category: Essentials
 
+ie8_kb2936068:
+  Description: Cumulative Security Update for Internet Explorer 8
+  Category: Essentials
+  
 ffdshow:
   Description: ffdshow video codecs
   Category: Essentials
