@@ -7,6 +7,7 @@ vcreditst2015:
 vcredist2019:
   Description: Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325
   Category: Essentials
+  
 dotnet35:
   Description: Microsoft .NET Framework 3.5
   Category: Essentials
@@ -22,9 +23,15 @@ dotnet472:
 dotnet48:
   Description: Microsoft .NET Framework 4.8
   Category: Essentials
+  
 msxml6:
   Description: Microsoft Core XML Services (MSXML) 6.0
   Category: Essentials
+
+ffdshow:
+  Description: ffdshow video codecs
+  Category: Essentials
+  
 allfonts:
   Description: All Microsoft and Adobe essential fonts
   Category: Fonts
