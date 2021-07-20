@@ -27,6 +27,9 @@ dotnet48:
 msxml6:
   Description: Microsoft Core XML Services (MSXML) 6.0
   Category: Essentials
+jet40:
+  Description: MS Jet 4.0 Service Pack 8
+  Category: Essentials
 
 ffdshow:
   Description: ffdshow video codecs
