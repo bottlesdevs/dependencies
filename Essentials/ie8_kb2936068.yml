@@ -1,0 +1,13 @@
+Name: ie8_kb2936068 
+Description: Cumulative Security Update for Internet Explorer 8
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: IE8-WindowsXP-KB2936068-x86-ENU.exe
+  url: https://download.microsoft.com/download/3/8/C/38CE0ABB-01FD-4C0A-A569-BC5E82C34A17/IE8-WindowsXP-KB2936068-x86-ENU.exe
+  rename: IE8-WindowsXP-KB2936068-x86-ENU.exe
+  arguments: /quiet /forcerestart
+  file_checksum: ef084b03d9ec84a7283ddcf4bbff6011
