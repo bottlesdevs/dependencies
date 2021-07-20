@@ -1,0 +1,13 @@
+Name: jet40 
+Description: MS Jet 4.0 Service Pack 8
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: Jet40SP8_9xNT.exe
+  url: https://web.archive.org/web/20210225171713/http://download.microsoft.com/download/4/3/9/4393c9ac-e69e-458d-9f6d-2fe191c51469/Jet40SP8_9xNT.exe
+  rename: Jet40SP8_9xNT.exe
+  arguments: /q
+  file_checksum: d1028c0f98b4ffe5ede854327b77fbb9
