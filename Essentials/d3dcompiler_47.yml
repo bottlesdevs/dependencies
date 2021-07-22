@@ -1,0 +1,32 @@
+Name: d3dcompiler_47
+Description: Microsoft d3dcompiler_47.dll
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: 7zip_extract
+  file_name: Firefox Setup 62.0.3.exe
+  url: https://download-installer.cdn.mozilla.net/pub/firefox/releases/62.0.3/win32/ach/Firefox%20Setup%2062.0.3.exe
+  file_checksum: 9cd3382cf5f2a20c804fe12db3c70771
+  rename: firefox_setup_6203_32bit.exe
+
+- action: 7zip_extract
+  file_name: Firefox Setup 62.0.3.exe
+  url: https://download-installer.cdn.mozilla.net/pub/firefox/releases/62.0.3/win64/ach/Firefox%20Setup%2062.0.3.exe
+  file_checksum: 58aabc1588593297851c38c6edf8736f
+  rename: firefox_setup_6203_64bit.exe
+  
+- action: copy_cab_dll
+  file_name: core/d3dcompiler_47.dll
+  url: temp/firefox_setup_6203_32bit
+  dest: windows/system32/d3dcompiler_47.dll
+  
+- action: copy_cab_dll
+  file_name: core/d3dcompiler_47.dll
+  url: temp/firefox_setup_6203_64bit
+  dest: windows/syswow64/d3dcompiler_47.dll
+  
+- action: override_dll
+  dll: d3dcompiler_47
+  type: native,builtin
