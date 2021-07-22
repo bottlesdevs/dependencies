@@ -7,8 +7,8 @@ Dependencies: []
 Steps:
 - action: cab_extract
   file_name: verdan32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/verdan32.exe
-  file_checksum: 12D2A75F8156E10607BE1EAA8E8EF120
+  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/verdan32.exe
+  file_checksum: 12d2a75f8156e10607be1eaa8e8ef120
 
 - action: install_cab_fonts
   url: temp/verdan32

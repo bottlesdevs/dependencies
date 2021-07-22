@@ -7,8 +7,8 @@ Dependencies: []
 Steps:
 - action: cab_extract
   file_name: times32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/times32.exe
-  file_checksum: ED39C8EF91B9FB80F76F702568291BD5
+  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/times32.exe
+  file_checksum: ed39c8ef91b9fb80f76f702568291bd5
 
 - action: install_cab_fonts
   url: temp/times32
