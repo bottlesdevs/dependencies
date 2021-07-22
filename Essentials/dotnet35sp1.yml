@@ -5,8 +5,20 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
+- action: uninstall
+  file_name: Wine Mono
+
 - action: install_exe
   file_name: dotnetfx35.exe
   url: https://download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe
+  arguments: /lang:ENU /q
   rename: dotnet35sp1.exe
   file_checksum: d481cda2625d9dd2731a00f482484d86
+
+- action: override_dll
+  dll: mscoree
+  type: native,builtin
+
+- action: override_dll
+  dll: mscorwks
+  type: native,builtin

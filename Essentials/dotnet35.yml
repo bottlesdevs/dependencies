@@ -14,3 +14,11 @@ Steps:
   arguments: /lang:ENU /q
   rename: dotnet35.exe
   file_checksum: d1b341c1bc8b96e4898450c9881b1425
+
+- action: override_dll
+  dll: mscoree
+  type: native,builtin
+
+- action: override_dll
+  dll: mscorwks
+  type: native,builtin
