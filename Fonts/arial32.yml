@@ -5,11 +5,7 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
-- action: install_exe
+- action: cab_extract
   file_name: arial32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/arial32.exe
   file_checksum: 9637DF0E91703179F0723EC095A36CB5
-- action: install_exe
-  file_name: arialb32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/arialb32.exe
-  file_checksum: C9089AE0C3B3D0D8C4B0A95979BB9FF0

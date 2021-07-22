@@ -5,7 +5,7 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
-- action: install_exe
+- action: cab_extract
   file_name: trebuc32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/trebuc32.exe
   file_checksum: 0D7EA16CAC6261F8513A061FBFCDB2B5

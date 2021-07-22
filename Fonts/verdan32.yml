@@ -5,7 +5,7 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
-- action: install_exe
+- action: cab_extract
   file_name: verdan32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/verdan32.exe
   file_checksum: 12D2A75F8156E10607BE1EAA8E8EF120

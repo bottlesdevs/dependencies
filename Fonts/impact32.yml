@@ -5,7 +5,7 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
-- action: install_exe
+- action: cab_extract
   file_name: impact32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/impact32.exe
   file_checksum: 7907C7DD6684E9BADE91CFF82683D9D7

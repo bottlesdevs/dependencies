@@ -5,7 +5,7 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
-- action: install_exe
+- action: cab_extract
   file_name: georgi32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/georgi32.exe
   file_checksum: 4D90016026E2DA447593B41A8D8FA8BD
