@@ -9,3 +9,11 @@ Steps:
   file_name: times32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/times32.exe
   file_checksum: ED39C8EF91B9FB80F76F702568291BD5
+
+- action: install_cab_fonts
+  url: temp/times32
+  fonts: 
+   - Times.TTF
+   - Timesbd.TTF
+   - Timesbi.TTF
+   - Timesi.TTF

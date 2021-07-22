@@ -9,3 +9,11 @@ Steps:
   file_name: arial32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/arial32.exe
   file_checksum: 9637DF0E91703179F0723EC095A36CB5
+
+- action: install_cab_fonts
+  url: temp/arial32
+  fonts: 
+   - Ariali.TTF
+   - Arialbd.TTF
+   - Arialbi.TTF
+   - Arial.TTF

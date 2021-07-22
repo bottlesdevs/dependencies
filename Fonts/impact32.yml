@@ -9,3 +9,8 @@ Steps:
   file_name: impact32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/impact32.exe
   file_checksum: 7907C7DD6684E9BADE91CFF82683D9D7
+
+- action: install_cab_fonts
+  url: temp/impact32
+  fonts: 
+   - Impact.TTF

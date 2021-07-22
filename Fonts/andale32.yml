@@ -10,3 +10,7 @@ Steps:
   url: https://mirrors.kernel.org/gentoo/distfiles/andale32.exe
   file_checksum: CBDC2FDD7D2ED0832795E86A8B9EE19A
   
+- action: install_cab_fonts
+  url: temp/andale32
+  fonts: 
+   - AndaleMo.TTF

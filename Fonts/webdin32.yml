@@ -9,3 +9,8 @@ Steps:
   file_name: webdin32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/webdin32.exe
   file_checksum: 230A1D13A365B22815F502EB24D9149B
+
+- action: install_cab_fonts
+  url: temp/webdin32
+  fonts: 
+   - Webdings.TTF

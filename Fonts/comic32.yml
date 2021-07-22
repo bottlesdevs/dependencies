@@ -9,3 +9,9 @@ Steps:
   file_name: comic32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/comic32.exe
   file_checksum: 2B30DE40BB5E803A0452C7715FC835D1
+
+- action: install_cab_fonts
+  url: temp/comic32
+  fonts: 
+   - Comicbd.TTF
+   - Comic.TTF

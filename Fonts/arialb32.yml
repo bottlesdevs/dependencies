@@ -9,3 +9,8 @@ Steps:
   file_name: arialb32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/arialb32.exe
   file_checksum: C9089AE0C3B3D0D8C4B0A95979BB9FF0
+
+- action: install_cab_fonts
+  url: temp/arialb32
+  fonts: 
+   - AriBlk.TTF
