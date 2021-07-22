@@ -7,7 +7,7 @@ vcreditst2015:
 vcredist2019:
   Description: Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325
   Category: Essentials
-  
+
 dotnet35:
   Description: Microsoft .NET Framework 3.5
   Category: Essentials
@@ -33,9 +33,19 @@ msxml6:
 jet40:
   Description: MS Jet 4.0 Service Pack 8
   Category: Essentials
-
+art2kmin:
+  Description: MS Access 2000 runtime
+  Category: Essentials
+art2k7min:
+  Description: MS Access 2007 runtime
+  Category: Essentials
+  
 ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
+  Category: Essentials
+
+d3dcompiler_46:
+  Description: Microsoft d3dcompiler_46.dll
   Category: Essentials
   
 ffdshow:
