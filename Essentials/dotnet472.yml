@@ -5,8 +5,19 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
+- action: uninstall
+  file_name: Wine Mono
+  
 - action: install_exe
+  environment: 
+    WINEDLLOVERRIDES: fusion=b
   file_name: NDP47-KB3186497-x86-x64-AllOS-ENU.exe
   url: http://download.microsoft.com/download/D/D/3/DD35CC25-6E9C-484B-A746-C5BE0C923290/NDP47-KB3186497-x86-x64-AllOS-ENU.exe
   rename: dotnet472.exe
   file_checksum: b59040e489bff55433508438627d11e6
+  arguments: /sfxlang:1027 /q /norestart
+
+- action: override_dll
+  dll: mscoree
+  type: native
+
