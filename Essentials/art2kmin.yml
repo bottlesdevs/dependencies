@@ -1,0 +1,12 @@
+Name: art2kmin
+Description: MS Access 2000 runtime
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: art2kmin.exe
+  url: http://download.microsoft.com/download/office2000dev/art2kmin/1/win98/en-us/art2kmin.exe
+  file_checksum: fcba8035d357f52a5991247bd6fe16c0
+  arguments: /q
