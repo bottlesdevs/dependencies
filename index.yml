@@ -23,7 +23,13 @@ dotnet472:
 dotnet48:
   Description: Microsoft .NET Framework 4.8
   Category: Essentials
-  
+dotnetcore3:
+  Description: Microsoft .NET Core Runtime 3.1 LTS
+  Category: Essentials
+dotnetcoredesktop3:
+  Description: Microsoft .NET Core Desktop Runtime 3.1 LTS
+  Category: Essentials
+
 msxml3:
   Description: Microsoft Core XML Services (MSXML) 3.0
   Category: Essentials
