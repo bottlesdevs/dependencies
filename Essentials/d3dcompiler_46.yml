@@ -1,0 +1,30 @@
+Name: d3dcompiler_46
+Description: Microsoft d3dcompiler_46.dll
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: cab_extract
+  file_name: 2630bae9681db6a9f6722366f47d055c.cab
+  url: http://download.microsoft.com/download/F/1/3/F1300C9C-A120-4341-90DF-8A52509B23AC/standalonesdk/Installers/2630bae9681db6a9f6722366f47d055c.cab
+  file_checksum: 9cc65b7e3aeebed781354b3a5399ece0
+  
+- action: cab_extract
+  file_name: 61d57a7a82309cd161a854a6f4619e52.cab
+  url: http://download.microsoft.com/download/F/1/3/F1300C9C-A120-4341-90DF-8A52509B23AC/standalonesdk/Installers/61d57a7a82309cd161a854a6f4619e52.cab
+  file_checksum: 9b92033822629a13ea60d5b4459faa5c
+  
+- action: copy_cab_dll
+  file_name: fil47ed91e900f4b9d9659b66a211b57c39
+  url: temp/2630bae9681db6a9f6722366f47d055c
+  dest: windows/system32/d3dcompiler_46.dll
+  
+- action: copy_cab_dll
+  file_name: fil8c20206095817436f8df4a711faee5b7
+  url: temp/61d57a7a82309cd161a854a6f4619e52
+  dest: windows/syswow64/d3dcompiler_46.dll
+  
+- action: override_dll
+  dll: d3dcompiler_46
+  type: native,builtin
