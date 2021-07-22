@@ -1,0 +1,12 @@
+Name: art2k7min
+Description: MS Access 2007 runtime
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: AccessRuntime2007.exe
+  url: https://www.fmsinc.com/microsoftaccess/runtime/AccessRuntime2007.exe
+  file_checksum: f448b8b0d41b867fa0491df96bfe624d
+  arguments: /q
