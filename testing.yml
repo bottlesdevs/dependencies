@@ -1,7 +1,23 @@
 msxml6:
   Description: Microsoft Core XML Services (MSXML) 6.0
   Category: Essentials
-  
+
+d3dcompiler_46:
+  Description: Microsoft d3dcompiler_46.dll
+  Category: Essentials
+
+d3dcompiler_47:
+  Description: Microsoft d3dcompiler_47.dll
+  Category: Essentials
+
+art2kmin:
+  Description: MS Access 2000 runtime
+  Category: Essentials
+
+art2k7min:
+  Description: MS Access 2007 runtime
+  Category: Essentials
+
 allfonts:
   Description: All Microsoft and Adobe essential fonts
   Category: Fonts
