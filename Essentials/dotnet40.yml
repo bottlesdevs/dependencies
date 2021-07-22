@@ -11,6 +11,9 @@ Conflicts:
 Uninstaller: Microsoft .NET Framework 4 Extended
 
 Steps:
+- action: uninstall
+  file_name: Wine Mono
+  
 - action: install_exe
   environment: 
     WINEDLLOVERRIDES: fusion=b

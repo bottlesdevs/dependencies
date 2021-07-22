@@ -5,6 +5,9 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
+- action: uninstall
+  file_name: Wine Mono
+  
 - action: install_exe
   file_name: ndp48-x86-x64-allos-enu.exe
   url: https://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe
