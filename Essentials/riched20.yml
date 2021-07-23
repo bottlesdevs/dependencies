@@ -8,9 +8,10 @@ Steps:
 - action: cab_extract
   file_name: W2KSP4_EN.EXE
   url: http://x3270.bgp.nu/download/specials/W2KSP4_EN.EXE
+  rename: w2ksp4_en.exe
   file_checksum: a4ef6c91d418418b287cefe31f958175
   
 - action: copy_cab_dll
   file_name: riched20.dl_
-  url: temp/W2KSP4_EN/i386
+  url: temp/w2ksp4_en/i386
   dest: windows/system32/riched20.dll
