@@ -82,7 +82,7 @@ Steps: []
   type: native,builtin
 ```
 
-The manifest name should be the same declared inside in the `Name` parameter, followed by the `.json` extension.
+The manifest name should be the same declared inside in the `Name` parameter, followed by the `.yml` extension.
 
 **Parameters:**
 
@@ -115,10 +115,10 @@ Steps:
 
 > Note that every file should declare its checksum (MD5), this should used by Bottles to validate every file, checking for damaged or partials downloads.
 
-When a pull requests is verified and merged, a moderator will add your new dependency to the `index.json` file, this will make your work discoverable by Bottles.
+When a pull requests is verified and merged, a moderator will add your new dependency to the `index.yml` file, this will make your work discoverable by Bottles.
 
 ### Best practices/Rules
 - Provide links to official, tangible, reliable and possibly immutable resources
 - Do not self-host resources
 - Don't post any copyright infringing resources
-- Do not delete manifests, when a dependency should be removed from Bottles, just remove it from `index.json`, unless it violates the rules, in that case it will be eliminated.
+- Do not delete manifests, when a dependency should be removed from Bottles, just remove it from `index.yml`, unless it violates the rules, in that case it will be eliminated.
