@@ -61,6 +61,15 @@ Steps:
   url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/webdin32.exe
   file_checksum: 230a1d13a365b22815f502eb24d9149b
   
+# following should be included in allfonts or pptfonts
+# calibri
+# cambria
+# candara
+# consolas
+# constantia
+# corbel
+# meiryo
+
 - action: install_cab_fonts
   url: temp/arial32
   fonts: 
