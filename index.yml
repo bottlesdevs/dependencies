@@ -1,3 +1,4 @@
+# Redist
 vcredist2013:
   Description: Microsoft Visual C++ Redistributable (2013) 12.0
   Category: Essentials
@@ -8,6 +9,7 @@ vcredist2019:
   Description: Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325
   Category: Essentials
 
+# Net frameworks
 dotnet35:
   Description: Microsoft .NET Framework 3.5
   Category: Essentials
@@ -30,6 +32,7 @@ dotnetcoredesktop3:
   Description: Microsoft .NET Core Desktop Runtime 3.1 LTS
   Category: Essentials
 
+# General
 msxml3:
   Description: Microsoft Core XML Services (MSXML) 3.0
   Category: Essentials
@@ -56,6 +59,7 @@ ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
   Category: Essentials
 
+# direct3d
 d3dcompiler_43:
   Description: Microsoft d3dcompiler_46.dll
   Category: Essentials
@@ -63,6 +67,7 @@ d3dcompiler_46:
   Description: Microsoft d3dcompiler_46.dll
   Category: Essentials
   
+# codecs
 ffdshow:
   Description: ffdshow video codecs
   Category: Essentials
@@ -70,6 +75,7 @@ dirac:
   Description: The Dirac directshow filter v1.0.2
   Category: Essentials
   
+# fonts
 allfonts:
   Description: All Microsoft and Adobe essential fonts
   Category: Fonts
