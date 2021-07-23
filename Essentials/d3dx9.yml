@@ -1,0 +1,29 @@
+Name: d3dx9
+Description: Microsoft d3dx9 DLLs from DirectX 9 redistributable
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: cab_extract
+  file_name: directx_Jun2010_redist.exe
+  url: https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe
+  # urlAlt: http://web.archive.org/web/20210513223919/https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe
+  file_checksum: 822e4c516600e81dc7fb16d9a77ec6d4
+
+- action: cab_extract
+  file_name: "*_d3dx9*x86.cab"
+  url: temp/directx_Jun2010_redist
+  
+- action: cab_extract
+  file_name: "*_d3dx9*x86.cab"
+  url: temp/directx_Jun2010_redist
+  
+- action: copy_cab_dll
+  file_name: d3dx9_24.dll
+  url: temp/directx_Jun2010_redist
+  dest: windows/system32/d3dx9_24.dll
+  
+- action: override_dll
+  dll: d3dcompiler_46
+  type: native,builtin
