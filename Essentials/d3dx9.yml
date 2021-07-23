@@ -13,17 +13,101 @@ Steps:
 
 - action: cab_extract
   file_name: "*_d3dx9*x86.cab"
+  rename: "d3dx9_x86"
   url: temp/directx_Jun2010_redist
-  
+
 - action: cab_extract
-  file_name: "*_d3dx9*x86.cab"
+  file_name: "*_d3dx9*x64.cab"
+  rename: "d3dx9_x64"
   url: temp/directx_Jun2010_redist
   
 - action: copy_cab_dll
-  file_name: d3dx9_24.dll
-  url: temp/directx_Jun2010_redist
-  dest: windows/system32/d3dx9_24.dll
+  file_name: d3dx9_*.dll
+  url: temp/d3dx9_x86
+  dest: windows/system32/
   
+- action: copy_cab_dll
+  file_name: d3dx9_*.dll
+  url: temp/d3dx9_x64
+  dest: windows/syswow64/
+
+# DLL overrides
 - action: override_dll
-  dll: d3dcompiler_46
+  dll: d3dx9_24
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_25
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_26
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_27
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_28
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_29
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_30
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_31
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_32
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_33
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_34
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_35
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_36
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_37
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_38
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_39
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_40
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_41
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_42
+  type: native,builtin
+
+- action: override_dll
+  dll: d3dx9_43
   type: native,builtin
