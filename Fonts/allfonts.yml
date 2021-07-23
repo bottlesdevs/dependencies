@@ -6,6 +6,7 @@ License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 
 Steps:
+# Download all fonts and extract
 - action: cab_extract
   file_name: arial32.exe
   url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/arial32.exe
@@ -70,6 +71,7 @@ Steps:
 # corbel
 # meiryo
 
+# Install fonts from cab files
 - action: install_cab_fonts
   url: temp/arial32
   fonts: 
@@ -82,14 +84,6 @@ Steps:
   url: temp/arialb32
   fonts: 
    - AriBlk.TTF
-  
-- action: install_cab_fonts
-  url: temp/arial32
-  fonts: 
-   - Ariali.TTF
-   - Arialbd.TTF
-   - Arialbi.TTF
-   - Arial.TTF
   
 - action: install_cab_fonts
   url: temp/andale32
@@ -117,15 +111,7 @@ Steps:
    - Georgiab.TTF
    - Georgiai.TTF
    - Georgia.TTF
-  
-- action: install_cab_fonts
-  url: temp/arial32
-  fonts: 
-   - Ariali.TTF
-   - Arialbd.TTF
-   - Arialbi.TTF
-   - Arial.TTF
-  
+    
 - action: install_cab_fonts
   url: temp/impact32
   fonts: 
@@ -159,3 +145,124 @@ Steps:
   url: temp/webdin32
   fonts: 
    - Webdings.TTF
+
+# Register fonts
+- action: register_font
+  name: Arial
+  file: Arial.TTF
+
+- action: register_font
+  name: Arial Bold
+  file: Arialbd.TTF
+
+- action: register_font
+  name: Arial Black
+  file: AriBlk.TTF
+
+- action: register_font
+  name: Arial Bold Italic
+  file: Arialbi.TTF
+
+- action: register_font
+  name: Arial Italic
+  file: Ariali.TTF
+
+- action: register_font
+  name: Andale Mono
+  file: AndaleMo.TTF
+
+- action: register_font
+  name: Comic Sans MS
+  file: Comic.TTF
+
+- action: register_font
+  name: Comic Sans MS Bold
+  file: Comicbd.TTF
+
+- action: register_font
+  name: Courier New
+  file: cour.ttf
+
+- action: register_font
+  name: Courier New Bold
+  file: courbd.ttf
+
+- action: register_font
+  name: Courier New Bold Italic
+  file: courbi.ttf
+
+- action: register_font
+  name: Courier New Italic
+  file: couri.ttf
+
+- action: register_font
+  name: Georgia Bold Italic
+  file: Georgiaz.TTF
+
+- action: register_font
+  name: Georgia Bold
+  file: Georgiab.TTF
+
+- action: register_font
+  name: Georgia Italic
+  file: Georgiai.TTF
+
+- action: register_font
+  name: Georgia
+  file: Georgia.TTF
+
+- action: register_font
+  name: Impact
+  file: Impact.TTF
+
+- action: register_font
+  name: Times New Roman
+  file: Times.TTF
+
+- action: register_font
+  name: Times New Roman Bold
+  file: Timesbd.TTF
+
+- action: register_font
+  name: Times New Roman Bold Italic
+  file: Timesbi.TTF
+
+- action: register_font
+  name: Times New Roman Italic
+  file: Timesi.TTF
+
+- action: register_font
+  name: Trebuchet MS
+  file: trebuc.ttf
+
+- action: register_font
+  name: Trebuchet MS Bold
+  file: Trebucbd.ttf
+
+- action: register_font
+  name: Trebuchet MS Bold Italic
+  file: trebucbi.ttf
+
+- action: register_font
+  name: Trebuchet MS Italic
+  file: trebucit.ttf
+
+- action: register_font
+  name: Verdana
+  file: Verdana.TTF
+
+- action: register_font
+  name: Verdana Italic
+  file: Verdanai.TTF
+
+- action: register_font
+  name: Verdana Bold Italic
+  file: Verdanaz.TTF
+
+- action: register_font
+  name: Verdana Bold
+  file: Verdanab.TTF
+
+- action: register_font
+  name: Webdings
+  file: Webdings.TTF
