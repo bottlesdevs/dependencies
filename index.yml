@@ -48,7 +48,10 @@ art2k7min:
 riched20:
   Description: Microsoft RichEdit Control 2.0 (riched20.dll)
   Category: Essentials
-  
+msls31:
+  Description: Microsoft Line Services
+  Category: Essentials
+
 ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
   Category: Essentials

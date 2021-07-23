@@ -1,0 +1,16 @@
+Name: msls31
+Description: Microsoft Line Services
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: cab_extract
+  file_name: nstMsiW.exe
+  url: https://ftp.hp.com/pub/softlib/software/msi/InstMsiW.exe
+  file_checksum: 53820efbc952107ee1a38be6cd5aa3f0
+  
+- action: copy_cab_dll
+  file_name: msls31.dll
+  url: temp/nstMsiW
+  dest: windows/system32/msls31.dll
