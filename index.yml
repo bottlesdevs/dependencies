@@ -56,6 +56,9 @@ ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
   Category: Essentials
 
+d3dcompiler_43:
+  Description: Microsoft d3dcompiler_46.dll
+  Category: Essentials
 d3dcompiler_46:
   Description: Microsoft d3dcompiler_46.dll
   Category: Essentials
