@@ -14,3 +14,7 @@ Steps:
   file_name: msls31.dll
   url: temp/nstMsiW
   dest: windows/system32/msls31.dll
+
+- action: override_dll
+  dll: msls31
+  type: native,builtin

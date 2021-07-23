@@ -15,3 +15,7 @@ Steps:
   file_name: riched20.dl_
   url: temp/w2ksp4_en/i386
   dest: windows/system32/riched20.dll
+
+- action: override_dll
+  dll: riched20
+  type: native,builtin
