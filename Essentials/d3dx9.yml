@@ -20,16 +20,16 @@ Steps:
   file_name: "*_d3dx9*x64.cab"
   rename: "d3dx9_x64"
   url: temp/directx_Jun2010_redist
-  
+
 - action: copy_cab_dll
   file_name: d3dx9_*.dll
   url: temp/d3dx9_x86
-  dest: windows/system32/
+  dest: windows/system32
   
 - action: copy_cab_dll
   file_name: d3dx9_*.dll
   url: temp/d3dx9_x64
-  dest: windows/syswow64/
+  dest: windows/syswow64
 
 # DLL overrides
 - action: override_dll
