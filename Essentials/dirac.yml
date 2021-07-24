@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: install_exe
   file_name: DiracDirectShowFilter-1.0.2.exe
-  url: hhttps://downloads.sourceforge.net/dirac/DiracDirectShowFilter-1.0.2.exe
+  url: https://downloads.sourceforge.net/dirac/DiracDirectShowFilter-1.0.2.exe
   rename: DiracDirectShowFilter-1.0.2.exe
   arguments: []
   file_checksum: 6bb4fd577ff881f317a9361d986907c4
