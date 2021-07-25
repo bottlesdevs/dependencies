@@ -13,15 +13,15 @@ Steps:
   
 - action: copy_cab_dll
   file_name: '*.dll'
-  url: temp/faudio_20_07/faudio-20.01/x64
+  url: temp/faudio_20_07/faudio-20.07/x64
   dest: windows/system32
   
 - action: copy_cab_dll
   file_name: '*.dll'
-  url: temp/faudio_20_07/faudio-20.01/x64
+  url: temp/faudio_20_07/faudio-20.07/x64
   dest: windows/syswow64
   
 - action: override_dll
   dll: '*.dll'
-  url: temp/faudio_20_07/faudio-20.01/x64
+  url: temp/faudio_20_07/faudio-20.07/x64
   type: native,builtin
