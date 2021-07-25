@@ -22,6 +22,10 @@ art2k7min:
   Description: MS Access 2007 runtime
   Category: Essentials
 
+faudio:
+  Description: FAudio (xaudio reimplementation, with xna support) builds for win32
+  Category: Essentials
+
 allfonts:
   Description: All Microsoft and Adobe essential fonts
   Category: Fonts
