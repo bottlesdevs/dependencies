@@ -26,6 +26,10 @@ faudio:
   Description: FAudio (xaudio reimplementation, with xna support) builds for win32
   Category: Essentials
 
+gdiplus:
+  Description: Microsoft GDI+ (Graphics Device Interface)
+  Category: Essentials
+
 allfonts:
   Description: All Microsoft and Adobe essential fonts
   Category: Fonts
