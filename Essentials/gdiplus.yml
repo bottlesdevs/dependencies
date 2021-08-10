@@ -8,17 +8,17 @@ Steps:
 - action: cab_extract
   file_name: windows6.1-kb976932-x86_c3516bc5c9e69fee6d9ac4f981f5b95977a8a2fa.exe
   url:  http://download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x86_c3516bc5c9e69fee6d9ac4f981f5b95977a8a2fa.exe
-  rename: windows6.1-kb976932.exe
+  rename: windows61-kb976932.exe
   file_checksum: 4bf28fc00d86c936c89e2d91ef46758b
   
 - action: copy_cab_dll
   file_name: gdiplus.dll
-  url: temp/windows6.1-kb976932/x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_72d18a4386696c80
+  url: temp/windows61-kb976932/x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_72d18a4386696c80
   dest: windows/system32/gdiplus.dll
   
 - action: copy_cab_dll
   file_name: gdiplus.dll
-  url: temp/windows6.1-kb976932/amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_2b24536c71ed437a
+  url: temp/windows61-kb976932/amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_2b24536c71ed437a
   dest: windows/syswow64/gdiplus.dll
   
 - action: override_dll
