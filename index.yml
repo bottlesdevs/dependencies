@@ -54,6 +54,9 @@ riched20:
 msls31:
   Description: Microsoft Line Services
   Category: Essentials
+gdiplus:
+  Description: Microsoft GDI+ (Graphics Device Interface)
+  Category: Essentials
 
 ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
