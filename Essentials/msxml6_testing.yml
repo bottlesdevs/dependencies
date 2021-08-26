@@ -13,7 +13,6 @@ Steps:
 - action: get_from_cab
   source: temp/msxml6-KB973686-enu-amd64.exe
   file_name: msxml6.msi
-  dest: temp/
   
 - action: get_from_cab
   source: temp/msxml6
