@@ -18,25 +18,25 @@ Steps:
 - action: get_from_cab
   source: temp/msxml6
   file_name: msxml6.dll.86F857F6_A743_463D_B2FE_98CB5F727E09
-  dest: windows/system32/
+  dest: drive_c/windows/system32/
   rename: msxml6.dll
 
 - action: get_from_cab
   source: temp/msxml6
   file_name: msxml6r.dll.86F857F6_A743_463D_B2FE_98CB5F727E09
-  dest: windows/system32/
+  dest: drive_c/windows/system32/
   rename: msxml6r.dll
 
 - action: get_from_cab
   source: temp/msxml6
   file_name: msxml6.dll.1ECC0691_D2EB_4A33_9CBF_5487E5CB17DB
-  dest: windows/syswow64/
+  dest: drive_c/windows/syswow64/
   rename: msxml6.dll
 
 - action: get_from_cab
   source: temp/msxml6
   file_name: msxml6r.dll.1ECC0691_D2EB_4A33_9CBF_5487E5CB17DB
-  dest: windows/syswow64/
+  dest: drive_c/windows/syswow64/
   rename: msxml6r.dll
   
 - action: override_dll
