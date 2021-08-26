@@ -11,29 +11,29 @@ Steps:
   file_checksum: 13a292beb9ebe46ac97b8a4352fe2cd5
   
 - action: get_from_cab
-  source: temp/msxml6-KB973686-enu-amd64.exe
+  source: msxml6-KB973686-enu-amd64.exe
   file_name: msxml6.msi
   
 - action: get_from_cab
-  source: temp/msxml6
+  source: msxml6.msi
   file_name: msxml6.dll.86F857F6_A743_463D_B2FE_98CB5F727E09
   dest: drive_c/windows/system32/
   rename: msxml6.dll
 
 - action: get_from_cab
-  source: temp/msxml6
+  source: msxml6.msi
   file_name: msxml6r.dll.86F857F6_A743_463D_B2FE_98CB5F727E09
   dest: drive_c/windows/system32/
   rename: msxml6r.dll
 
 - action: get_from_cab
-  source: temp/msxml6
+  source: msxml6.msi
   file_name: msxml6.dll.1ECC0691_D2EB_4A33_9CBF_5487E5CB17DB
   dest: drive_c/windows/syswow64/
   rename: msxml6.dll
 
 - action: get_from_cab
-  source: temp/msxml6
+  source: msxml6.msi
   file_name: msxml6r.dll.1ECC0691_D2EB_4A33_9CBF_5487E5CB17DB
   dest: drive_c/windows/syswow64/
   rename: msxml6r.dll
