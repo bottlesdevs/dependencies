@@ -1,3 +1,7 @@
+msxml6_testing:
+  Description: Microsoft Core XML Services (MSXML) 6.0
+  Category: Essentials
+  
 d3dx9:
   Description: Microsoft d3dx9 DLLs from DirectX 9 redistributable
   Category: Essentials
