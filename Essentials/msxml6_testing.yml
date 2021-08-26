@@ -11,7 +11,7 @@ Steps:
   file_checksum: 13a292beb9ebe46ac97b8a4352fe2cd5
   
 - action: get_from_cab
-  source: msxml6-KB973686-enu-amd64.exe
+  source: temp/msxml6-KB973686-enu-amd64.exe
   file_name: msxml6.msi
   dest: temp/
   
