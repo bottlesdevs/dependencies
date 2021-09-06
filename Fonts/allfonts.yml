@@ -73,7 +73,7 @@ Steps:
 
 # Install fonts from cab files
 - action: install_cab_fonts
-  url: temp/arial32
+  url: temp/arial32_exe
   fonts: 
    - Ariali.TTF
    - Arialbd.TTF
@@ -81,23 +81,23 @@ Steps:
    - Arial.TTF
   
 - action: install_cab_fonts
-  url: temp/arialb32
+  url: temp/arialb32_exe
   fonts: 
    - AriBlk.TTF
   
 - action: install_cab_fonts
-  url: temp/andale32
+  url: temp/andale32_exe
   fonts: 
    - AndaleMo.TTF
   
 - action: install_cab_fonts
-  url: temp/comic32
+  url: temp/comic32_exe
   fonts: 
    - Comicbd.TTF
    - Comic.TTF
   
 - action: install_cab_fonts
-  url: temp/courie32
+  url: temp/courie32_exe
   fonts: 
    - cour.ttf
    - courbd.ttf
@@ -105,7 +105,7 @@ Steps:
    - couri.ttf
   
 - action: install_cab_fonts
-  url: temp/georgi32
+  url: temp/georgi32_exe
   fonts: 
    - Georgiaz.TTF
    - Georgiab.TTF
@@ -113,12 +113,12 @@ Steps:
    - Georgia.TTF
     
 - action: install_cab_fonts
-  url: temp/impact32
+  url: temp/impact32_exe
   fonts: 
    - Impact.TTF
   
 - action: install_cab_fonts
-  url: temp/times32
+  url: temp/times32_exe
   fonts: 
    - Times.TTF
    - Timesbd.TTF
@@ -126,7 +126,7 @@ Steps:
    - Timesi.TTF
   
 - action: install_cab_fonts
-  url: temp/trebuc32
+  url: temp/trebuc32_exe
   fonts: 
    - trebuc.ttf
    - Trebucbd.ttf
@@ -134,7 +134,7 @@ Steps:
    - trebucit.ttf
   
 - action: install_cab_fonts
-  url: temp/verdan32
+  url: temp/verdan32_exe
   fonts: 
    - Verdanab.TTF
    - Verdanai.TTF
@@ -142,7 +142,7 @@ Steps:
    - Verdana.TTF
   
 - action: install_cab_fonts
-  url: temp/webdin32
+  url: temp/webdin32_exe
   fonts: 
    - Webdings.TTF
 
