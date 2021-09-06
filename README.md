@@ -67,6 +67,8 @@ Steps: []
   url: temp/msxml6
 ```
 
+extracted files will be placed in a new directory in the bottles'temp path, its name is equal to the `file_name`, escaping `.` with `_`.
+
 **copy_cab_dll** can be used to copy dll from an extracted Windows cabinet to the prefix
 ```yaml
 - action: copy_cab_dll
@@ -80,6 +82,29 @@ Steps: []
 - action: override_dll
   dll: msxml6
   type: native,builtin
+```
+
+**download_archive** can be used to download an archive or Windows cabinet
+```yaml
+- action: download_archive
+  file_name: msxml6-KB973686-enu-amd64.exe
+  url: https://web.archive.org/web/20190122095451/https://download.microsoft.com/download/1/5/8/158F681A-E595-472B-B15E-62B649B1B6FF/msxml6-KB973686-enu-amd64.exe
+  file_checksum: 13a292beb9ebe46ac97b8a4352fe2cd5
+```
+
+**get_from_cab** can be used to take only one file from the Windows cabinet
+```yaml
+- action: get_from_cab
+  source: msxml6-KB973686-enu-amd64.exe
+  file_name: msxml6.msi
+```
+extracted files can also be moved in the bottle path
+```yaml
+- action: get_from_cab
+  source: msxml6.msi
+  file_name: msxml6.dll.86F857F6_A743_463D_B2FE_98CB5F727E09
+  dest: drive_c/windows/system32/
+  rename: msxml6.dll
 ```
 
 The manifest name should be the same declared inside in the `Name` parameter, followed by the `.yml` extension.
