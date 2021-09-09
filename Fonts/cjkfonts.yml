@@ -133,3 +133,74 @@ Steps:
 - action: register_font
   name: Source Han Sans K Heavy
   file: SourceHanSans.ttc
+
+# replace Simplified Chinese fonts
+- action: replace_font
+  font: Source Han Sans SC
+  replace: 
+    - Dengxian
+    - FangSong
+    - KaiTi
+    - Microsoft YaHei
+    - Microsoft YaHei UI
+    - NSimSun
+    - SimHei
+    - SimKai
+    - SimSun
+    - SimSun-ExtB
+
+# replace Traditional Chinese fonts
+- action: replace_font
+  font: Source Han Sans TC
+  replace: 
+    - DFKai-SB
+    - Microsoft JhengHei
+    - Microsoft JhengHei UI
+    - MingLiU
+    - PMingLiU
+    - MingLiU-ExtB
+    - PMingLiU-ExtB
+
+# replace Japanese fonts
+- action: replace_font
+  font: Source Han Sans
+  replace: 
+    - Meiryo
+    - Meiryo UI
+    - MS Gothic
+    - MS PGothic
+    - MS Mincho
+    - MS PMincho
+    - MS UI Gothic
+    - UD Digi KyoKasho N-R
+    - UD Digi KyoKasho NK-R
+    - UD Digi KyoKasho NP-R
+    - Yu Gothic
+    - Yu Gothic UI
+    - Yu Mincho
+    - メイリオ
+    - ＭＳ ゴシック
+    - ＭＳ Ｐゴシック
+    - ＭＳ 明朝
+    - ＭＳ Ｐ明朝
+
+# replace Korean fonts
+- action: replace_font
+  font: Source Han Sans K
+  replace: 
+    - Batang
+    - BatangChe
+    - Dotum
+    - DotumChe
+    - Gulim
+    - GulimChe
+    - Gungsuh
+    - GungsuhChe
+    - Malgun Gothic
+    - 바탕
+    - 바탕체
+    - 돋움
+    - 돋움체
+    - 굴림
+    - 굴림체
+    - 맑은 고딕
