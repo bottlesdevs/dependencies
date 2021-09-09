@@ -12,9 +12,9 @@ Steps:
   url: https://github.com/adobe-fonts/source-han-sans/releases/download/2.004R/SourceHanSans.ttc.zip
   file_checksum: ce3fc169af61a4e7bc650e7e78186330
   
-# Install fonts from cab files
+# Install fonts
 - action: install_fonts
-  url: temp/
+  url: temp/SourceHanSans.ttc
   fonts: 
    - SourceHanSans.ttc
   
