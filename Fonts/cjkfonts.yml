@@ -1,0 +1,135 @@
+Name: cjkfonts
+Description: All Chinese/Japanese/Korean fonts
+Provider: Various
+License: Mostly Adobe
+License_url: https://github.com/bottlesdevs/dependencies
+Dependencies: []
+
+Steps:
+# Download all fonts and extract
+- action: archive_extract
+  file_name: SourceHanSans.ttc.zip
+  url: https://github.com/adobe-fonts/source-han-sans/releases/download/2.004R/SourceHanSans.ttc.zip
+  file_checksum: ce3fc169af61a4e7bc650e7e78186330
+  
+# Install fonts from cab files
+- action: install_fonts
+  url: temp/
+  fonts: 
+   - SourceHanSans.ttc
+  
+# Register Simplified Chinese fonts
+- action: register_font
+  name: Source Han Sans SC ExtraLight
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans SC Light
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans SC Normal
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans SC
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans SC Medium
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans SC Bold
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans SC Heavy
+  file: SourceHanSans.ttc
+  
+# Register Traditional Chinese (tw) fonts
+- action: register_font
+  name: Source Han Sans TC ExtraLight
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans TC Light
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans TC Normal
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans TC
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans TC Medium
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans TC Bold
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans TC Heavy
+  file: SourceHanSans.ttc
+  
+# Register Japanese fonts
+- action: register_font
+  name: Source Han Sans ExtraLight
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans Light
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans Normal
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans Medium
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans Bold
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans Heavy
+  file: SourceHanSans.ttc
+  
+# Register Korean fonts
+- action: register_font
+  name: Source Han Sans K ExtraLight
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans K Light
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans K Normal
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans K
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans K Medium
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans K Bold
+  file: SourceHanSans.ttc
+
+- action: register_font
+  name: Source Han Sans K Heavy
+  file: SourceHanSans.ttc
