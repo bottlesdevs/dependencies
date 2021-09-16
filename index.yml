@@ -88,6 +88,9 @@ dirac:
 allfonts:
   Description: All Microsoft and Adobe essential fonts
   Category: Fonts
+cjkfonts:
+  Description: All Chinese/Japanese/Korean fonts
+  Category: Fonts
 arial32:
   Description: Microsoft Arial Font
   Category: Fonts
