@@ -57,6 +57,9 @@ msls31:
 gdiplus:
   Description: Microsoft GDI+ (Graphics Device Interface)
   Category: Essentials
+faudio:
+  Description: FAudio (xaudio reimplementation, with xna support) builds for win32
+  Category: Essentials
 
 ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
