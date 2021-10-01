@@ -21,11 +21,13 @@ Steps:
   source: windows6.1-kb976932-x86.exe
   file_name: x86_microsoft-windows-mediafoundation_31bf3856ad364e35_6.1.7601.17514_none_9e6699276b03c38e/mf.dll
   dest: drive_c/windows/system32/
+  rename: mf.dll
   
 - action: get_from_cab
   source: windows6.1-kb976932-x64.exe
   file_name: amd64_microsoft-windows-mediafoundation_31bf3856ad364e35_6.1.7601.17514_none_fa8534ab236134c4/mf.dll
   dest: drive_c/windows/syswow64/  
+  rename: mf.dll
 
 - action: override_dll
   dll: mf
