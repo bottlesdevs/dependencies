@@ -4,15 +4,7 @@ Provider: Microsoft
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
-Steps:
-- action: delete_sys32_dlls
-  dlls:
-  - comcat.dll
-  - msvcrt.dll
-  - oleaut32.dll
-  - olepro32.dll
-  - stdole2.dll
-  
+Steps:  
 - action: install_exe
   file_name: vcredist_x86.exe
   url: https://download.visualstudio.microsoft.com/download/pr/10912113/5da66ddebb0ad32ebd4b922fd82e8e25/vcredist_x86.exe
@@ -26,3 +18,19 @@ Steps:
   rename: vcredist2013_x64.exe
   file_checksum: 49b1164f8e95ec6409ea83cdb352d8da
   arguments: /quiet /norestart
+
+- action: override_dll
+  dll: atl120
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcp120
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcr120
+  type: native,builtin
+
+- action: override_dll
+  dll: vcomp120
+  type: native,builtin
