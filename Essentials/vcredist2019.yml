@@ -5,14 +5,6 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
-- action: delete_sys32_dlls
-  dlls:
-  - comcat.dll
-  - msvcrt.dll
-  - oleaut32.dll
-  - olepro32.dll
-  - stdole2.dll
-
 - action: install_exe
   file_name: VC_redist.x86.exe
   url: https://aka.ms/vs/16/release/VC_redist.x86.exe
