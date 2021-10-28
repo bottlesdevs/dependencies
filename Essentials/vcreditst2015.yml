@@ -26,3 +26,92 @@ Steps:
   rename: vcredist2015_x64.exe
   file_checksum: 27b141aacc2777a82bb3fa9f6e5e5c1c
   arguments: /quiet /norestart
+
+- action: override_dll
+  dll: api-ms-win-crt-private-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-conio-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-convert-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-environment-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-filesystem-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-heap-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-locale-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-math-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-multibyte-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-process-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-runtime-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-stdio-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-string-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-utility-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: api-ms-win-crt-time-l1-1-0
+  type: native,builtin
+
+- action: override_dll
+  dll: atl140
+  type: native,builtin
+
+- action: override_dll
+  dll: concrt140
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcp140
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcr140
+  type: native,builtin
+
+- action: override_dll
+  dll: ucrtbase
+  type: native,builtin
+
+- action: override_dll
+  dll: vcomp140
+  type: native,builtin
+
+- action: override_dll
+  dll: vcruntime140
+  type: native,builtin
+
