@@ -10,7 +10,7 @@ Steps:
 
 - action: use_windows
   version: winxp
-  executable: dotnet35.exe
+  executable: dotnet35sp1.exe
 
 - action: install_exe
   file_name: dotnetfx35.exe
