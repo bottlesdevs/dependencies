@@ -22,3 +22,7 @@ Steps:
 - action: override_dll
   dll: mscorwks
   type: native,builtin
+
+- action: use_windows
+  version: winxp
+  executable: dotnet35.exe
