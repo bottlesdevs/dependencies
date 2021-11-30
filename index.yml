@@ -20,7 +20,7 @@ vcredist2012:
 vcredist2013:
   Description: Microsoft Visual C++ Redistributable (2013) 12.0
   Category: Essentials
-vcreditst2015:
+vcredist2015:
   Description: Microsoft Visual C++ Redistributable (2015)
   Category: Essentials
 vcredist2019:
