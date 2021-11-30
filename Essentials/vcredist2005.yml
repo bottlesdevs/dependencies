@@ -1,0 +1,40 @@
+Name: vcredist2005
+Description: Microsoft Visual C++ Redistributable for Visual Studio 2005
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:  
+- action: install_exe
+  file_name: vcredist_x86.EXE
+  url: https://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE
+  rename: vcredist2005_x86.exe
+  file_checksum: 4f1611f2d0ae799507f60c10ff8654c5
+  arguments: /q
+
+- action: install_exe
+  file_name: vcredist_x64.EXE
+  url: https://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE
+  rename: vcredist2005_x64.exe
+  file_checksum: e231fbcce2c2cb16dcc299d36c734df3
+  arguments: /q
+
+- action: override_dll
+  dll: atl80
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcm80
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcp80
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcr80
+  type: native,builtin
+
+- action: override_dll
+  dll: vcomp
+  type: native,builtin
