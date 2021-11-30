@@ -1,0 +1,36 @@
+Name: vcredist2012
+Description: Microsoft Visual C++ Redistributable for Visual Studio 2012
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:  
+- action: install_exe
+  file_name: vcredist_x86.exe
+  url: https://download.microsoft.com/download/5/B/C/5BC5DBB3-652D-4DCE-B14A-475AB85EEF6E/vcredist_x86.exe
+  rename: vcredist2012_x86.exe
+  file_checksum: 7f52a19ecaf7db3c163dd164be3e592e
+  arguments: /q
+
+- action: install_exe
+  file_name: vcredist_x64.exe
+  url: https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe
+  rename: vcredist2012_x64.exe
+  file_checksum: 3c03562b5af9ed347614053d459d7778
+  arguments: /q
+
+- action: override_dll
+  dll: atl110
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcp110
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcr110
+  type: native,builtin
+
+- action: override_dll
+  dll: vcomp110
+  type: native,builtin
