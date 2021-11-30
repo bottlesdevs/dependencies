@@ -1,4 +1,22 @@
 # Redist
+vcredist6:
+  Description: Microsoft Visual C++ 6 SP4 libraries
+  Category: Essentials
+vcredist6sp6:
+  Description: Microsoft Visual C++ 6 SP6 libraries
+  Category: Essentials
+vcredist2005:
+  Description: Microsoft Visual C++ Redistributable for Visual Studio 2005
+  Category: Essentials
+vcredist2008:
+  Description: Microsoft Visual C++ Redistributable for Visual Studio 2008
+  Category: Essentials
+vcredist2010:
+  Description: Microsoft Visual C++ Redistributable for Visual Studio 2010
+  Category: Essentials
+vcredist2012:
+  Description: Microsoft Visual C++ Redistributable for Visual Studio 2012
+  Category: Essentials
 vcredist2013:
   Description: Microsoft Visual C++ Redistributable (2013) 12.0
   Category: Essentials
