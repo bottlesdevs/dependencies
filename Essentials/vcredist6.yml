@@ -1,0 +1,49 @@
+Name: vcredist6
+Description: Microsoft Visual C++ 6 SP4 libraries
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:  
+- action: install_exe
+  file_name: VC6RedistSetup_deu.exe
+  url: https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe
+  rename: vcredist6.exe
+  file_checksum: 76758b356e8c447df3cde0f15d950620
+  arguments: /q
+
+- action: override_dll
+  dll: asycfilt
+  type: native,builtin
+
+- action: override_dll
+  dll: comcat
+  type: native,builtin
+
+- action: override_dll
+  dll: mfc42
+  type: native,builtin
+
+- action: override_dll
+  dll: mfc42u
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcirt
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcp60
+  type: native,builtin
+
+- action: override_dll
+  dll: msvcrt
+  type: native,builtin
+
+- action: override_dll
+  dll: oleaut32
+  type: native,builtin
+
+- action: override_dll
+  dll: olepro32
+  type: native,builtin
