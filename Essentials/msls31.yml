@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: cab_extract
   file_name: nstMsiW.exe
-  url: https://ftp.hp.com/pub/softlib/software/msi/InstMsiW.exe
+  url: https://web.archive.org/web/20160710055851if_/http://download.microsoft.com/download/WindowsInstaller/Install/2.0/NT45/EN-US/InstMsiW.exe
   file_checksum: 53820efbc952107ee1a38be6cd5aa3f0
   
 - action: copy_cab_dll
