@@ -8,6 +8,10 @@ Steps:
 - action: uninstall
   file_name: Wine Mono
   
+- action: use_windows
+  version: win7
+  executable: dotnet472.exe
+  
 - action: install_exe
   environment: 
     WINEDLLOVERRIDES: fusion=b
