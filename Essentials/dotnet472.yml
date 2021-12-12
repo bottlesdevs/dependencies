@@ -11,10 +11,10 @@ Steps:
 - action: install_exe
   environment: 
     WINEDLLOVERRIDES: fusion=b
-  file_name: NDP47-KB3186497-x86-x64-AllOS-ENU.exe
-  url: http://download.microsoft.com/download/D/D/3/DD35CC25-6E9C-484B-A746-C5BE0C923290/NDP47-KB3186497-x86-x64-AllOS-ENU.exe
+  file_name: NDP472-KB4054530-x86-x64-AllOS-ENU.exe
+  url: https://download.visualstudio.microsoft.com/download/pr/1f5af042-d0e4-4002-9c59-9ba66bcf15f6/089f837de42708daacaae7c04b7494db/NDP472-KB4054530-x86-x64-AllOS-ENU.exe
   rename: dotnet472.exe
-  file_checksum: b59040e489bff55433508438627d11e6
+  file_checksum: 4037bdde26bf72e2ce5108cb30387bcd
   arguments: /sfxlang:1027 /q /norestart
 
 - action: override_dll
