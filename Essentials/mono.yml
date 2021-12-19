@@ -1,0 +1,15 @@
+Name: mono
+Description: Wine mono
+Provider: WineHQ
+License: WineHQ
+License_url: https://wiki.winehq.org/Mono
+Dependencies: []
+Steps:
+- action: uninstall
+  file_name: Wine Mono
+  
+- action: install_exe
+  file_name: wine-mono-7.0.0-x86.msi
+  url: https://dl.winehq.org/wine/wine-mono/7.0.0/wine-mono-7.0.0-x86.msi
+  rename: wine-mono-7.0.0-x86.msi
+  file_checksum: 34be37138c984210dcc32ce0e2b3a559
