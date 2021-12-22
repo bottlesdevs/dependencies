@@ -5,11 +5,15 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:  
-- action: install_exe
+
+- action: cab_extract
   file_name: VS6SP6.EXE
   url: https://www.ddsystem.com.br/update/setup/vb6+sp6/VS6SP6.EXE
-  rename: vcredist6sp6.exe
   file_checksum: b69f34e54fe4603f8d42021891743651
+
+- action: install_exe
+  file_name: vcredist.exe
+  url: temp/VS6SP6/vcredist.exe
   arguments: /q
 
 - action: override_dll

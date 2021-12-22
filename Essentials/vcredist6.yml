@@ -5,12 +5,72 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:  
-- action: install_exe
+
+- action: cab_extract
   file_name: VC6RedistSetup_deu.exe
   url: https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe
-  rename: vcredist6.exe
   file_checksum: 53a0925609b366daa17051e1e4be3b86
+
+- action: cab_extract
+  file_name: vcredist.exe
+  rename: vcredist6.exe
+  url: temp/VC6RedistSetup_deu/vcredist.exe
   arguments: /q
+
+- action: copy_cab_dll
+  file_name: asycfilt.dll
+  url: temp/vcredist6
+  dest: windows/system32/asycfilt.dll
+
+- action: copy_cab_dll
+  file_name: comcat.dll
+  url: temp/vcredist6
+  dest: windows/system32/comcat.dll
+
+- action: copy_cab_dll
+  file_name: mfc42.dll
+  url: temp/vcredist6
+  dest: windows/system32/mfc42.dll
+
+- action: copy_cab_dll
+  file_name: mfc42u.dll
+  url: temp/vcredist6
+  dest: windows/system32/mfc42u.dll
+
+- action: copy_cab_dll
+  file_name: msvcirt.dll
+  url: temp/vcredist6
+  dest: windows/system32/msvcirt.dll
+
+- action: copy_cab_dll
+  file_name: msvcp60.dll
+  url: temp/vcredist6
+  dest: windows/system32/msvcp60.dll
+
+- action: copy_cab_dll
+  file_name: msvcrt.dll
+  url: temp/vcredist6
+  dest: windows/system32/msvcrt.dll
+
+- action: copy_cab_dll
+  file_name: oleaut32.dll
+  url: temp/vcredist6
+  dest: windows/system32/oleaut32.dll
+
+- action: copy_cab_dll
+  file_name: olepro32.dll
+  url: temp/vcredist6
+  dest: windows/system32/olepro32.dll
+
+- action: copy_cab_dll
+  file_name: atla.dll
+  url: temp/vcredist6
+  dest: windows/system32/atl.dll
+
+- action: copy_cab_dll
+  file_name: stdole2.tlb
+  url: temp/vcredist6
+  dest: windows/system32/stdole2.tlb
 
 - action: override_dll
   dll: asycfilt
