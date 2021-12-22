@@ -14,7 +14,7 @@ Steps:
 - action: cab_extract
   file_name: vcredist.exe
   rename: vcredist6.exe
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   arguments: /q
 
 - action: copy_cab_dll
