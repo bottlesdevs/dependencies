@@ -1,0 +1,26 @@
+Name: dotnet461
+Description: Microsoft .NET Framework 4.6.1
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: uninstall
+  file_name: Wine Mono
+
+- action: use_windows
+  version: win7
+  executable: dotnet461.exe
+  
+- action: install_exe
+  environment: 
+    WINEDLLOVERRIDES: fusion=b
+  file_name: NDP461-KB3102436-x86-x64-AllOS-ENU.exe
+  url: https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe
+  rename: dotnet461.exe
+  file_checksum: 864056903748706e251fec9f5d887ef9
+  arguments: /sfxlang:1027 /q /norestart
+
+- action: override_dll
+  dll: mscoree
+  type: native
