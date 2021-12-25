@@ -1,5 +1,5 @@
-msxml6_testing:
-  Description: Microsoft Core XML Services (MSXML) 6.0
+dotnet461:
+  Description: Microsoft .NET Framework 4.6.1
   Category: Essentials
 
 mediafoundation:
