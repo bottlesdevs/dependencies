@@ -15,7 +15,7 @@ Steps:
 - action: install_exe
   file_name: dotnetfx35.exe
   url: http://download.microsoft.com/download/6/0/f/60fc5854-3cb8-4892-b6db-bd4f42510f28/dotnetfx35.exe
-  arguments: /lang:ENU /q
+  arguments: /lang:ENU
   rename: dotnet35.exe
   file_checksum: d1b341c1bc8b96e4898450c9881b1425
 
