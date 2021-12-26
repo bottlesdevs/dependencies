@@ -8,9 +8,8 @@ Steps:
 - action: uninstall
   file_name: Wine Mono
 
-- action: use_windows
+- action: set_windows
   version: winxp
-  executable: dotnet35.exe
 
 - action: install_exe
   file_name: dotnetfx35.exe
@@ -18,6 +17,9 @@ Steps:
   arguments: /lang:ENU
   rename: dotnet35.exe
   file_checksum: d1b341c1bc8b96e4898450c9881b1425
+
+- action: set_windows
+  version: win10
 
 - action: override_dll
   dll: mscoree
