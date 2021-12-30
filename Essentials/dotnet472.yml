@@ -19,7 +19,7 @@ Steps:
   url: https://download.visualstudio.microsoft.com/download/pr/1f5af042-d0e4-4002-9c59-9ba66bcf15f6/089f837de42708daacaae7c04b7494db/NDP472-KB4054530-x86-x64-AllOS-ENU.exe
   rename: dotnet472.exe
   file_checksum: 4037bdde26bf72e2ce5108cb30387bcd
-  arguments: /sfxlang:1027 /q /norestart
+  arguments: /sfxlang:1027 /norestart
 
 - action: override_dll
   dll: mscoree
