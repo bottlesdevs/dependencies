@@ -19,7 +19,7 @@ Steps:
   url: https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe
   rename: dotnet461.exe
   file_checksum: 864056903748706e251fec9f5d887ef9
-  arguments: /sfxlang:1027 /q /norestart
+  arguments: /sfxlang:1027 /norestart
 
 - action: override_dll
   dll: mscoree
