@@ -8,9 +8,8 @@ Steps:
 - action: uninstall
   file_name: Wine Mono
 
-- action: use_windows
+- action: set_windows
   version: win7
-  executable: dotnet461.exe
   
 - action: install_exe
   environment: 
@@ -20,6 +19,9 @@ Steps:
   rename: dotnet461.exe
   file_checksum: 864056903748706e251fec9f5d887ef9
   arguments: /sfxlang:1027 /norestart
+
+- action: set_windows
+  version: win10
 
 - action: override_dll
   dll: mscoree
