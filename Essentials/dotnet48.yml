@@ -7,6 +7,9 @@ Dependencies: []
 Steps:
 - action: uninstall
   file_name: Wine Mono
+
+- action: set_windows
+  version: win7
   
 - action: install_exe
   environment: 
@@ -16,6 +19,9 @@ Steps:
   rename: dotnet48.exe
   file_checksum: aebcb9fcafa2becf8bb30458a7e1f0a2
   arguments: /sfxlang:1027 /norestart
+
+- action: set_windows
+  version: win10
 
 - action: override_dll
   dll: mscoree
