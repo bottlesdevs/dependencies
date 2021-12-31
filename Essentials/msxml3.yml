@@ -13,7 +13,6 @@ Steps:
   file_name: msxml3.msi
   url: https://media.codeweavers.com/pub/other/msxml3.msi
   rename: msxml3.msi
-  arguments: \q
   file_checksum: 7049c6531837341363fe69d068d001b0
 
 - action: override_dll
