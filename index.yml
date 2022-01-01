@@ -89,6 +89,9 @@ gdiplus:
 faudio:
   Description: FAudio (xaudio reimplementation, with xna support) builds for win32
   Category: Essentials
+atmlib:
+  Description: Adobe Type Manager
+  Category: Essentials
 
 ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
