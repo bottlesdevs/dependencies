@@ -15,9 +15,9 @@ Steps:
   environment: 
     WINEDLLOVERRIDES: fusion=b
   file_name: ndp48-x86-x64-allos-enu.exe
-  url: https://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe
+  url: https://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/abd170b4b0ec15ad0222a809b761a036/ndp48-x86-x64-allos-enu.exe
   rename: dotnet48.exe
-  file_checksum: aebcb9fcafa2becf8bb30458a7e1f0a2
+  file_checksum: 4e7a8586d06ce1f8cebac0d4bc379e16
   arguments: /sfxlang:1027 /norestart
 
 - action: set_windows
