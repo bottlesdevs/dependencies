@@ -13,57 +13,57 @@ Steps:
 
 - action: copy_cab_dll
   file_name: asycfilt.dll
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   dest: windows/system32/asycfilt.dll
 
 - action: copy_cab_dll
   file_name: comcat.dll
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   dest: windows/system32/comcat.dll
 
 - action: copy_cab_dll
   file_name: mfc42.dll
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   dest: windows/system32/mfc42.dll
 
 - action: copy_cab_dll
   file_name: mfc42u.dll
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   dest: windows/system32/mfc42u.dll
 
 - action: copy_cab_dll
   file_name: msvcirt.dll
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   dest: windows/system32/msvcirt.dll
 
 - action: copy_cab_dll
   file_name: msvcp60.dll
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   dest: windows/system32/msvcp60.dll
 
 - action: copy_cab_dll
   file_name: msvcrt.dll
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   dest: windows/system32/msvcrt.dll
 
 - action: copy_cab_dll
   file_name: oleaut32.dll
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   dest: windows/system32/oleaut32.dll
 
 - action: copy_cab_dll
   file_name: olepro32.dll
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   dest: windows/system32/olepro32.dll
 
 - action: copy_cab_dll
   file_name: atla.dll
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   dest: windows/system32/atl.dll
 
 - action: copy_cab_dll
   file_name: stdole2.tlb
-  url: temp/VC6RedistSetup_deu/vcredist.exe
+  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
   dest: windows/system32/stdole2.tlb
 
 - action: override_dll
