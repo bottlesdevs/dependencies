@@ -11,60 +11,60 @@ Steps:
   url: https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe
   file_checksum: 53a0925609b366daa17051e1e4be3b86
 
-- action: copy_cab_dll
+- action: get_from_cab
   file_name: asycfilt.dll
-  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
-  dest: windows/system32/asycfilt.dll
+  source: VC6RedistSetup_deu_exe/vcredist.exe
+  dest: drive_c/windows/system32
 
-- action: copy_cab_dll
+- action: get_from_cab
   file_name: comcat.dll
-  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
-  dest: windows/system32/comcat.dll
+  source: VC6RedistSetup_deu_exe/vcredist.exe
+  dest: drive_c/windows/system32
 
-- action: copy_cab_dll
+- action: get_from_cab
   file_name: mfc42.dll
-  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
-  dest: windows/system32/mfc42.dll
+  source: VC6RedistSetup_deu_exe/vcredist.exe
+  dest: drive_c/windows/system32
 
-- action: copy_cab_dll
+- action: get_from_cab
   file_name: mfc42u.dll
-  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
-  dest: windows/system32/mfc42u.dll
+  source: VC6RedistSetup_deu_exe/vcredist.exe
+  dest: drive_c/windows/system32
 
-- action: copy_cab_dll
+- action: get_from_cab
   file_name: msvcirt.dll
-  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
-  dest: windows/system32/msvcirt.dll
+  source: VC6RedistSetup_deu_exe/vcredist.exe
+  dest: drive_c/windows/system32
 
-- action: copy_cab_dll
+- action: get_from_cab
   file_name: msvcp60.dll
-  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
-  dest: windows/system32/msvcp60.dll
+  source: VC6RedistSetup_deu_exe/vcredist.exe
+  dest: drive_c/windows/system32
 
-- action: copy_cab_dll
+- action: get_from_cab
   file_name: msvcrt.dll
-  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
-  dest: windows/system32/msvcrt.dll
+  source: VC6RedistSetup_deu_exe/vcredist.exe
+  dest: drive_c/windows/system32
 
-- action: copy_cab_dll
+- action: get_from_cab
   file_name: oleaut32.dll
-  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
-  dest: windows/system32/oleaut32.dll
+  source: VC6RedistSetup_deu_exe/vcredist.exe
+  dest: drive_c/windows/system32
 
-- action: copy_cab_dll
+- action: get_from_cab
   file_name: olepro32.dll
-  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
-  dest: windows/system32/olepro32.dll
+  source: VC6RedistSetup_deu_exe/vcredist.exe
+  dest: drive_c/windows/system32
 
-- action: copy_cab_dll
+- action: get_from_cab
   file_name: atla.dll
-  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
-  dest: windows/system32/atl.dll
+  source: VC6RedistSetup_deu_exe/vcredist.exe
+  dest: drive_c/windows/system32
 
-- action: copy_cab_dll
+- action: get_from_cab
   file_name: stdole2.tlb
-  url: temp/VC6RedistSetup_deu_exe/vcredist.exe
-  dest: windows/system32/stdole2.tlb
+  source: VC6RedistSetup_deu_exe/vcredist.exe
+  dest: drive_c/windows/system32
 
 - action: override_dll
   dll: asycfilt
