@@ -19,57 +19,57 @@ Steps:
 - action: get_from_cab
   file_name: asycfilt.dll
   source: vcredist6/vcredist.exe
-  dest: windows/system32
+  dest: win32
 
 - action: get_from_cab
   file_name: comcat.dll
   source: vcredist6/vcredist.exe
-  dest: windows/system32
+  dest: win32
 
 - action: get_from_cab
   file_name: mfc42.dll
   source: vcredist6/vcredist.exe
-  dest: windows/system32
+  dest: win32
 
 - action: get_from_cab
   file_name: mfc42u.dll
   source: vcredist6/vcredist.exe
-  dest: windows/system32
+  dest: win32
 
 - action: get_from_cab
   file_name: msvcirt.dll
   source: vcredist6/vcredist.exe
-  dest: windows/system32
+  dest: win32
 
 - action: get_from_cab
   file_name: msvcp60.dll
   source: vcredist6/vcredist.exe
-  dest: windows/system32
+  dest: win32
 
 - action: get_from_cab
   file_name: msvcrt.dll
   source: vcredist6/vcredist.exe
-  dest: windows/system32
+  dest: win32
 
 - action: get_from_cab
   file_name: oleaut32.dll
   source: vcredist6/vcredist.exe
-  dest: windows/system32
+  dest: win32
 
 - action: get_from_cab
   file_name: olepro32.dll
   source: vcredist6/vcredist.exe
-  dest: windows/system32
+  dest: win32
 
 - action: get_from_cab
   file_name: atla.dll
   source: vcredist6/vcredist.exe
-  dest: windows/system32
+  dest: win32
 
 - action: get_from_cab
   file_name: stdole2.tlb
   source: vcredist6/vcredist.exe
-  dest: windows/system32
+  dest: win32
 
 - action: override_dll
   dll: asycfilt

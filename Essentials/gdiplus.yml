@@ -20,12 +20,12 @@ Steps:
 - action: get_from_cab
   source: windows6.1-kb976932-x86.exe
   file_name: gdiplus.dll
-  dest: windows/system32/
+  dest: win32
 
 - action: get_from_cab
   source: windows6.1-kb976932-x64.exe
   file_name: gdiplus.dll
-  dest: windows/syswow64/
+  dest: win64/
   
 - action: override_dll
   dll: gdiplus

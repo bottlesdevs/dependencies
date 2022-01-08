@@ -18,13 +18,13 @@ Steps:
 - action: get_from_cab
   source: 2630bae9681db6a9f6722366f47d055c.cab
   file_name: fil47ed91e900f4b9d9659b66a211b57c39
-  dest: windows/system32/
+  dest: win32
   rename: d3dcompiler_46.dll
   
 - action: get_from_cab
   source: 61d57a7a82309cd161a854a6f4619e52.cab
   file_name: fil8c20206095817436f8df4a711faee5b7
-  dest: windows/syswow64/
+  dest: win64/
   rename: d3dcompiler_46.dll
   
 - action: override_dll

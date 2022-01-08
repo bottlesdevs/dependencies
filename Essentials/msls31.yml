@@ -13,7 +13,7 @@ Steps:
 - action: get_from_cab
   source: nstMsiW.exe
   file_name: msls31.dll
-  dest: windows/system32/
+  dest: win32
 
 - action: override_dll
   dll: msls31

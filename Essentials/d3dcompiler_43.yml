@@ -24,13 +24,13 @@ Steps:
 - action: get_from_cab
   source: d3dcompiler_43_x86/Jun2010_D3DCompiler_43_x86.cab
   file_name: D3DCompiler_43.dll
-  dest: windows/system32/
+  dest: win32
   rename: d3dcompiler_43.dll
 
 - action: get_from_cab
   source: d3dcompiler_43_x64/Jun2010_D3DCompiler_43_x64.cab
   file_name: D3DCompiler_43.dll
-  dest: windows/syswow64/
+  dest: win64/
   rename: d3dcompiler_43.dll
   
 - action: override_dll

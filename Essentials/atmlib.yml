@@ -19,4 +19,4 @@ Steps:
 - action: get_from_cab
   source: atmlib/i386/atmlib.dl_
   file_name: atmlib.dll
-  dest: windows/system32/
+  dest: win32

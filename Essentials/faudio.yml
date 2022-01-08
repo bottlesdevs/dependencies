@@ -14,12 +14,12 @@ Steps:
 - action: copy_dll
   file_name: '*.dll'
   url: temp/faudio_20_07/faudio-20.07/x64
-  dest: windows/system32
+  dest: win32
   
 - action: copy_dll
   file_name: '*.dll'
   url: temp/faudio_20_07/faudio-20.07/x64
-  dest: windows/syswow64
+  dest: win64
   
 - action: override_dll
   dll: '*.dll'

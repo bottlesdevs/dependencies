@@ -19,7 +19,7 @@ Steps:
 - action: get_from_cab
   source: riched20/i386/riched20.dl_
   file_name: riched20.dll
-  dest: windows/system32/
+  dest: win32
 
 - action: override_dll
   dll: riched20
