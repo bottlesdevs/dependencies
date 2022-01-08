@@ -20,7 +20,7 @@ Steps:
 - action: copy_dll
   file_name: core/d3dcompiler_47.dll
   url: temp/firefox_setup_6203_32bit
-  dest: win32d3dcompiler_47.dll
+  dest: win32/d3dcompiler_47.dll
   
 - action: copy_dll
   file_name: core/d3dcompiler_47.dll
