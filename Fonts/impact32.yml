@@ -9,6 +9,7 @@ Steps:
   file_name: impact32.exe
   url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/impact32.exe
   file_checksum: 7907c7dd6684e9bade91cff82683d9d7
+  dest: temp/impact32
 
 - action: install_cab_fonts
   url: temp/impact32

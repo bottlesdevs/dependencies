@@ -9,6 +9,7 @@ Steps:
   file_name: trebuc32.exe
   url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/trebuc32.exe
   file_checksum: 0d7ea16cac6261f8513a061fbfcdb2b5
+  dest: temp/trebuc32
     
 - action: install_cab_fonts
   url: temp/trebuc32

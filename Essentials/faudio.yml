@@ -11,15 +11,15 @@ Steps:
   url: https://github.com/Kron4ek/FAudio-Builds/releases/download/20.07/faudio-20.07.tar.xz
   file_checksum: 7385a4d276f940e025488e74a967789b
   
-- action: copy_cab_dll
+- action: copy_dll
   file_name: '*.dll'
   url: temp/faudio_20_07/faudio-20.07/x64
-  dest: windows/system32
+  dest: win32
   
-- action: copy_cab_dll
+- action: copy_dll
   file_name: '*.dll'
   url: temp/faudio_20_07/faudio-20.07/x64
-  dest: windows/syswow64
+  dest: win64
   
 - action: override_dll
   dll: '*.dll'

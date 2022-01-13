@@ -9,6 +9,7 @@ Steps:
   file_name: times32.exe
   url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/times32.exe
   file_checksum: ed39c8ef91b9fb80f76f702568291bd5
+  dest: temp/times32
 
 - action: install_cab_fonts
   url: temp/times32

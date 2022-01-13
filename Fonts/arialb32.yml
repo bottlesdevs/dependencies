@@ -9,6 +9,7 @@ Steps:
   file_name: arialb32.exe
   url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/arialb32.exe
   file_checksum: c9089ae0c3b3d0d8c4b0a95979bb9ff0
+  dest: temp/arialb32
 
 - action: install_cab_fonts
   url: temp/arialb32

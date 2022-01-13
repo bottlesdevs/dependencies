@@ -74,7 +74,7 @@ extracted files will be placed in a new directory in the bottles'temp path, its 
 - action: copy_cab_dll
   file_name: msxml6.dll.86F857F6_A743_463D_B2FE_98CB5F727E09
   url: temp/msxml6
-  dest: windows/system32/msxml6.dll
+  dest: win32msxml6.dll
 ```
 
 **override_dll** can be used to add a new DLL override

@@ -17,15 +17,15 @@ Steps:
   file_checksum: 58aabc1588593297851c38c6edf8736f
   rename: firefox_setup_6203_64bit.7z
   
-- action: copy_cab_dll
+- action: copy_dll
   file_name: core/d3dcompiler_47.dll
   url: temp/firefox_setup_6203_32bit
-  dest: windows/system32/d3dcompiler_47.dll
+  dest: win32/d3dcompiler_47.dll
   
-- action: copy_cab_dll
+- action: copy_dll
   file_name: core/d3dcompiler_47.dll
   url: temp/firefox_setup_6203_64bit
-  dest: windows/syswow64/d3dcompiler_47.dll
+  dest: win64/d3dcompiler_47.dll
   
 - action: override_dll
   dll: d3dcompiler_47
