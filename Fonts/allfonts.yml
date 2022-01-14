@@ -9,67 +9,67 @@ Steps:
 # Download all fonts and extract
 - action: cab_extract
   file_name: arial32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/arial32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/arial32.exe
   file_checksum: 9637df0e91703179f0723ec095a36cb5
   dest: temp/arial32
   
 - action: cab_extract
   file_name: arialb32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/arialb32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/arialb32.exe
   file_checksum: c9089ae0c3b3d0d8c4b0a95979bb9ff0
   dest: temp/arialb32
   
 - action: cab_extract
   file_name: andale32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/andale32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/andale32.exe
   file_checksum: cbdc2fdd7d2ed0832795e86a8b9ee19a
   dest: temp/andale32
   
 - action: cab_extract
   file_name: comic32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/comic32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/comic32.exe
   file_checksum: 2b30de40bb5e803a0452c7715fc835d1
   dest: temp/comic32
   
 - action: cab_extract
   file_name: courie32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/courie32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/courie32.exe
   file_checksum: 4e412c772294403ab62fb2d247d85c60
   dest: temp/courie32
   
 - action: cab_extract
   file_name: georgi32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/georgi32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/georgi32.exe
   file_checksum: 4d90016026e2da447593b41a8d8fa8bd
   dest: temp/georgi32
   
 - action: cab_extract
   file_name: impact32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/impact32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/impact32.exe
   file_checksum: 7907c7dd6684e9bade91cff82683d9d7
   dest: temp/impact32
   
 - action: cab_extract
   file_name: times32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/times32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/times32.exe
   file_checksum: ed39c8ef91b9fb80f76f702568291bd5
   dest: temp/times32
   
 - action: cab_extract
   file_name: trebuc32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/trebuc32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/trebuc32.exe
   file_checksum: 0d7ea16cac6261f8513a061fbfcdb2b5
   dest: temp/trebuc32
   
 - action: cab_extract
   file_name: verdan32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/verdan32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/verdan32.exe
   file_checksum: 12d2a75f8156e10607be1eaa8e8ef120
   dest: temp/verdan32
   
 - action: cab_extract
   file_name: webdin32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/webdin32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/webdin32.exe
   file_checksum: 230a1d13a365b22815f502eb24d9149b
   dest: temp/webdin32
   
