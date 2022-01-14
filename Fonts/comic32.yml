@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: cab_extract
   file_name: comic32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/comic32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/comic32.exe
   file_checksum: 2b30de40bb5e803a0452c7715fc835d1
   dest: temp/comic32
 

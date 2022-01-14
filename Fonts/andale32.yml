@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: cab_extract
   file_name: andale32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/andale32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/andale32.exe
   file_checksum: cbdc2fdd7d2ed0832795e86a8b9ee19a
   dest: temp/andale32
   

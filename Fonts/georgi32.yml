@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: cab_extract
   file_name: georgi32.exe
-  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/georgi32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/georgi32.exe
   file_checksum: 4d90016026e2da447593b41a8d8fa8bd
   dest: temp/georgi32
 
