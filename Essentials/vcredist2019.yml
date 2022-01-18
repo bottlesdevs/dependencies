@@ -9,7 +9,7 @@ Steps:
   file_name: VC_redist.x86.exe
   url: https://aka.ms/vs/16/release/VC_redist.x86.exe
   rename: vcredist2019_x86.exe
-  file_checksum: 44b4932dad3cbb8ce7af149a3c155ef9
+  file_checksum: dd0232ee751164eaad2fe0de7158d77d
   arguments: /quiet /norestart
 
 - action: install_exe
