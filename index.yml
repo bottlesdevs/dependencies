@@ -102,7 +102,7 @@ d3dx9:
   Description: Microsoft d3dx9 DLLs from DirectX 9 redistributable
   Category: Essentials
 d3dcompiler_43:
-  Description: Microsoft d3dcompiler_46.dll
+  Description: Microsoft d3dcompiler_43.dll
   Category: Essentials
 d3dcompiler_46:
   Description: Microsoft d3dcompiler_46.dll
