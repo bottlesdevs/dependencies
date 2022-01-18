@@ -118,102 +118,102 @@ Steps:
 - action: get_from_cab
   source: directx_Jun2010_redist/Apr2005_d3dx9_25_x64.cab
   file_name: d3dx9_25.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Apr2006_d3dx9_30_x64.cab
   file_name: d3dx9_30.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/APR2007_d3dx9_33_x64.cab
   file_name: d3dx9_33.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Aug2005_d3dx9_27_x64.cab
   file_name: d3dx9_27.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/AUG2007_d3dx9_35_x64.cab
   file_name: d3dx9_35.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Aug2008_d3dx9_39_x64.cab
   file_name: d3dx9_39.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Aug2009_d3dx9_42_x64.cab
   file_name: d3dx9_42.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Dec2005_d3dx9_28_x64.cab
   file_name: d3dx9_28.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/DEC2006_d3dx9_32_x64.cab
   file_name: d3dx9_32.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Feb2005_d3dx9_24_x64.cab
   file_name: d3dx9_24.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Feb2006_d3dx9_29_x64.cab
   file_name: d3dx9_29.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Jun2005_d3dx9_26_x64.cab
   file_name: d3dx9_26.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/JUN2007_d3dx9_34_x64.cab
   file_name: d3dx9_34.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/JUN2008_d3dx9_38_x64.cab
   file_name: d3dx9_38.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Jun2010_d3dx9_43_x64.cab
   file_name: d3dx9_43.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Mar2008_d3dx9_37_x64.cab
   file_name: d3dx9_37.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Mar2009_d3dx9_41_x64.cab
   file_name: d3dx9_41.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Nov2007_d3dx9_36_x64.cab
   file_name: d3dx9_36.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/Nov2008_d3dx9_40_x64.cab
   file_name: d3dx9_40.dll
-  dest: win64/
+  dest: win64
 
 - action: get_from_cab
   source: directx_Jun2010_redist/OCT2006_d3dx9_31_x64.cab
   file_name: d3dx9_31.dll
-  dest: win64/
+  dest: win64
   
 # DLL overrides
 - action: override_dll
