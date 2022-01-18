@@ -1,0 +1,13 @@
+Name: quicktime72
+Description: QuickTime 7.2.0.240
+Provider: Apple Inc.
+License: Software License Agreement for QuickTime
+License_url: https://www.apple.com/legal/sla/docs/quicktime7.pdf
+Uninstaller: QuickTime
+Steps:
+- action: install_exe
+  file_name: QuickTimeInstaller.exe
+  url: http://appldnld.apple.com/QuickTime/061-2915.20070710.pO94c/QuickTimeInstaller.exe
+  rename: quicktime72.exe
+  file_checksum: 2ad411556d3584c338ba013ef38854e2
+  arguments: /qn
