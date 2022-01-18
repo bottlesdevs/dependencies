@@ -16,7 +16,7 @@ Steps:
   file_name: VC_redist.x64.exe
   url: https://aka.ms/vs/16/release/VC_redist.x64.exe
   rename: vcredist2019_x64.exe
-  file_checksum: 291e0c486cbe22cb000c5e541c9e8317
+  file_checksum: 35431d059197b67227cd12f841733539
   arguments: /quiet /norestart
 
 - action: override_dll
