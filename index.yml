@@ -95,6 +95,9 @@ atmlib:
 physx:
   Description: NVIDIA PhysX System 9.19.0218
   Category: Essentials
+quicktime72:
+  Description: QuickTime 7.2.0.240
+  Category: Essentials
 
 ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
