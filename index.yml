@@ -2,6 +2,9 @@
 mono:
   Description: Wine mono
   Category: Essentials
+gecko:
+  Description: Wine gecko
+  Category: Essentials
 
 # Redist
 vcredist6:
