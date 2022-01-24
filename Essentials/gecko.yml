@@ -5,9 +5,6 @@ License: WineHQ
 License_url: https://wiki.winehq.org/Gecko
 Dependencies: []
 Steps:
-- action: uninstall
-  file_name: Wine Gecko
-  
 - action: install_exe
   file_name: wine_gecko-2.47-x86.msi
   url: https://dl.winehq.org/wine/wine-gecko/2.47/wine_gecko-2.47-x86.msi
