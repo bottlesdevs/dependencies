@@ -1,0 +1,18 @@
+Name: gecko
+Description: Wine gecko
+Provider: WineHQ
+License: WineHQ
+License_url: https://wiki.winehq.org/Gecko
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: wine_gecko-2.47-x86.msi
+  url: https://dl.winehq.org/wine/wine-gecko/2.47/wine_gecko-2.47-x86.msi
+  rename: wine_gecko-2.47-x86.msi
+  file_checksum: 5ebc4ec71c92b3db3d84b334a1db385d
+  
+- action: install_exe
+  file_name: wine_gecko-2.47-x86_64.msi
+  url: https://dl.winehq.org/wine/wine-gecko/2.47/wine_gecko-2.47-x86_64.msi
+  rename: wine_gecko-2.47-x86_64.msi
+  file_checksum: d93ac0d2e6aceafe9113a9918916df45
