@@ -1,0 +1,30 @@
+Name: dotnet48
+Description: Microsoft .NET Framework 4.8
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: 
+  - dotnet40
+  
+Steps:
+- action: uninstall
+  file_name: Wine Mono
+
+- action: set_windows
+  version: win7
+  
+- action: install_exe
+  environment: 
+    WINEDLLOVERRIDES: fusion=b
+  file_name: NDP452-KB2901907-x86-x64-AllOS-ENU.exe
+  url: https://download.microsoft.com/download/E/2/1/E21644B5-2DF2-47C2-91BD-63C560427900/NDP452-KB2901907-x86-x64-AllOS-ENU.exe
+  rename: dotnet452.exe
+  file_checksum: ee01fc4110c73a8e5efc7cabda0f5ff7
+  arguments: /q /norestart
+
+- action: set_windows
+  version: win10
+
+- action: override_dll
+  dll: mscoree
+  type: native
