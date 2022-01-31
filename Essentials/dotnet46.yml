@@ -1,0 +1,30 @@
+Name: dotnet46
+Description: Microsoft .NET Framework 4.6
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: 
+- dotnet45
+
+Steps:
+- action: uninstall
+  file_name: Wine Mono
+
+- action: set_windows
+  version: win7
+  
+- action: install_exe
+  environment: 
+    WINEDLLOVERRIDES: fusion=b
+  file_name: NDP46-KB3045557-x86-x64-AllOS-ENU.exe
+  url: https://download.microsoft.com/download/6/F/9/6F9673B1-87D1-46C4-BF04-95F24C3EB9DA/enu_netfx/NDP46-KB3045557-x86-x64-AllOS-ENU_exe/NDP46-KB3045557-x86-x64-AllOS-ENU.exe
+  rename: dotnet46.exe
+  file_checksum: 88bc05e20114a4506f40c36911de92fa
+  arguments: /norestart
+
+- action: set_windows
+  version: win10
+
+- action: override_dll
+  dll: mscoree
+  type: native
