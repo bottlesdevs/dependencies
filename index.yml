@@ -1,4 +1,5 @@
-# Wine
+# WINE
+# ------------------------------
 mono:
   Description: Wine mono
   Category: Essentials
@@ -7,6 +8,7 @@ gecko:
   Category: Essentials
 
 # Redist
+# ------------------------------
 vcredist6:
   Description: Microsoft Visual C++ 6 SP4 libraries
   Category: Essentials
@@ -35,7 +37,8 @@ vcredist2019:
   Description: Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325
   Category: Essentials
 
-# Net frameworks
+# .NET FRAMEWORKS
+# ------------------------------
 dotnet35:
   Description: Microsoft .NET Framework 3.5
   Category: Essentials
@@ -73,7 +76,8 @@ dotnetcoredesktop3:
   Description: Microsoft .NET Core Desktop Runtime 3.1 LTS
   Category: Essentials
 
-# General
+# GENERIC
+# ------------------------------
 msxml3:
   Description: Microsoft Core XML Services (MSXML) 3.0
   Category: Essentials
@@ -118,7 +122,8 @@ ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
   Category: Essentials
 
-# direct3d
+# DIRECT3D
+# ------------------------------
 d3dx9:
   Description: Microsoft d3dx9 DLLs from DirectX 9 redistributable
   Category: Essentials
@@ -135,7 +140,8 @@ d3dcompiler_47:
   Description: Microsoft d3dcompiler_47.dll
   Category: Essentials
   
-# codecs
+# CODECS
+# ------------------------------
 ffdshow:
   Description: ffdshow video codecs
   Category: Essentials
@@ -143,7 +149,8 @@ dirac:
   Description: The Dirac directshow filter v1.0.2
   Category: Essentials
   
-# fonts
+# FONTS
+# ------------------------------
 allfonts:
   Description: All Microsoft and Adobe essential fonts
   Category: Fonts
