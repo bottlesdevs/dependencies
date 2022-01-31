@@ -3,7 +3,9 @@ Description: Microsoft .NET Framework 4.6.1
 Provider: Microsoft
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
-Dependencies: []
+Dependencies: 
+- dotnet46
+
 Steps:
 - action: uninstall
   file_name: Wine Mono
