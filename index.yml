@@ -45,6 +45,15 @@ dotnet35sp1:
 dotnet40:
   Description: Microsoft .NET Framework 4
   Category: Essentials
+dotnet45:
+  Description: Microsoft .NET Framework 4.5
+  Category: Essentials
+dotnet452:
+  Description: Microsoft .NET Framework 4.5.2
+  Category: Essentials
+dotnet46:
+  Description: Microsoft .NET Framework 4.6
+  Category: Essentials
 dotnet461:
   Description: Microsoft .NET Framework 4.6.1
   Category: Essentials
@@ -53,9 +62,6 @@ dotnet462:
   Category: Essentials
 dotnet472:
   Description: Microsoft .NET Framework 4.7.2
-  Category: Essentials
-dotnet452:
-  Description: Microsoft .NET Framework 4.5.2
   Category: Essentials
 dotnet48:
   Description: Microsoft .NET Framework 4.8
