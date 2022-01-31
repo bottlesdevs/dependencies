@@ -4,7 +4,7 @@ Provider: Microsoft
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: 
-  - dotnet461
+- dotnet461
   
 Steps:
 - action: uninstall
