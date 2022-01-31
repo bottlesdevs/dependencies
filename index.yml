@@ -7,7 +7,7 @@ gecko:
   Description: Wine gecko
   Category: Essentials
 
-# Redist
+# REDIST
 # ------------------------------
 vcredist6:
   Description: Microsoft Visual C++ 6 SP4 libraries
