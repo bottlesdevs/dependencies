@@ -10,18 +10,15 @@ Steps:
   url: http://x3270.bgp.nu/download/specials/W2KSP4_EN.EXE
   rename: w2ksp4_en.exe
   file_checksum: a4ef6c91d418418b287cefe31f958175
-  file_size: 0
-
+  file_size: 135477136
 - action: get_from_cab
   source: w2ksp4_en.exe
   file_name: riched20.dl_
   dest: temp/riched20/
-
 - action: get_from_cab
   source: riched20/i386/riched20.dl_
   file_name: riched20.dll
   dest: win32
-
 - action: override_dll
   dll: riched20
   type: native,builtin

@@ -3,29 +3,24 @@ Description: Microsoft .NET Framework 4.5
 Provider: Microsoft
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
-Dependencies: 
-  - dotnet40
-  
+Dependencies:
+- dotnet40
 Steps:
 - action: uninstall
   file_name: Wine Mono
-
 - action: set_windows
   version: win7
-  
 - action: install_exe
-  environment: 
+  environment:
     WINEDLLOVERRIDES: fusion=b
   file_name: dotnetfx45_full_x86_x64.exe
   url: https://download.microsoft.com/download/b/a/4/ba4a7e71-2906-4b2d-a0e1-80cf16844f5f/dotnetfx45_full_x86_x64.exe
   rename: dotnet45.exe
   file_checksum: d02dc8b69a702a47c083278938c4d2f1
-  file_size: 0
+  file_size: 50352408
   arguments: /q
-
 - action: set_windows
   version: win10
-
 - action: override_dll
   dll: mscoree
   type: native

@@ -1,4 +1,4 @@
-Name: jet40 
+Name: jet40
 Description: MS Jet 4.0 Service Pack 8
 Provider: Microsoft
 License: Microsoft EULA
@@ -11,4 +11,4 @@ Steps:
   rename: Jet40SP8_9xNT.exe
   arguments: /q
   file_checksum: d1028c0f98b4ffe5ede854327b77fbb9
-  file_size: 0
+  file_size: 3872168

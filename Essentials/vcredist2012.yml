@@ -4,35 +4,30 @@ Provider: Microsoft
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
-Steps:  
+Steps:
 - action: install_exe
   file_name: vcredist_x86.exe
   url: https://download.microsoft.com/download/5/B/C/5BC5DBB3-652D-4DCE-B14A-475AB85EEF6E/vcredist_x86.exe
   rename: vcredist2012_x86.exe
   file_checksum: 5faedf5ae484adcb842bec6aa14ae8d9
-  file_size: 0
+  file_size: 5076456
   arguments: /q
-
 - action: install_exe
   file_name: vcredist_x64.exe
   url: https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe
   rename: vcredist2012_x64.exe
   file_checksum: 3c03562b5af9ed347614053d459d7778
-  file_size: 0
+  file_size: 7186992
   arguments: /q
-
 - action: override_dll
   dll: atl110
   type: native,builtin
-
 - action: override_dll
   dll: msvcp110
   type: native,builtin
-
 - action: override_dll
   dll: msvcr110
   type: native,builtin
-
 - action: override_dll
   dll: vcomp110
   type: native,builtin

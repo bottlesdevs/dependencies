@@ -4,204 +4,160 @@ Provider: Various
 License: Mostly Adobe
 License_url: https://github.com/bottlesdevs/dependencies
 Dependencies: []
-
 Steps:
-# Download all fonts and extract
 - action: archive_extract
   file_name: SourceHanSans.ttc.zip
   url: https://github.com/adobe-fonts/source-han-sans/releases/download/2.004R/SourceHanSans.ttc.zip
   file_checksum: ce3fc169af61a4e7bc650e7e78186330
-  file_size: 0
-  
-# Install fonts
+  file_size: 95184312
 - action: install_fonts
   url: temp/SourceHanSans.ttc
-  fonts: 
-   - SourceHanSans.ttc
-  
-# Register Simplified Chinese fonts
+  fonts:
+  - SourceHanSans.ttc
 - action: register_font
   name: Source Han Sans SC ExtraLight
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans SC Light
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans SC Normal
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans SC
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans SC Medium
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans SC Bold
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans SC Heavy
   file: SourceHanSans.ttc
-  
-# Register Traditional Chinese (tw) fonts
 - action: register_font
   name: Source Han Sans TC ExtraLight
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans TC Light
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans TC Normal
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans TC
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans TC Medium
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans TC Bold
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans TC Heavy
   file: SourceHanSans.ttc
-  
-# Register Japanese fonts
 - action: register_font
   name: Source Han Sans ExtraLight
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans Light
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans Normal
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans Medium
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans Bold
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans Heavy
   file: SourceHanSans.ttc
-  
-# Register Korean fonts
 - action: register_font
   name: Source Han Sans K ExtraLight
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans K Light
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans K Normal
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans K
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans K Medium
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans K Bold
   file: SourceHanSans.ttc
-
 - action: register_font
   name: Source Han Sans K Heavy
   file: SourceHanSans.ttc
-
-# replace Simplified Chinese fonts
 - action: replace_font
   font: Source Han Sans SC
-  replace: 
-    - Dengxian
-    - FangSong
-    - KaiTi
-    - Microsoft YaHei
-    - Microsoft YaHei UI
-    - NSimSun
-    - SimHei
-    - SimKai
-    - SimSun
-    - SimSun-ExtB
-
-# replace Traditional Chinese fonts
+  replace:
+  - Dengxian
+  - FangSong
+  - KaiTi
+  - Microsoft YaHei
+  - Microsoft YaHei UI
+  - NSimSun
+  - SimHei
+  - SimKai
+  - SimSun
+  - SimSun-ExtB
 - action: replace_font
   font: Source Han Sans TC
-  replace: 
-    - DFKai-SB
-    - Microsoft JhengHei
-    - Microsoft JhengHei UI
-    - MingLiU
-    - PMingLiU
-    - MingLiU-ExtB
-    - PMingLiU-ExtB
-
-# replace Japanese fonts
+  replace:
+  - DFKai-SB
+  - Microsoft JhengHei
+  - Microsoft JhengHei UI
+  - MingLiU
+  - PMingLiU
+  - MingLiU-ExtB
+  - PMingLiU-ExtB
 - action: replace_font
   font: Source Han Sans
-  replace: 
-    - Meiryo
-    - Meiryo UI
-    - MS Gothic
-    - MS PGothic
-    - MS Mincho
-    - MS PMincho
-    - MS UI Gothic
-    - UD Digi KyoKasho N-R
-    - UD Digi KyoKasho NK-R
-    - UD Digi KyoKasho NP-R
-    - Yu Gothic
-    - Yu Gothic UI
-    - Yu Mincho
-    - メイリオ
-    - ＭＳ ゴシック
-    - ＭＳ Ｐゴシック
-    - ＭＳ 明朝
-    - ＭＳ Ｐ明朝
-
-# replace Korean fonts
+  replace:
+  - Meiryo
+  - Meiryo UI
+  - MS Gothic
+  - MS PGothic
+  - MS Mincho
+  - MS PMincho
+  - MS UI Gothic
+  - UD Digi KyoKasho N-R
+  - UD Digi KyoKasho NK-R
+  - UD Digi KyoKasho NP-R
+  - Yu Gothic
+  - Yu Gothic UI
+  - Yu Mincho
+  - "\u30E1\u30A4\u30EA\u30AA"
+  - "\uFF2D\uFF33 \u30B4\u30B7\u30C3\u30AF"
+  - "\uFF2D\uFF33 \uFF30\u30B4\u30B7\u30C3\u30AF"
+  - "\uFF2D\uFF33 \u660E\u671D"
+  - "\uFF2D\uFF33 \uFF30\u660E\u671D"
 - action: replace_font
   font: Source Han Sans K
-  replace: 
-    - Batang
-    - BatangChe
-    - Dotum
-    - DotumChe
-    - Gulim
-    - GulimChe
-    - Gungsuh
-    - GungsuhChe
-    - Malgun Gothic
-    - 바탕
-    - 바탕체
-    - 돋움
-    - 돋움체
-    - 굴림
-    - 굴림체
-    - 맑은 고딕
+  replace:
+  - Batang
+  - BatangChe
+  - Dotum
+  - DotumChe
+  - Gulim
+  - GulimChe
+  - Gungsuh
+  - GungsuhChe
+  - Malgun Gothic
+  - "\uBC14\uD0D5"
+  - "\uBC14\uD0D5\uCCB4"
+  - "\uB3CB\uC6C0"
+  - "\uB3CB\uC6C0\uCCB4"
+  - "\uAD74\uB9BC"
+  - "\uAD74\uB9BC\uCCB4"
+  - "\uB9D1\uC740 \uACE0\uB515"

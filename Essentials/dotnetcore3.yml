@@ -4,19 +4,18 @@ Provider: Microsoft
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
-Steps:  
+Steps:
 - action: install_exe
   file_name: dotnet-runtime-3.1.10-win-x86.exe
   url: https://download.visualstudio.microsoft.com/download/pr/abb3fb5d-4e82-4ca8-bc03-ac13e988e608/b34036773a72b30c5dc5520ee6a2768f/dotnet-runtime-3.1.10-win-x86.exe
   rename: dotnet-runtime-3.1.10-win-x86.exe
   file_checksum: 03832c85bc74de4fcb7fffa862b9f4a5
-  file_size: 0
+  file_size: 23451472
   arguments: /quiet
-  
 - action: install_exe
   file_name: dotnet-runtime-3.1.10-win-x64.exe
   url: https://download.visualstudio.microsoft.com/download/pr/9845b4b0-fb52-48b6-83cf-4c431558c29b/41025de7a76639eeff102410e7015214/dotnet-runtime-3.1.10-win-x64.exe
   rename: dotnet-runtime-3.1.10-win-x64.exe
   file_checksum: a6e46b0e884ba62316560e3bd17384a5
-  file_size: 0
+  file_size: 26230496
   arguments: /quiet
