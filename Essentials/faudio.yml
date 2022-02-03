@@ -10,6 +10,7 @@ Steps:
   rename: faudio_20_07.xz
   url: https://github.com/Kron4ek/FAudio-Builds/releases/download/20.07/faudio-20.07.tar.xz
   file_checksum: 7385a4d276f940e025488e74a967789b
+  file_size: 0
   
 - action: copy_dll
   file_name: '*.dll'

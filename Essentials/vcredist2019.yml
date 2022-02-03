@@ -10,6 +10,7 @@ Steps:
   url: https://aka.ms/vs/16/release/VC_redist.x86.exe
   rename: vcredist2019_x86.exe
   file_checksum: dd0232ee751164eaad2fe0de7158d77d
+  file_size: 0
   arguments: /quiet /norestart
 
 - action: install_exe
@@ -17,6 +18,7 @@ Steps:
   url: https://aka.ms/vs/16/release/VC_redist.x64.exe
   rename: vcredist2019_x64.exe
   file_checksum: 35431d059197b67227cd12f841733539
+  file_size: 0
   arguments: /quiet /norestart
 
 - action: override_dll

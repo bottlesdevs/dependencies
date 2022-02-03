@@ -7,6 +7,7 @@ Dependencies: []
 Steps:
 - action: install_exe
   file_name: art2kmin.exe
-  url: http://download.microsoft.com/download/office2000dev/art2kmin/1/win98/en-us/art2kmin.exe
+  url: https://download.microsoft.com/download/office2000dev/art2kmin/1/win98/en-us/art2kmin.exe
   file_checksum: fcba8035d357f52a5991247bd6fe16c0
+  file_size: 33812712
   arguments: /q

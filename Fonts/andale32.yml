@@ -9,6 +9,7 @@ Steps:
   file_name: andale32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/andale32.exe
   file_checksum: cbdc2fdd7d2ed0832795e86a8b9ee19a
+  file_size: 0
   dest: temp/andale32
   
 - action: install_cab_fonts

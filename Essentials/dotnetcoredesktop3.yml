@@ -10,6 +10,7 @@ Steps:
   url: https://download.visualstudio.microsoft.com/download/pr/865d0be5-16e2-4b3d-a990-f4c45acd280c/ec867d0a4793c0b180bae85bc3a4f329/windowsdesktop-runtime-3.1.10-win-x86.exe
   rename: windowsdesktop-runtime-3.1.10-win-x86.exe
   file_checksum: a53624c3fb8325c736f651cdbc32185f
+  file_size: 0
   arguments: /quiet
   
 - action: install_exe
@@ -17,4 +18,5 @@ Steps:
   url: https://download.visualstudio.microsoft.com/download/pr/513acf37-8da2-497d-bdaa-84d6e33c1fee/eb7b010350df712c752f4ec4b615f89d/windowsdesktop-runtime-3.1.10-win-x64.exe
   rename: windowsdesktop-runtime-3.1.10-win-x64.exe
   file_checksum: f5289dc19c63a60e063c77ba3f59fb43
+  file_size: 0
   arguments: /quiet

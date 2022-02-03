@@ -14,6 +14,7 @@ Steps:
   url: https://media.codeweavers.com/pub/other/msxml3.msi
   rename: msxml3.msi
   file_checksum: 7049c6531837341363fe69d068d001b0
+  file_size: 0
 
 - action: override_dll
   dll: msxml3

@@ -11,3 +11,4 @@ Steps:
   rename: IE8-WindowsXP-KB2936068-x86-ENU.exe
   arguments: /quiet /forcerestart
   file_checksum: ef084b03d9ec84a7283ddcf4bbff6011
+  file_size: 0

@@ -10,6 +10,7 @@ Steps:
   file_name: VC6RedistSetup_deu.exe
   url: https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe
   file_checksum: 53a0925609b366daa17051e1e4be3b86
+  file_size: 0
 
 - action: get_from_cab
   source: VC6RedistSetup_deu.exe

@@ -10,6 +10,7 @@ Steps:
   url: https://download.microsoft.com/download/5/B/C/5BC5DBB3-652D-4DCE-B14A-475AB85EEF6E/vcredist_x86.exe
   rename: vcredist2010_x86.exe
   file_checksum: 5faedf5ae484adcb842bec6aa14ae8d9
+  file_size: 0
   arguments: /q
 
 - action: install_exe
@@ -17,6 +18,7 @@ Steps:
   url: https://download.microsoft.com/download/A/8/0/A80747C3-41BD-45DF-B505-E9710D2744E0/vcredist_x64.exe
   rename: vcredist2010_x64.exe
   file_checksum: be79543624f806ced4c7dff25751a3e4
+  file_size: 0
   arguments: /q
 
 - action: override_dll

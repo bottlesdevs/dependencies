@@ -20,6 +20,7 @@ Steps:
   url: https://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/abd170b4b0ec15ad0222a809b761a036/ndp48-x86-x64-allos-enu.exe
   rename: dotnet48.exe
   file_checksum: 4e7a8586d06ce1f8cebac0d4bc379e16
+  file_size: 0
   arguments: /sfxlang:1027 /q /norestart
 
 - action: set_windows
