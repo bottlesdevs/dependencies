@@ -1,0 +1,35 @@
+name: Automatic Size Update
+
+on:
+  push:
+    branches: [ main ]
+  schedule: 
+    - cron: '0 0 * * 1'
+    
+jobs:
+  SizeCheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Check Directory
+        run: ls -a ..
+      
+      - name: Download Control Script
+        run: https://raw.githubusercontent.com/bottlesdevs/tools/main/DependenciesUpdater/CheckFilechecksum.py
+      
+      - name: Run script in Deps/Essential
+        run: HIDE_PROGRESS=true python3 CheckFileSize.py .
+        
+      - name: Remove control script
+        run: rm run.py
+        
+      - name: Create a pull request with updated checksums
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Updated file checksum
+          title: '[Update] Updated file checksum'
+          body: 'Hi! I have updated the file_checksum entry in every file and now I want a cookie :p'
+          labels: Checksums
+          add-paths: .
