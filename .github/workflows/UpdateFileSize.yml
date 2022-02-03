@@ -16,7 +16,7 @@ jobs:
         run: ls -a ..
       
       - name: Download Control Script
-        run: https://raw.githubusercontent.com/bottlesdevs/tools/main/DependenciesUpdater/CheckFileSize.py
+        run: wget https://raw.githubusercontent.com/bottlesdevs/tools/main/DependenciesUpdater/CheckFileSize.py
       
       - name: Run script in Deps/Essential
         run: HIDE_PROGRESS=true python3 CheckFileSize.py .
