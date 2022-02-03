@@ -1,4 +1,4 @@
-name: Automatic Size Update
+name: Automatic Checksum Update
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     - cron: '0 0 * * 1'
     
 jobs:
-  SizeCheck:
+  ChecksumCheck:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,10 +16,10 @@ jobs:
         run: ls -a ..
       
       - name: Download Control Script
-        run: https://raw.githubusercontent.com/bottlesdevs/tools/main/DependenciesUpdater/CheckFilechecksum.py
+        run: wget https://raw.githubusercontent.com/bottlesdevs/tools/main/DependenciesUpdater/CheckFileChecksum.py
       
       - name: Run script in Deps/Essential
-        run: HIDE_PROGRESS=true python3 CheckFileSize.py .
+        run: HIDE_PROGRESS=true python3 CheckFileChecksum.py .
         
       - name: Remove control script
         run: rm run.py
