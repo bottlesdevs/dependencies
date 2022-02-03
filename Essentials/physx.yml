@@ -10,5 +10,5 @@ Steps:
   url: https://uk.download.nvidia.com/Windows/9.19.0218/PhysX-9.19.0218-SystemSoftware.exe
   rename: physx.exe
   file_checksum: 5114bf28a575264366c1ad0f5fe76fd0
-  file_size: 29580368
+  file_size: 345
   arguments: /s
