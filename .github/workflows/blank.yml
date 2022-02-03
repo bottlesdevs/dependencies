@@ -1,0 +1,32 @@
+name: Automatic Checksum Control
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  ChecksumCheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Check Directory
+        run: ls -a ..
+      
+      - name: Download Control Script
+        run: wget https://raw.githubusercontent.com/francescomasala/tools/main/DependenciesUpdater/run.py
+      
+      - name: Run script in Deps/Essential
+        run: HIDE_PROGRESS=true python3 run.py .
+        
+      - name: Remove control script
+        run: rm run.py
+        
+      - name: Create a pull request with updated checksums
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Updated checksums and file size
+          title: '[Auto - Update] Updated Checksums and file size'
+          body: 'Hi! I have updated the checksums and file sizes and now I want a cookie :p'
+          labels: Checksums
+          add-paths: .

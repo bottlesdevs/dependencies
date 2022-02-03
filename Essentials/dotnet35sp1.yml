@@ -17,6 +17,7 @@ Steps:
   arguments: /lang:ENU
   rename: dotnet35sp1.exe
   file_checksum: d481cda2625d9dd2731a00f482484d86
+  file_size: 0
 
 - action: set_windows
   version: win10

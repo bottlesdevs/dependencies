@@ -9,6 +9,7 @@ Steps:
   file_name: trebuc32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/trebuc32.exe
   file_checksum: 0d7ea16cac6261f8513a061fbfcdb2b5
+  file_size: 0
   dest: temp/trebuc32
     
 - action: install_cab_fonts

@@ -9,4 +9,5 @@ Steps:
   file_name: AccessRuntime2007.exe
   url: https://www.fmsinc.com/microsoftaccess/runtime/AccessRuntime2007.exe
   file_checksum: f448b8b0d41b867fa0491df96bfe624d
+  file_size: 58937448
   arguments: /q

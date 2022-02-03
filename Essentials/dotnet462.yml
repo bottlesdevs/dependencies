@@ -20,6 +20,7 @@ Steps:
   url: https://download.visualstudio.microsoft.com/download/pr/8e396c75-4d0d-41d3-aea8-848babc2736a/80b431456d8866ebe053eb8b81a168b3/NDP462-KB3151800-x86-x64-AllOS-ENU.exe
   rename: dotnet462.exe
   file_checksum: 9fa38b5449fbb7cca1c4a622446f6110
+  file_size: 0
   arguments: /sfxlang:1027 /norestart
 
 - action: set_windows

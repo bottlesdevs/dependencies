@@ -10,4 +10,5 @@ Steps:
   url: http://appldnld.apple.com/QuickTime/061-2915.20070710.pO94c/QuickTimeInstaller.exe
   rename: quicktime72.exe
   file_checksum: 2ad411556d3584c338ba013ef38854e2
+  file_size: 0
   arguments: /qn

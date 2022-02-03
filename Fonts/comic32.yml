@@ -9,6 +9,7 @@ Steps:
   file_name: comic32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/comic32.exe
   file_checksum: 2b30de40bb5e803a0452c7715fc835d1
+  file_size: 0
   dest: temp/comic32
 
 - action: install_cab_fonts

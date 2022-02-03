@@ -11,6 +11,7 @@ Steps:
   file_name: SourceHanSans.ttc.zip
   url: https://github.com/adobe-fonts/source-han-sans/releases/download/2.004R/SourceHanSans.ttc.zip
   file_checksum: ce3fc169af61a4e7bc650e7e78186330
+  file_size: 0
   
 # Install fonts
 - action: install_fonts

@@ -13,3 +13,4 @@ Steps:
   url: https://dl.winehq.org/wine/wine-mono/7.1.1/wine-mono-7.1.1-x86.msi
   rename: wine-mono-7.1.1-x86.msi
   file_checksum: 7585cffd0ac8a4ed9558697471208591
+  file_size: 0

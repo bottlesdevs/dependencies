@@ -25,6 +25,7 @@ Steps:
   rename: dotnet40.exe
   arguments: /q
   file_checksum: 251743dfd3fda414570524bac9e55381
+  file_size: 0
 
 - action: set_windows
   version: win10

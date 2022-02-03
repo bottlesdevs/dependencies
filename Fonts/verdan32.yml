@@ -9,6 +9,7 @@ Steps:
   file_name: verdan32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/verdan32.exe
   file_checksum: 12d2a75f8156e10607be1eaa8e8ef120
+  file_size: 0
   dest: temp/verdan32
 
 - action: install_cab_fonts
