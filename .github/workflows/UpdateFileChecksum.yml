@@ -22,7 +22,7 @@ jobs:
         run: HIDE_PROGRESS=true python3 CheckFileChecksum.py .
         
       - name: Remove control script
-        run: rm run.py
+        run: rm CheckFileChecksum.py
         
       - name: Create a pull request with updated checksums
         uses: peter-evans/create-pull-request@v3
