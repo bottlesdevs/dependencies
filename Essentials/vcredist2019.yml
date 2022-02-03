@@ -10,82 +10,63 @@ Steps:
   url: https://aka.ms/vs/16/release/VC_redist.x86.exe
   rename: vcredist2019_x86.exe
   file_checksum: dd0232ee751164eaad2fe0de7158d77d
-  file_size: 0
+  file_size: 13787064
   arguments: /quiet /norestart
-
 - action: install_exe
   file_name: VC_redist.x64.exe
   url: https://aka.ms/vs/16/release/VC_redist.x64.exe
   rename: vcredist2019_x64.exe
   file_checksum: 35431d059197b67227cd12f841733539
-  file_size: 0
+  file_size: 25226464
   arguments: /quiet /norestart
-
 - action: override_dll
   dll: api-ms-win-crt-private-l1-1-0
   type: native,builtin
-
 - action: override_dll
   dll: api-ms-win-crt-conio-l1-1-0
   type: native,builtin
-
 - action: override_dll
   dll: api-ms-win-crt-heap-l1-1-0
   type: native,builtin
-
 - action: override_dll
   dll: api-ms-win-crt-locale-l1-1-0
   type: native,builtin
-
 - action: override_dll
   dll: api-ms-win-crt-math-l1-1-0
   type: native,builtin
-
 - action: override_dll
   dll: api-ms-win-crt-runtime-l1-1-0
   type: native,builtin
-
 - action: override_dll
   dll: api-ms-win-crt-stdio-l1-1-0
   type: native,builtin
-
 - action: override_dll
   dll: api-ms-win-crt-time-l1-1-0
   type: native,builtin
-
 - action: override_dll
   dll: atl140
   type: native,builtin
-
 - action: override_dll
   dll: concrt140
   type: native,builtin
-
 - action: override_dll
   dll: msvcp140
   type: native,builtin
-
 - action: override_dll
   dll: msvcp140_1
   type: native,builtin
-
 - action: override_dll
   dll: msvcp140_2
   type: native,builtin
-
 - action: override_dll
   dll: msvcr140
   type: native,builtin
-
 - action: override_dll
   dll: vcomp140
   type: native,builtin
-
 - action: override_dll
   dll: vcruntime140
   type: native,builtin
-
 - action: override_dll
   dll: vcruntime140_1
   type: native,builtin
-  

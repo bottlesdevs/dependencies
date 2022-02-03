@@ -4,106 +4,84 @@ Provider: Microsoft
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
-Steps:  
-
+Steps:
 - action: download_archive
   file_name: VC6RedistSetup_deu.exe
   url: https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe
   file_checksum: 53a0925609b366daa17051e1e4be3b86
-  file_size: 0
-
+  file_size: 1837888
 - action: get_from_cab
   source: VC6RedistSetup_deu.exe
   file_name: vcredist.exe
   dest: temp/vcredist6/
-
 - action: get_from_cab
   file_name: asycfilt.dll
   source: vcredist6/vcredist.exe
   dest: win32
-
 - action: get_from_cab
   file_name: comcat.dll
   source: vcredist6/vcredist.exe
   dest: win32
-
 - action: get_from_cab
   file_name: mfc42.dll
   source: vcredist6/vcredist.exe
   dest: win32
-
 - action: get_from_cab
   file_name: mfc42u.dll
   source: vcredist6/vcredist.exe
   dest: win32
-
 - action: get_from_cab
   file_name: msvcirt.dll
   source: vcredist6/vcredist.exe
   dest: win32
-
 - action: get_from_cab
   file_name: msvcp60.dll
   source: vcredist6/vcredist.exe
   dest: win32
-
 - action: get_from_cab
   file_name: msvcrt.dll
   source: vcredist6/vcredist.exe
   dest: win32
-
 - action: get_from_cab
   file_name: oleaut32.dll
   source: vcredist6/vcredist.exe
   dest: win32
-
 - action: get_from_cab
   file_name: olepro32.dll
   source: vcredist6/vcredist.exe
   dest: win32
-
 - action: get_from_cab
   file_name: atla.dll
   source: vcredist6/vcredist.exe
   dest: win32
-
 - action: get_from_cab
   file_name: stdole2.tlb
   source: vcredist6/vcredist.exe
   dest: win32
-
 - action: override_dll
   dll: asycfilt
   type: native,builtin
-
 - action: override_dll
   dll: comcat
   type: native,builtin
-
 - action: override_dll
   dll: mfc42
   type: native,builtin
-
 - action: override_dll
   dll: mfc42u
   type: native,builtin
-
 - action: override_dll
   dll: msvcirt
   type: native,builtin
-
 - action: override_dll
   dll: msvcp60
   type: native,builtin
-
 - action: override_dll
   dll: msvcrt
   type: native,builtin
-
 - action: override_dll
   dll: oleaut32
   type: native,builtin
-
 - action: override_dll
   dll: olepro32
   type: native,builtin

@@ -7,28 +7,24 @@ Dependencies: []
 Steps:
 - action: download_archive
   file_name: windows6.1-kb976932-x86_c3516bc5c9e69fee6d9ac4f981f5b95977a8a2fa.exe
-  url:  http://download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x86_c3516bc5c9e69fee6d9ac4f981f5b95977a8a2fa.exe
+  url: http://download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x86_c3516bc5c9e69fee6d9ac4f981f5b95977a8a2fa.exe
   rename: windows6.1-kb976932-x86.exe
   file_checksum: 4bf28fc00d86c936c89e2d91ef46758b
-  file_size: 0
-
+  file_size: 563934504
 - action: download_archive
   file_name: windows6.1-kb976932-x64_74865ef2562006e51d7f9333b4a8d45b7a749dab.exe
-  url:  http://download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x64_74865ef2562006e51d7f9333b4a8d45b7a749dab.exe
+  url: http://download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x64_74865ef2562006e51d7f9333b4a8d45b7a749dab.exe
   rename: windows6.1-kb976932-x64.exe
   file_checksum: 28d3932f714bf71d78e75d36aa2e0fb8
-  file_size: 0
-
+  file_size: 947070088
 - action: get_from_cab
   source: windows6.1-kb976932-x86.exe
   file_name: gdiplus.dll
   dest: win32
-
 - action: get_from_cab
   source: windows6.1-kb976932-x64.exe
   file_name: gdiplus.dll
   dest: win64/
-  
 - action: override_dll
   dll: gdiplus
   type: native,builtin

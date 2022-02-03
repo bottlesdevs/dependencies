@@ -9,13 +9,12 @@ Steps:
   file_name: courie32.exe
   url: https://mirrors.kernel.org/gentoo/distfiles/courie32.exe
   file_checksum: 4e412c772294403ab62fb2d247d85c60
-  file_size: 0
+  file_size: 646368
   dest: temp/courie32
-
 - action: install_cab_fonts
   url: temp/courie32
-  fonts: 
-   - cour.ttf
-   - courbd.ttf
-   - courbi.ttf
-   - couri.ttf
+  fonts:
+  - cour.ttf
+  - courbd.ttf
+  - courbi.ttf
+  - couri.ttf
