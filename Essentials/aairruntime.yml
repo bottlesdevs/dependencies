@@ -1,0 +1,13 @@
+Name: aairruntime
+Description: Harman Air Runtime
+Provider: Harman
+License: Harman
+License_url: https://airsdk.harman.com/assets/pdfs/HARMAN%20AIR%20SDK%20License%20Agreement.pdf
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: AdobeAIR.exe
+  url: https://airsdk.harman.com/assets/downloads/AdobeAIR.exe
+  file_checksum: 8d377b130be65e67a845c89e0117c305
+  file_size: 7838984
+  rename: adobeair.exe
