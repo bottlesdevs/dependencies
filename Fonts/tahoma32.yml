@@ -9,7 +9,7 @@ Steps:
   file_name: IELPKTH.CAB
   url: https://downloads.sourceforge.net/corefonts/OldFiles/IELPKTH.CAB
   file_checksum: 358584cddb75ac90472c25f01b308ebe
-  file_size: 0
+  file_size: 411248
   
 - action: get_from_cab
   source: IELPKTH.CAB
