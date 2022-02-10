@@ -9,7 +9,7 @@ Steps:
   file_name: VS6SP6.EXE
   url: https://www.ddsystem.com.br/update/setup/vb6+sp6/VS6SP6.EXE
   file_checksum: b69f34e54fe4603f8d42021891743651
-  file_size: 63799912
+  file_size: 226
 - action: get_from_cab
   source: VS6SP6.EXE
   file_name: vcredist.exe
