@@ -172,3 +172,6 @@ courie32:
 times32:
   Description: Microsoft Times New Roman Font
   Category: Fonts
+tahoma32:
+  Description: Microsoft Tahoma Font
+  Category: Fonts
