@@ -78,6 +78,9 @@ dotnetcoredesktop3:
 
 # GENERIC
 # ------------------------------
+aairruntime:
+  Description: Harman AIR runtime
+  Category: Essentials
 msxml3:
   Description: Microsoft Core XML Services (MSXML) 3.0
   Category: Essentials
