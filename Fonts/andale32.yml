@@ -11,6 +11,7 @@ Steps:
   file_checksum: cbdc2fdd7d2ed0832795e86a8b9ee19a
   file_size: 198384
   dest: temp/andale32
+  
 - action: install_cab_fonts
   url: temp/andale32
   fonts:

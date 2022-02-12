@@ -12,6 +12,7 @@ Steps:
   file_checksum: a53624c3fb8325c736f651cdbc32185f
   file_size: 48745264
   arguments: /quiet
+  
 - action: install_exe
   file_name: windowsdesktop-runtime-3.1.10-win-x64.exe
   url: https://download.visualstudio.microsoft.com/download/pr/513acf37-8da2-497d-bdaa-84d6e33c1fee/eb7b010350df712c752f4ec4b615f89d/windowsdesktop-runtime-3.1.10-win-x64.exe

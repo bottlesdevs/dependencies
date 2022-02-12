@@ -12,6 +12,7 @@ Steps:
   file_checksum: a92a4d8e784d8f859217f828fe879047
   file_size: 4483040
   arguments: /q
+
 - action: install_exe
   file_name: vcredist_x64.exe
   url: https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe
@@ -19,18 +20,23 @@ Steps:
   file_checksum: 472c10efa75a30deb2a15ec8b777227b
   file_size: 5211080
   arguments: /q
+
 - action: override_dll
   dll: atl80
   type: native,builtin
+
 - action: override_dll
   dll: msvcm80
   type: native,builtin
+
 - action: override_dll
   dll: msvcp80
   type: native,builtin
+
 - action: override_dll
   dll: msvcr80
   type: native,builtin
+  
 - action: override_dll
   dll: vcomp
   type: native,builtin

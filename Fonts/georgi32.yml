@@ -11,6 +11,7 @@ Steps:
   file_checksum: 4d90016026e2da447593b41a8d8fa8bd
   file_size: 392440
   dest: temp/georgi32
+  
 - action: install_cab_fonts
   url: temp/georgi32
   fonts:

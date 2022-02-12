@@ -10,94 +10,124 @@ Steps:
   url: https://github.com/adobe-fonts/source-han-sans/releases/download/2.004R/SourceHanSans.ttc.zip
   file_checksum: ce3fc169af61a4e7bc650e7e78186330
   file_size: 95184312
+
 - action: install_fonts
   url: temp/SourceHanSans.ttc
   fonts:
   - SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans SC ExtraLight
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans SC Light
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans SC Normal
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans SC
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans SC Medium
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans SC Bold
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans SC Heavy
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans TC ExtraLight
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans TC Light
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans TC Normal
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans TC
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans TC Medium
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans TC Bold
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans TC Heavy
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans ExtraLight
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans Light
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans Normal
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans Medium
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans Bold
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans Heavy
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans K ExtraLight
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans K Light
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans K Normal
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans K
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans K Medium
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans K Bold
   file: SourceHanSans.ttc
+
 - action: register_font
   name: Source Han Sans K Heavy
   file: SourceHanSans.ttc
+
 - action: replace_font
   font: Source Han Sans SC
   replace:
@@ -111,6 +141,7 @@ Steps:
   - SimKai
   - SimSun
   - SimSun-ExtB
+
 - action: replace_font
   font: Source Han Sans TC
   replace:
@@ -121,6 +152,7 @@ Steps:
   - PMingLiU
   - MingLiU-ExtB
   - PMingLiU-ExtB
+
 - action: replace_font
   font: Source Han Sans
   replace:
@@ -142,6 +174,7 @@ Steps:
   - "\uFF2D\uFF33 \uFF30\u30B4\u30B7\u30C3\u30AF"
   - "\uFF2D\uFF33 \u660E\u671D"
   - "\uFF2D\uFF33 \uFF30\u660E\u671D"
+  
 - action: replace_font
   font: Source Han Sans K
   replace:

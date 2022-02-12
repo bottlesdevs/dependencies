@@ -8,8 +8,10 @@ Dependencies:
 Steps:
 - action: uninstall
   file_name: Wine Mono
+
 - action: set_windows
   version: win7
+
 - action: install_exe
   environment:
     WINEDLLOVERRIDES: fusion=b
@@ -19,8 +21,10 @@ Steps:
   file_checksum: ee01fc4110c73a8e5efc7cabda0f5ff7
   file_size: 69999448
   arguments: /q /norestart
+
 - action: set_windows
   version: win10
+  
 - action: override_dll
   dll: mscoree
   type: native

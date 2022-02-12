@@ -11,6 +11,7 @@ Steps:
   rename: wine_gecko-2.47.2-x86.msi
   file_checksum: e0a26e37397961b2c7f624575590ef66
   file_size: 59162112
+  
 - action: install_msi
   file_name: wine_gecko-2.47.2-x86_64.msi
   url: https://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi

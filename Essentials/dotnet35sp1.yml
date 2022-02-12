@@ -7,8 +7,10 @@ Dependencies: []
 Steps:
 - action: uninstall
   file_name: Wine Mono
+
 - action: set_windows
   version: winxp
+  
 - action: install_exe
   file_name: dotnetfx35.exe
   url: https://download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe
@@ -16,11 +18,14 @@ Steps:
   rename: dotnet35sp1.exe
   file_checksum: d481cda2625d9dd2731a00f482484d86
   file_size: 242743296
+
 - action: set_windows
   version: win10
+
 - action: override_dll
   dll: mscoree
   type: native,builtin
+  
 - action: override_dll
   dll: mscorwks
   type: native,builtin

@@ -10,10 +10,12 @@ Steps:
   url: https://web.archive.org/web/20160710055851if_/http://download.microsoft.com/download/WindowsInstaller/Install/2.0/NT45/EN-US/InstMsiW.exe
   file_checksum: 53820efbc952107ee1a38be6cd5aa3f0
   file_size: 1822848
+
 - action: get_from_cab
   source: nstMsiW.exe
   file_name: msls31.dll
   dest: win32
+  
 - action: override_dll
   dll: msls31
   type: native,builtin

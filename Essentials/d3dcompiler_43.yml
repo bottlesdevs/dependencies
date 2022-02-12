@@ -10,24 +10,29 @@ Steps:
   url: https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe
   file_checksum: 822e4c516600e81dc7fb16d9a77ec6d4
   file_size: 100275120
+
 - action: get_from_cab
   source: directx_Jun2010_redist.exe
   file_name: Jun2010_D3DCompiler_43_x86.cab
   dest: temp/d3dcompiler_43_x86/
+
 - action: get_from_cab
   source: directx_Jun2010_redist.exe
   file_name: Jun2010_D3DCompiler_43_x64.cab
   dest: temp/d3dcompiler_43_x64/
+
 - action: get_from_cab
   source: d3dcompiler_43_x86/Jun2010_D3DCompiler_43_x86.cab
   file_name: D3DCompiler_43.dll
   dest: win32
   rename: d3dcompiler_43.dll
+
 - action: get_from_cab
   source: d3dcompiler_43_x64/Jun2010_D3DCompiler_43_x64.cab
   file_name: D3DCompiler_43.dll
   dest: win64/
   rename: d3dcompiler_43.dll
+  
 - action: override_dll
   dll: d3dcompiler_43
   type: native,builtin

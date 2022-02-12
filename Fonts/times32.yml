@@ -11,6 +11,7 @@ Steps:
   file_checksum: ed39c8ef91b9fb80f76f702568291bd5
   file_size: 661728
   dest: temp/times32
+  
 - action: install_cab_fonts
   url: temp/times32
   fonts:

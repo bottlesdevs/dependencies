@@ -10,8 +10,10 @@ Uninstaller: Microsoft .NET Framework 4 Extended
 Steps:
 - action: uninstall
   file_name: Wine Mono
+
 - action: set_windows
   version: win7
+
 - action: install_exe
   environment:
     WINEDLLOVERRIDES: fusion=b
@@ -21,18 +23,22 @@ Steps:
   arguments: /q
   file_checksum: 251743dfd3fda414570524bac9e55381
   file_size: 50449456
+
 - action: set_windows
   version: win10
+
 - action: set_register_key
   key: HKLM\\Software\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full
   value: Install
   data: '0001'
   type: REG_DWORD
+
 - action: set_register_key
   key: HKLM\\Software\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full
   value: Version
   data: 4.0.30319
   type: REG_SZ
+  
 - action: override_dll
   dll: mscoree
   type: native

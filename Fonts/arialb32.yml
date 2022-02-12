@@ -11,6 +11,7 @@ Steps:
   file_checksum: c9089ae0c3b3d0d8c4b0a95979bb9ff0
   file_size: 168176
   dest: temp/arialb32
+  
 - action: install_cab_fonts
   url: temp/arialb32
   fonts:

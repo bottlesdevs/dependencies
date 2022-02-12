@@ -11,6 +11,7 @@ Steps:
   file_checksum: 7907c7dd6684e9bade91cff82683d9d7
   file_size: 173288
   dest: temp/impact32
+  
 - action: install_cab_fonts
   url: temp/impact32
   fonts:
