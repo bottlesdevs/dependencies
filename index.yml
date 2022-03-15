@@ -81,6 +81,9 @@ dotnetcoredesktop3:
 aairruntime:
   Description: Harman AIR runtime
   Category: Essentials
+mfc40:
+   Description: Microsoft mfc40 Microsoft Foundation Classes
+   Category: Essentials
 msxml3:
   Description: Microsoft Core XML Services (MSXML) 3.0
   Category: Essentials
