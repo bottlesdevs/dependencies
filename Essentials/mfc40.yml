@@ -1,0 +1,30 @@
+Name: mfc40
+Description: Microsoft mfc40 Microsoft Foundation Classes from win7sp1
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: download_archive
+  file_name: windows6.1-kb976932-x86.exe
+  url: https://cdn.usebottles.com/dependencies/windows6.1-kb976932-x86.exe
+  file_checksum: 4bf28fc00d86c936c89e2d91ef46758b
+  file_size: 592948
+
+- action: get_from_cab
+  source: windows6.1-kb976932-x86.exe
+  file_name: x86_microsoft-windows-mfc40_31bf3856ad364e35_6.1.7601.17514_none_5c06580240091047/mfc40.dll
+  dest: win32/
+
+- action: get_from_cab
+  source: windows6.1-kb976932-x86.exe
+  file_name: x86_microsoft-windows-mfc40u_31bf3856ad364e35_6.1.7601.17514_none_f51a7bf0b3d25294/mfc40u.dll
+  dest: win32/
+  
+- action: override_dll
+  dll: mfc40
+  type: native,builtin
+  
+- action: override_dll
+  dll: mfc40u
+  type: native,builtin
