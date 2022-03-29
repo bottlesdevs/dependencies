@@ -9,6 +9,9 @@ gecko:
 
 # REDIST
 # ------------------------------
+vbrun6:
+  Description: Microsoft Visual Basic 6 Runtime SP6
+  Category: Essentials
 vcredist6:
   Description: Microsoft Visual C++ 6 SP4 libraries
   Category: Essentials
