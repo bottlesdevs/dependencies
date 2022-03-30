@@ -169,6 +169,9 @@ cjkfonts:
 arial32:
   Description: Microsoft Arial Font
   Category: Fonts
+arialb32:
+  Description: Microsoft Arial Black Font
+  Category: Fonts
 comic32:
   Description: Microsoft Comic Sans MS Font
   Category: Fonts
