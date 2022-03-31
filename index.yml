@@ -1,5 +1,5 @@
+--- # ------------------------------
 # WINE
-# ------------------------------
 mono:
   Description: Wine mono
   Category: Essentials
@@ -85,8 +85,8 @@ aairruntime:
   Description: Harman AIR runtime
   Category: Essentials
 mfc40:
-   Description: Microsoft mfc40 Microsoft Foundation Classes
-   Category: Essentials
+  Description: Microsoft mfc40 Microsoft Foundation Classes
+  Category: Essentials
 msxml3:
   Description: Microsoft Core XML Services (MSXML) 3.0
   Category: Essentials
@@ -107,6 +107,9 @@ art2k7min:
   Category: Essentials
 riched20:
   Description: Microsoft RichEdit Control 2.0 (riched20.dll)
+  Category: Essentials
+msftedit:
+  Description: Microsoft RichEdit Control 4.1 (msftedit.dll)
   Category: Essentials
 msls31:
   Description: Microsoft Line Services
@@ -148,7 +151,7 @@ d3dcompiler_46:
 d3dcompiler_47:
   Description: Microsoft d3dcompiler_47.dll
   Category: Essentials
-  
+
 # CODECS
 # ------------------------------
 ffdshow:
@@ -157,7 +160,7 @@ ffdshow:
 dirac:
   Description: The Dirac directshow filter v1.0.2
   Category: Essentials
-  
+
 # FONTS
 # ------------------------------
 allfonts:
