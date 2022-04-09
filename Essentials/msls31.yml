@@ -12,7 +12,7 @@ Steps:
   file_size: 1822848
 
 - action: get_from_cab
-  source: nstMsiW.exe
+  source: InstMsiW.exe
   file_name: msls31.dll
   dest: win32
   
