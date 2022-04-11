@@ -9,6 +9,6 @@ Steps:
   file_name: ffdshow_beta7_rev3154_20091209.exe
   url: https://downloads.sourceforge.net/ffdshow-tryout/ffdshow_beta7_rev3154_20091209.exe
   rename: ffdshow_beta7_rev3154_20091209.exe
-  arguments: /silent
+  arguments: ""
   file_checksum: c3f75f29521f749f9c9fc5489544cb04
   file_size: 4560237
