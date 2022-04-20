@@ -19,3 +19,19 @@ Steps:
   - Georgiab.TTF
   - Georgiai.TTF
   - Georgia.TTF
+
+- action: register_font
+  name: Georgia
+  file: Georgia.TTF
+
+- action: register_font
+  name: Georgia Bold
+  file: Georgiab.TTF
+
+- action: register_font
+  name: Georgia Italic
+  file: Georgiai.TTF
+
+- action: register_font
+  name: Georgia Bold Italic
+  file: Georgiaz.TTF

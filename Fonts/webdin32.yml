@@ -16,3 +16,7 @@ Steps:
   url: temp/webdin32
   fonts:
   - Webdings.TTF
+
+- action: register_font
+  name: Webdings
+  file: Webdings.TTF

@@ -19,3 +19,19 @@ Steps:
   - courbd.ttf
   - courbi.ttf
   - couri.ttf
+
+- action: register_font
+  name: Courier New
+  file: cour.ttf
+
+- action: register_font
+  name: Courier New Bold Italic
+  file: courbi.ttf
+
+- action: register_font
+  name: Courier New Italic
+  file: couri.ttf
+
+- action: register_font
+  name: Georgia Bold Italic
+  file: Georgiaz.TTF

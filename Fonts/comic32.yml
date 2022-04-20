@@ -17,3 +17,11 @@ Steps:
   fonts:
   - Comicbd.TTF
   - Comic.TTF
+
+- action: register_font
+  name: Comic Sans MS
+  file: Comic.TTF
+
+- action: register_font
+  name: Comic Sans MS Bold
+  file: Comicbd.TTF

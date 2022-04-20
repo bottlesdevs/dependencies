@@ -19,3 +19,19 @@ Steps:
   - Verdanai.TTF
   - Verdanaz.TTF
   - Verdana.TTF
+
+- action: register_font
+  name: Verdana
+  file: Verdana.TTF
+
+- action: register_font
+  name: Verdana Italic
+  file: Verdanai.TTF
+
+- action: register_font
+  name: Verdana Bold Italic
+  file: Verdanaz.TTF
+
+- action: register_font
+  name: Verdana Bold
+  file: Verdanab.TTF
