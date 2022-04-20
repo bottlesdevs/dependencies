@@ -9,14 +9,14 @@ Steps:
   file_name: dotnet-runtime-3.1.24-win-x86.exe
   url: https://download.visualstudio.microsoft.com/download/pr/ef6e674c-f33e-41db-90a1-af92a815d2e1/509285f9212cbbf6fde3d35b213bc80d/dotnet-runtime-3.1.24-win-x86.exe
   rename: dotnet-runtime-3.1.24-win-x86.exe
-  file_checksum: 03832c85bc74de4fcb7fffa862b9f4a5
-  file_size: 23451472
+  file_checksum: f07b18ba256fa0749c6198538daad9a0
+  file_size: 23481240
   arguments: /quiet
   
 - action: install_exe
   file_name: dotnet-runtime-3.1.24-win-x64.exe
   url: https://download.visualstudio.microsoft.com/download/pr/2853878f-6a7b-472d-bd70-a6ef81babf55/16066a594cf3273d9cb004561e3fea5a/dotnet-runtime-3.1.24-win-x64.exe
   rename: dotnet-runtime-3.1.24-win-x64.exe
-  file_checksum: a6e46b0e884ba62316560e3bd17384a5
-  file_size: 26230496
+  file_checksum: 8c7048c665a6187f0a1d029bce4b0a6c
+  file_size: 26466160
   arguments: /quiet

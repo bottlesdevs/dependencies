@@ -9,14 +9,14 @@ Steps:
   file_name: windowsdesktop-runtime-3.1.24-win-x86.exe
   url: https://download.visualstudio.microsoft.com/download/pr/510706ca-1040-4fb8-934b-f28af4fa522a/92919ca73e073d210a8b2e76c5172b25/windowsdesktop-runtime-3.1.24-win-x86.exe
   rename: windowsdesktop-runtime-3.1.24-win-x86.exe
-  file_checksum: a53624c3fb8325c736f651cdbc32185f
-  file_size: 48745264
+  file_checksum: d816f6ca39bd1a7a5966dcb0f1d6b5b2
+  file_size: 49108608
   arguments: /quiet
   
 - action: install_exe
   file_name: windowsdesktop-runtime-3.1.24-win-x64.exe
   url: https://download.visualstudio.microsoft.com/download/pr/c561eb57-4bf5-4bf4-aa3c-bd6dd0342c6a/5257304cf597d41ac6369c02813412c6/windowsdesktop-runtime-3.1.24-win-x64.exe
   rename: windowsdesktop-runtime-3.1.24-win-x64.exe
-  file_checksum: f5289dc19c63a60e063c77ba3f59fb43
-  file_size: 54513872
+  file_checksum: 9742e66b1e61f247683b4624265cfaa2
+  file_size: 55004016
   arguments: /quiet
