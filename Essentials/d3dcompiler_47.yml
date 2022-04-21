@@ -9,14 +9,12 @@ Steps:
   file_name: d3dx9.tar.xz
   url: https://cdn.usebottles.com/dependencies/d3dx9.tar.xz
   file_checksum: 0e444b86310e732f50a971466f3f06a3
-  file_size: 100275120
+  file_size: 19651992
   dest: temp/d3dx9/
-
 - action: copy_dll
   url: temp/d3dx9.tar/d3dx9/win32/
   file_name: d3dcompiler_47.dll
   dest: win32
-
 - action: copy_dll
   url: temp/d3dx9.tar/d3dx9/win64/
   file_name: d3dcompiler_47.dll
