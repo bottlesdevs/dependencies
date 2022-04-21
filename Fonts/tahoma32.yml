@@ -5,23 +5,37 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
-- action: cab_extract
+- action: download_archive
   file_name: IELPKTH.CAB
   url: https://downloads.sourceforge.net/corefonts/OldFiles/IELPKTH.CAB
   file_checksum: 358584cddb75ac90472c25f01b308ebe
   file_size: 411248
+
+- action: get_from_cab
+  source: IELPKTH.CAB
+  file_name: tahomabd.ttf
   dest: temp/tahoma32
+
+- action: get_from_cab
+  source: IELPKTH.CAB
+  file_name: tahoma.ttf
+  dest: temp/tahoma32
+
+- action: copy_file
+  file_name: '*.ttf'
+  url: temp/tahoma32
+  dest: temp/
   
 - action: install_cab_fonts
   url: temp/tahoma32
   fonts:
-  - tahomabd.TTF
-  - tahoma.TTF
+  - tahomabd.ttf
+  - tahoma.ttf
 
 - action: register_font
   name: Tahoma
-  file: tahoma.TTF
+  file: tahoma.ttf
 
 - action: register_font
   name: Tahoma Bold
-  file: tahomabd.TTF
+  file: tahomabd.ttf
