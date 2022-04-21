@@ -184,6 +184,12 @@ comic32:
 courie32:
   Description: Microsoft Courier New Font
   Category: Fonts
+georgi32:
+  Description: Microsoft Georgia Font
+  Category: Fonts
+impact32:
+  Description: Microsoft Impact Font
+  Category: Fonts
 times32:
   Description: Microsoft Times New Roman Font
   Category: Fonts
