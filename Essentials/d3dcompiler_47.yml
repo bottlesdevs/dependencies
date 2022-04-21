@@ -6,29 +6,18 @@ License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
 - action: archive_extract
-  file_name: Firefox Setup 62.0.3.exe
-  url: https://download-installer.cdn.mozilla.net/pub/firefox/releases/62.0.3/win32/ach/Firefox%20Setup%2062.0.3.exe
-  file_checksum: 9cd3382cf5f2a20c804fe12db3c70771
-  file_size: 40176024
-  rename: firefox_setup_6203_32bit.7z
-
-- action: archive_extract
-  file_name: Firefox Setup 62.0.3.exe
-  url: https://download-installer.cdn.mozilla.net/pub/firefox/releases/62.0.3/win64/ach/Firefox%20Setup%2062.0.3.exe
-  file_checksum: 58aabc1588593297851c38c6edf8736f
-  file_size: 0
-  rename: firefox_setup_6203_64bit.7z
+  file_name: d3dx9.tar.xz
+  url: https://cdn.usebottles.com/dependencies/d3dx9.tar.xz
+  file_checksum: 0e444b86310e732f50a971466f3f06a3
+  file_size: 100275120
+  dest: temp/d3dx9/
 
 - action: copy_dll
-  file_name: core/d3dcompiler_47.dll
-  url: temp/firefox_setup_6203_32bit
-  dest: win32/d3dcompiler_47.dll
+  url: temp/d3dx9.tar/d3dx9/win32/
+  file_name: d3dcompiler*_47.dll
+  dest: win32
 
 - action: copy_dll
-  file_name: core/d3dcompiler_47.dll
-  url: temp/firefox_setup_6203_64bit
-  dest: win64/d3dcompiler_47.dll
-  
-- action: override_dll
-  dll: d3dcompiler_47
-  type: native,builtin
+  url: temp/d3dx9.tar/d3dx9/win64/
+  file_name: d3dcompiler*_47.dll
+  dest: win64
