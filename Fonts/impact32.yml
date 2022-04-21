@@ -16,3 +16,7 @@ Steps:
   url: temp/impact32
   fonts:
   - Impact.TTF
+
+- action: register_font
+  name: Impact
+  file: Impact.TTF

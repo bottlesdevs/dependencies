@@ -16,3 +16,7 @@ Steps:
   url: temp/arialb32
   fonts:
   - AriBlk.TTF
+
+- action: register_font
+  name: Arial Black
+  file: AriBlk.TTF

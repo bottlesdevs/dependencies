@@ -175,6 +175,9 @@ arial32:
 arialb32:
   Description: Microsoft Arial Black Font
   Category: Fonts
+andale32:
+  Description: Microsoft Andale Font
+  Category: Fonts
 comic32:
   Description: Microsoft Comic Sans MS Font
   Category: Fonts
@@ -186,4 +189,13 @@ times32:
   Category: Fonts
 tahoma32:
   Description: Microsoft Tahoma Font
+  Category: Fonts
+trebuc32:
+  Description: Microsoft Trebuchet Font
+  Category: Fonts
+verdan32:
+  Description: Microsoft Verdan Font
+  Category: Fonts
+webdin32:
+  Description: Webdings Font
   Category: Fonts

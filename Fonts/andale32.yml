@@ -16,3 +16,7 @@ Steps:
   url: temp/andale32
   fonts:
   - AndaleMo.TTF
+
+- action: register_font
+  name: Andale Mono
+  file: AndaleMo.TTF

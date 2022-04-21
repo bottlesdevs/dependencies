@@ -19,3 +19,19 @@ Steps:
   - Timesbd.TTF
   - Timesbi.TTF
   - Timesi.TTF
+
+- action: register_font
+  name: Times New Roman
+  file: Times.TTF
+
+- action: register_font
+  name: Times New Roman Bold
+  file: Timesbd.TTF
+
+- action: register_font
+  name: Times New Roman Italic
+  file: Timesi.TTF
+  
+- action: register_font
+  name: Times New Roman Bold Italic
+  file: Timesbi.TTF
