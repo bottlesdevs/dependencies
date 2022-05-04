@@ -12,6 +12,10 @@ Steps:
   dlls:
     - msxml3
   
+- action: override_dll
+  dll: msxml3
+  type: native
+  
 - action: install_msi
   file_name: msxml3.msi
   url: https://media.codeweavers.com/pub/other/msxml3.msi
@@ -19,7 +23,3 @@ Steps:
   file_checksum: 7049c6531837341363fe69d068d001b0
   file_size: 1070592
   arguments: /q
-  
-- action: override_dll
-  dll: msxml3
-  type: native
