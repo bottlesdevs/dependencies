@@ -10,7 +10,7 @@ Steps:
 - action: delete_dlls
   dest: win32
   dlls:
-    - msxml3
+    - msxml3.dll
   
 - action: override_dll
   dll: msxml3
