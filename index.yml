@@ -151,6 +151,9 @@ d3dcompiler_46:
 d3dcompiler_47:
   Description: Microsoft d3dcompiler_47.dll
   Category: Essentials
+d3dx11:
+  Description: Microsoft d3dx11 DLLs from DirectX 11 redistributable
+  Category: Essentials
 
 # CODECS
 # ------------------------------
