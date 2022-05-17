@@ -42,6 +42,12 @@ vcredist2019:
 
 # .NET FRAMEWORKS
 # ------------------------------
+dotnet20:
+  Description: Microsoft .NET Framework 2.0
+  Category: Essentials
+dotnet20sp1:
+  Description: Microsoft .NET Framework 2.0 Service Pack 1
+  Category: Essentials
 dotnet35:
   Description: Microsoft .NET Framework 3.5
   Category: Essentials
