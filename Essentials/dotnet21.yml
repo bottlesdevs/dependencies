@@ -1,0 +1,33 @@
+Name: dotnet2sp1
+Description: Microsoft .NET Framework 2.0 Service Pack 1
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: 
+  - dotnet20
+
+# Tested with win10 and Caffe 7.8, seems setting win2000 is no more needed
+
+Steps:
+- action: uninstall
+  file_name: Wine Mono
+
+- action: install_exe
+  file_name: NetFx20SP1_x86.exe
+  url: https://download.microsoft.com/download/0/8/c/08c19fa4-4c4f-4ffb-9d6c-150906578c9e/NetFx20SP1_x86.exe
+  arguments: /q
+  rename: dotnet20sp1.exe
+  file_checksum: c61111d7d62306b997ce7dd04898b1ca
+  file_size: 0
+
+- action: install_exe
+  file_name: NetFx20SP1_x64.exe
+  url: https://download.microsoft.com/download/9/8/6/98610406-c2b7-45a4-bdc3-9db1b1c5f7e2/NetFx20SP1_x64.exe
+  arguments: /q
+  rename: dotnet20sp1_x64.exe
+  file_checksum: 4c07706a2ac5806944bc6a09c103bf9f
+  file_size: 0
+
+- action: override_dll
+  dll: mscorwks
+  type: native,builtin
