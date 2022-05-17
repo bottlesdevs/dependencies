@@ -1,5 +1,5 @@
---- # ------------------------------
 # WINE
+# ------------------------------
 mono:
   Description: Wine mono
   Category: Essentials
@@ -97,7 +97,7 @@ msxml3:
   Description: Microsoft Core XML Services (MSXML) 3.0
   Category: Essentials
 msxml4:
-  Description: MS XML Core Services 4.0
+  Description: Microsoft Core XML Services (MSXML) 4.0
   Category: Essentials
 msxml6:
   Description: Microsoft Core XML Services (MSXML) 6.0
