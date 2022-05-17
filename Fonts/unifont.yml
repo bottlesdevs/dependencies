@@ -1,0 +1,25 @@
+Name: unifont
+Description: Unifont replacement for Arial Unicode MS
+Provider: Roman Czyborra
+License: GPL-2.0-or-later
+License_url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Dependencies: []
+Steps:
+- action: download_archive
+  file_name: unifont-13.0.06.ttf
+  url: https://unifoundry.com/pub/unifont/unifont-13.0.06/font-builds/unifont-13.0.06.ttf
+  rename: unifont.ttf
+  
+- action: install_fonts
+  url: temp/unifont.ttf
+  fonts:
+  - unifont.ttf
+  
+- action: register_font
+  name: Unifont
+  file: unifont.ttf
+
+- action: replace_font
+  font: Unifont
+  replace:
+  - Arial Unicode MS
