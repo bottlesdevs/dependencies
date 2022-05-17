@@ -1,0 +1,25 @@
+Name: dotnet20
+Description: Microsoft .NET Framework 2.0
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Arch: win32
+Dependencies: []
+
+# Tested with win10 and Caffe 7.8, seems setting win2000 is no more needed
+
+Steps:
+- action: uninstall
+  file_name: Wine Mono
+
+- action: override_dll
+  dll: mscorwks
+  type: native,builtin
+
+- action: install_exe
+  file_name: dotnetfx.exe
+  url: https://download.lenovo.com/ibmdl/pub/pc/pccbbs/thinkvantage_en/dotnetfx.exe
+  arguments: /q
+  rename: dotnet20.exe
+  file_checksum: 93a13358898a54643adbca67d1533462
+  file_size: 0
