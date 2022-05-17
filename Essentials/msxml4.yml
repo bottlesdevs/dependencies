@@ -1,0 +1,25 @@
+Name: msxml4
+Description: MS XML Core Services 4.0
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Conflicts: []
+Uninstaller: []
+Steps:
+- action: delete_dlls
+  dest: win32
+  dlls:
+    - msxml4.dll
+  
+- action: override_dll
+  dll: msxml4
+  type: native
+  
+- action: install_msi
+  file_name: msxml.msi
+  url: https://web.archive.org/web/20210506101448/http://download.microsoft.com/download/A/2/D/A2D8587D-0027-4217-9DAD-38AFDB0A177E/msxml.msi
+  rename: msxml4.msi
+  file_checksum: 14e34a6cbd8f060a9c965e39b745657a
+  file_size: 0
+  arguments: /q
