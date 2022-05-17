@@ -172,6 +172,9 @@ dirac:
 
 # FONTS
 # ------------------------------
+unifont:
+  Description: Unifont replacement for Arial Unicode MS
+  Category: Fonts
 allfonts:
   Description: All Microsoft and Adobe essential fonts
   Category: Fonts
