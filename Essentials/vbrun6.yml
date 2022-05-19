@@ -10,30 +10,37 @@ Steps:
   url: https://lon-01.lo4d.com/files/visual-basic-runtime-files/VB6.0-KB290887-X86.exe
   file_checksum: ef5b83c4cc60e246bf627d85f6d7397b
   file_size: 1064736
+
 - action: get_from_cab
   source: VB6.0-KB290887-X86.exe
   file_name: vbrun60sp6
   dest: temp/vbrun60sp6/
+
 - action: get_from_cab
   file_name: asycfilt.dll
   source: vbrun60sp6/vbrun60sp6.exe
   dest: win32
+
 - action: get_from_cab
   file_name: comcat.dll
   source: vbrun60sp6/vbrun60sp6.exe
   dest: win32
+
 - action: get_from_cab
   file_name: msvbvm60.dll
   source: vbrun60sp6/vbrun60sp6.exe
   dest: win32
+
 - action: get_from_cab
   file_name: oleaut32.dll
   source: vbrun60sp6/vbrun60sp6.exe
   dest: win32
+
 - action: get_from_cab
   file_name: olepro32.dll
   source: vbrun60sp6/vbrun60sp6.exe
   dest: win32
+  
 - action: get_from_cab
   file_name: stdole2.tlb
   source: vbrun60sp6/vbrun60sp6.exe
