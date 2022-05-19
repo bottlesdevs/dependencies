@@ -10,39 +10,50 @@ Steps:
   url: https://www.ddsystem.com.br/update/setup/vb6+sp6/VS6SP6.EXE
   file_checksum: b69f34e54fe4603f8d42021891743651
   file_size: 226
+  
 - action: get_from_cab
   source: VS6SP6.EXE
   file_name: vcredist.exe
   dest: temp/vcredist6sp6/
   rename: vcredist6sp6.exe
+  
 - action: install_exe
   file_name: vcredist6sp6.exe
-  url: temp/vcredist6sp6/vcredist6sp6.exe
+  url: temp/vcredist6sp6/
   arguments: /q
+  
 - action: override_dll
   dll: asycfilt
   type: native,builtin
+  
 - action: override_dll
   dll: comcat
   type: native,builtin
+  
 - action: override_dll
   dll: mfc42
   type: native,builtin
+  
 - action: override_dll
   dll: mfc42u
   type: native,builtin
+  
 - action: override_dll
   dll: msvcirt
   type: native,builtin
+  
 - action: override_dll
   dll: msvcp60
   type: native,builtin
+  
 - action: override_dll
   dll: msvcrt
   type: native,builtin
+  
 - action: override_dll
   dll: oleaut32
   type: native,builtin
+  
 - action: override_dll
   dll: olepro32
   type: native,builtin
