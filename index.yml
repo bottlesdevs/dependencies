@@ -220,3 +220,6 @@ verdan32:
 webdin32:
   Description: Webdings Font
   Category: Fonts
+consolas:
+  Description: MS Consolas console font
+  Category: Fonts

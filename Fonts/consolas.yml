@@ -1,0 +1,49 @@
+Name: consolas
+Description: MS Consolas console font
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: archive_extract
+  file_name: consolas-fonts-tts.tar.bz2
+  url: https://github.com/pensnarik/consolas-font/raw/master/consolas-fonts-tts.tar.bz2
+  file_checksum: 728dfa03f8d86ef82a31d145b42a32c7
+  file_size: 482717
+  dest: temp/consolas
+
+- action: install_fonts
+  url: temp/consolas/Consolas-Bold.ttf
+  fonts:
+  - Consolas-Bold.ttf
+
+- action: register_font
+  name: Consolas Bold
+  file: Consolas-Bold.ttf
+
+- action: install_fonts
+  url: temp/consolas/Consolas-Bold-Italic.ttf
+  fonts:
+  - Consolas-Bold-Italic.ttf
+
+- action: register_font
+  name: Consolas Bold Italic
+  file: Consolas-Bold-Italic.ttf
+
+- action: install_fonts
+  url: temp/consolas/Consolas-Italic.ttf
+  fonts:
+  - Consolas-Italic.ttf
+
+- action: register_font
+  name: Consolas Italic
+  file: Consolas-Italic.ttf
+
+- action: install_fonts
+  url: temp/consolas/Consolas-Regular.ttf
+  fonts:
+  - Consolas-Regular.ttf
+
+- action: register_font
+  name: Consolas Regular
+  file: Consolas-Regular.ttf
