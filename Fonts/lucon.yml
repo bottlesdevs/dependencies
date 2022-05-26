@@ -1,0 +1,27 @@
+Name: lucon
+Description: MS Lucida Console font
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: archive_extract
+  file_name: eurofixi.exe
+  url: http://ftpmirror.your.org/pub/misc/ftp.microsoft.com/bussys/winnt/winnt-public/fixes/usa/NT40TSE/hotfixes-postSP3/Euro-fix/eurofixi.exe
+  file_checksum: b03f1c361edd9d6db41a19f1a6198af7
+  file_size: 1930192
+  dest: temp/eurofixi
+  
+- action: install_fonts
+  url: temp/eurofixi
+  fonts:
+  - lucon.ttf
+  
+- action: register_font
+  name: Lucida Console
+  file: lucon.ttf
+
+- action: replace_font
+  font: Unifont
+  replace:
+  - Arial Unicode MS
