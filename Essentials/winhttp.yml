@@ -13,12 +13,12 @@ Steps:
   file_size: 135477136
   
 - action: get_from_cab
-  source: w2ksp_en.exe
+  source: w2ksp4_en.exe
   file_name: winhttp.dl_
   dest: temp/winhttp/
   
 - action: get_from_cab
-  source: winhttp/i386/winhttp.dl_
+  source: winhttp/i386/new/winhttp.dl_
   file_name: winhttp.dll
   dest: win32
   
