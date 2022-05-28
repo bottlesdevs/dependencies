@@ -11,71 +11,76 @@ Steps:
   file_checksum: 0e444b86310e732f50a971466f3f06a3
   file_size: 19651992
   dest: temp/d3dx9/
+  
 - action: copy_dll
   url: temp/d3dx9.tar/d3dx9/win32/
   file_name: d3dx9_*.dll
   dest: win32
+  
 - action: copy_dll
   url: temp/d3dx9.tar/d3dx9/win64/
   file_name: d3dx9_*.dll
   dest: win64
+  
 - action: override_dll
-  dll: d3dx9_24
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_25
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_26
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_27
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_28
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_29
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_30
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_31
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_32
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_33
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_34
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_35
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_36
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_37
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_38
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_39
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_40
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_41
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_42
-  type: native,builtin
-- action: override_dll
-  dll: d3dx9_43
-  type: native,builtin
+  bundle: 
+    - value: d3dx9_24
+      data: native,builtin
+
+    - value: d3dx9_25
+      data: native,builtin
+
+    - value: d3dx9_26
+      data: native,builtin
+
+    - value: d3dx9_27
+      data: native,builtin
+
+    - value: d3dx9_28
+      data: native,builtin
+
+    - value: d3dx9_29
+      data: native,builtin
+
+    - value: d3dx9_30
+      data: native,builtin
+
+    - value: d3dx9_31
+      data: native,builtin
+
+    - value: d3dx9_32
+      data: native,builtin
+
+    - value: d3dx9_33
+      data: native,builtin
+
+    - value: d3dx9_34
+      data: native,builtin
+
+    - value: d3dx9_35
+      data: native,builtin
+
+    - value: d3dx9_36
+      data: native,builtin
+
+    - value: d3dx9_37
+      data: native,builtin
+
+    - value: d3dx9_38
+      data: native,builtin
+
+    - value: d3dx9_39
+      data: native,builtin
+
+    - value: d3dx9_40
+      data: native,builtin
+
+    - value: d3dx9_41
+      data: native,builtin
+
+    - value: d3dx9_42
+      data: native,builtin
+
+    - value: d3dx9_43
+      data: native,builtin
+
