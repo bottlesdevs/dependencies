@@ -1,0 +1,27 @@
+Name: winhttp
+Description: Microsoft Windows HTTP Services
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: download_archive
+  file_name: W2KSP4_EN.EXE
+  url: http://x3270.bgp.nu/download/specials/W2KSP4_EN.EXE
+  rename: w2ksp4_en.exe
+  file_checksum: a4ef6c91d418418b287cefe31f958175
+  file_size: 135477136
+  
+- action: get_from_cab
+  source: w2ksp4_en.exe
+  file_name: winhttp.dl_
+  dest: temp/winhttp/
+  
+- action: get_from_cab
+  source: winhttp/i386/new/winhttp.dl_
+  file_name: winhttp.dll
+  dest: win32
+  
+- action: override_dll
+  dll: winhttp
+  type: native,builtin
