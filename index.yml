@@ -87,6 +87,9 @@ dotnetcoredesktop3:
 
 # GENERIC
 # ------------------------------
+winhttp:
+  Description: Microsoft Windows HTTP Services
+  Category: Essentials
 aairruntime:
   Description: Harman AIR runtime
   Category: Essentials
