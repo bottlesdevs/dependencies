@@ -167,6 +167,12 @@ d3dx11:
   Description: Microsoft d3dx11 DLLs from DirectX 11 redistributable
   Category: Essentials
 
+# XNA
+# ------------------------------
+xna31:
+  Description: Microsoft XNA Redistributable 3.1
+  Category: Essentials
+
 # CODECS
 # ------------------------------
 ffdshow:
