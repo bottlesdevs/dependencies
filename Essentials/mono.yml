@@ -9,8 +9,8 @@ Steps:
   file_name: Wine Mono
   
 - action: install_msi
-  file_name: wine-mono-7.1.1-x86.msi
-  url: https://dl.winehq.org/wine/wine-mono/7.1.1/wine-mono-7.1.1-x86.msi
-  rename: wine-mono-7.1.1-x86.msi
-  file_checksum: 7585cffd0ac8a4ed9558697471208591
-  file_size: 86606336
+  file_name: wine-mono-7.2.0-x86.msi
+  url: https://dl.winehq.org/wine/wine-mono/7.2.0/wine-mono-7.2.0-x86.msi
+  rename: wine-mono-7.2.0-x86.msi
+  file_checksum: a5b75ad7686e1babe5f5955da1b9eb78
+  file_size: 86910464
