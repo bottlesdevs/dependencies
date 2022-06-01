@@ -1,0 +1,12 @@
+Name: lavfilters741
+Description: LAV Filters 0.74.1
+Provider: Hendrik Leppkes
+License: GPLv2
+License_url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Dependencies: []
+Steps:
+  - action: install_exe
+    file_name: LAVFilters-0.74.1-Installer.exe
+    url: https://github.com/Nevcairiel/LAVFilters/releases/download/0.74.1/LAVFilters-0.74.1-Installer.exe
+    file_checksum: d4044f1a0e84dc052c677bd88b40e62e
+    file_size: 12560912
