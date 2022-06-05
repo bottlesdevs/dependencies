@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: download_archive
   file_name: IELPKTH.CAB
-  url: https://downloads.sourceforge.net/corefonts/OldFiles/IELPKTH.CAB
+  url: https://cdn.usebottles.com/dependencies/IELPKTH.CAB
   file_checksum: 358584cddb75ac90472c25f01b308ebe
   file_size: 411248
 
