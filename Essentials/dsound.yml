@@ -8,7 +8,7 @@ Steps:
 - action: archive_extract
   file_name: dxnt.tar.xz
   url: https://cdn.usebottles.com/dependencies/dxnt.tar.xz
-  file_checksum: 0b1279c9173ac4edc7253958a4616c58
+  file_checksum: 53a21ef097296da1762727e5b04e3372
   file_size: 100275120
   dest: temp/dxnt/
 
