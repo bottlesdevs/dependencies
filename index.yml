@@ -217,6 +217,9 @@ dsdmo:
 xna31:
   Description: Microsoft XNA Redistributable 3.1
   Category: Essentials
+xna40:
+  Description: Microsoft XNA Redistributable 4.0
+  Category: Essentials
 
 # CODECS
 # ------------------------------
