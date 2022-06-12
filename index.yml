@@ -167,6 +167,45 @@ d3dx11:
   Description: Microsoft d3dx11 DLLs from DirectX 11 redistributable
   Category: Essentials
 
+# DIRECTMUSIC
+# ------------------------------
+directmusic:
+  Description: All Microsoft DirectMusic dependencies
+  Category: Essentials
+dmband:
+  Description: Microsoft dmband.dll
+  Category: Essentials
+dmcompos:
+  Description: Microsoft dmcompos.dll
+  Category: Essentials
+dmime:
+  Description: Microsoft dmime.dll
+  Category: Essentials
+dmloader:
+  Description: Microsoft dmloader.dll
+  Category: Essentials
+dmscript:
+  Description: Microsoft dmscript.dll
+  Category: Essentials
+dmstyle:
+  Description: Microsoft dmstyle.dll
+  Category: Essentials
+dmsynth:
+  Description: Microsoft dmsynth.dll
+  Category: Essentials
+dmusic:
+  Description: Microsoft dmusic.dll
+  Category: Essentials
+dmusic32:
+  Description: Microsoft dmusic32.dll
+  Category: Essentials
+dsound:
+  Description: Microsoft dsound.dll
+  Category: Essentials
+dswave:
+  Description: Microsoft dswave.dll
+  Category: Essentials
+
 # XNA
 # ------------------------------
 xna31:
