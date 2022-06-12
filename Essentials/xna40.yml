@@ -1,0 +1,14 @@
+Name: xna40
+Description: Microsoft XNA Redistributable 4.0
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: install_msi
+  file_name: xnafx40_redist.msi
+  url: https://cdn.usebottles.com/dependencies/xnafx40_redist.msi
+  rename: xnafx40_redist.msi.msi
+  file_checksum: 97c2eebb30c5a88c68c8f24f37183f1d
+  file_size: 0
+  arguments: /quiet
