@@ -1,0 +1,24 @@
+Name: dswave
+Description: Microsoft dswave.dll
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: archive_extract
+  file_name: dxnt.tar.xz
+  url: https://cdn.usebottles.com/dependencies/dxnt.tar.xz
+  file_checksum: 0b1279c9173ac4edc7253958a4616c58
+  file_size: 100275120
+  dest: temp/dxnt/
+
+- action: copy_dll
+  url: temp/dxnt.tar/dxnt/win32/
+  file_name: dswave.dll
+  dest: win32
+  
+- action: override_dll
+  bundle: 
+    - value: dswave
+      data: native,builtin
+  
