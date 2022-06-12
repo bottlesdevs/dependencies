@@ -167,8 +167,11 @@ d3dx11:
   Description: Microsoft d3dx11 DLLs from DirectX 11 redistributable
   Category: Essentials
 
-# DIRECTMUSIC
+# DXNT
 # ------------------------------
+directplay:
+  Description: Microsoft DirectPlay redistributable
+  Category: Essentials
 directmusic:
   Description: All Microsoft DirectMusic dependencies
   Category: Essentials
@@ -204,6 +207,9 @@ dsound:
   Category: Essentials
 dswave:
   Description: Microsoft dswave.dll
+  Category: Essentials
+dsdmo:
+  Description: Microsoft dsdmo.dll
   Category: Essentials
 
 # XNA
