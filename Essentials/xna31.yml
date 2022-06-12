@@ -4,12 +4,12 @@ Provider: Microsoft
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies:
-- dotnet20
+- dotnet21
 Steps:
 - action: install_msi
-  file_name: dotnetfx45_full_x86_x64.exe
-  url: https://download.microsoft.com/download/5/9/1/5912526C-B950-4662-99B6-119A83E60E5C/xnafx31_redist.msi
-  rename: xnafx31_redist.msi
-  file_checksum: 6920657429e3cd8faaf472844eb5694b
-  file_size: 7672320
+  file_name: xnafx31_redist.msi
+  url: https://cdn.usebottles.com/dependencies/xnafx31_redist.msi
+  rename: xnafx31_redist.msi.msi
+  file_checksum: 52873853e4981d5b9147c93472bb4ee7
+  file_size: 0
   arguments: /quiet
