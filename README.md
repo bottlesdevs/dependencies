@@ -11,4 +11,4 @@ Please refer to the [Maintainers documentation](https://maintainers.usebottles.c
 
 
 ## Need help?
-Reach us on our [Forums](https://forum.usebottles.com/), [Discord](https://discord.gg/9WjA5e7x), [Telegram](https://t.me/usebottles) or [Matrix](https://matrix.to/#/%23UseBottles:matrix.org).
+Reach us on our [Forums](https://forum.usebottles.com/), [Discord](https://discord.gg/wF4JAdYrTR), [Telegram](https://t.me/usebottles) or [Matrix](https://matrix.to/#/%23UseBottles:matrix.org).
