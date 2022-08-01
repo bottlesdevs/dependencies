@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: download_archive
   file_name: VB6.0-KB290887-X86.exe
-  url: https://lon-01.lo4d.com/files/visual-basic-runtime-files/VB6.0-KB290887-X86.exe
+  url: https://lon-01.dlo4d.com/files/visual-basic-runtime-files/VB6.0-KB290887-X86.exe
   file_checksum: ef5b83c4cc60e246bf627d85f6d7397b
   file_size: 1064736
 
