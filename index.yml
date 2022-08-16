@@ -166,6 +166,9 @@ d3dcompiler_47:
 d3dx11:
   Description: Microsoft d3dx11 DLLs from DirectX 11 redistributable
   Category: Essentials
+cnc-ddraw:
+  Description: Re-implementation of the DirectDraw API for classic games
+  Category: Essentials
 
 # DXNT
 # ------------------------------

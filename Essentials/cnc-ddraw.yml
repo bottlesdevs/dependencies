@@ -1,0 +1,30 @@
+Name: cnc-ddraw
+Description: Re-implementation of the DirectDraw API for classic games
+Provider: CnCNet
+License: MIT
+License_url: https://github.com/CnCNet/cnc-ddraw/blob/master/LICENSE
+Dependencies: []
+Steps:
+- action: archive_extract
+  file_name: cnc-ddraw.zip
+  url: https://github.com/CnCNet/cnc-ddraw/releases/download/v4.4.7.0/cnc-ddraw.zip
+  file_checksum: 771d76a65e328d0cff5dbe88296a15a9
+
+- action: copy_file
+  url: temp/cnc-ddraw/
+  file_name: '*.exe'
+  dest: win32
+
+- action: copy_file
+  url: temp/cnc-ddraw/
+  file_name: '*.dll'
+  dest: win32
+
+- action: copy_file
+  url: temp/cnc-ddraw/
+  file_name: '*.ini'
+  dest: win32
+
+- action: override_dll
+  dll: ddraw
+  type: native,builtin
