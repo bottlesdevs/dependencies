@@ -5,7 +5,7 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
-- action: archive_extract
+- action: cab_extract
   file_name: eurofixi.exe
   url: http://ftpmirror.your.org/pub/misc/ftp.microsoft.com/bussys/winnt/winnt-public/fixes/usa/NT40TSE/hotfixes-postSP3/Euro-fix/eurofixi.exe
   file_checksum: b03f1c361edd9d6db41a19f1a6198af7
