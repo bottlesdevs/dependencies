@@ -93,6 +93,9 @@ winhttp:
 aairruntime:
   Description: Harman AIR runtime
   Category: Essentials
+gmdls:
+  Description: General MIDI DLS Collection
+  Category: Essentials
 mfc40:
   Description: Microsoft mfc40 Microsoft Foundation Classes
   Category: Essentials

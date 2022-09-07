@@ -1,0 +1,24 @@
+Name: gmdls
+Description: General MIDI DLS Collection
+Provider: Microsoft / Roland
+License:
+License_url:
+Dependencies: []
+Steps:
+- action: cab_extract
+  file_name: directx_apr2006_redist.exe
+  url: https://web.archive.org/web/20100920035904/https://download.microsoft.com/download/3/9/7/3972f80c-5711-4e14-9483-959d48a2d03b/directx_apr2006_redist.exe
+  file_checksum: a4eef85d75e69b59a2b20ea57707c013
+  dest: temp/directx_apr2006_redist/
+
+- action: get_from_cab
+  source: directx_apr2006_redist/DirectX.cab
+  file_name: gm16.dls
+  dest: win64/drivers
+  rename: gm.dls
+
+- action: get_from_cab
+  source: directx_apr2006_redist/DirectX.cab
+  file_name: gm16.dls
+  dest: win32/drivers
+  rename: gm.dls
