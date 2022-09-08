@@ -7,8 +7,8 @@ Dependencies: []
 Steps:
 - action: archive_extract
   file_name: cnc-ddraw.zip
-  url: https://github.com/CnCNet/cnc-ddraw/releases/download/v4.4.7.0/cnc-ddraw.zip
-  file_checksum: 771d76a65e328d0cff5dbe88296a15a9
+  url: https://github.com/CnCNet/cnc-ddraw/releases/download/v4.4.8.0/cnc-ddraw.zip
+  file_checksum: 3e0fa0d3b86ee3d73cf68dc6cdc1aab5
 
 - action: copy_file
   url: temp/cnc-ddraw/
@@ -24,6 +24,61 @@ Steps:
   url: temp/cnc-ddraw/
   file_name: '*.ini'
   dest: win32
+
+- action: copy_file
+  url: temp/cnc-ddraw/Shaders/
+  file_name: '*.glsl'
+  dest: win32/Shaders
+
+- action: copy_file
+  url: temp/cnc-ddraw/Shaders/
+  file_name: '*.txt'
+  dest: win32/Shaders
+
+- action: copy_file
+  url: temp/cnc-ddraw/Shaders/
+  file_name: '*.zip'
+  dest: win32/Shaders
+
+- action: copy_file
+  url: temp/cnc-ddraw/Shaders/crt/
+  file_name: '*.glsl'
+  dest: win32/Shaders/crt
+
+- action: copy_file
+  url: temp/cnc-ddraw/Shaders/cubic/
+  file_name: '*.glsl'
+  dest: win32/Shaders/cubic
+
+- action: copy_file
+  url: temp/cnc-ddraw/Shaders/interpolation/
+  file_name: '*.glsl'
+  dest: win32/Shaders/interpolation
+
+- action: copy_file
+  url: temp/cnc-ddraw/Shaders/scanlines/
+  file_name: '*.glsl'
+  dest: win32/Shaders/scanlines
+
+- action: copy_file
+  url: temp/cnc-ddraw/Shaders/sharpen/
+  file_name: '*.glsl'
+  dest: win32/Shaders/sharpen
+
+- action: copy_file
+  url: temp/cnc-ddraw/Shaders/windowed/
+  file_name: '*.glsl'
+  dest: win32/Shaders/windowed
+
+- action: copy_file
+  url: temp/cnc-ddraw/Shaders/xbr/
+  file_name: '*.glsl'
+  dest: win32/Shaders/xbr
+
+- action: copy_file
+  url: temp/cnc-ddraw/Shaders/xbrz/
+  file_name: '*.glsl'
+  dest: win32/Shaders/xbrz
 
 - action: override_dll
   dll: ddraw
