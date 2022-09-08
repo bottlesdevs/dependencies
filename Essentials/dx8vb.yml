@@ -1,0 +1,22 @@
+Name: dx8vb
+Description: Microsoft dx8vb.dll
+Provider: Microsoft
+License:
+License_url:
+Dependencies: []
+Steps:
+- action: cab_extract
+  file_name: dx8vb.dll
+  url: https://download.microsoft.com/download/win2000pro/dx/8.1/NT5/DE/DX81NTger.exe
+  file_checksum: 5cf0f5b3f28ace3f69fec74057f18f45
+  dest: temp/DX81NTger/
+
+- action: copy_dll
+  url: temp/DX81NTger/
+  file_name: dx8vb.dll
+  dest: win32
+
+- action: override_dll
+  bundle:
+    - value: dx8vb
+      data: native,builtin

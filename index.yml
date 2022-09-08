@@ -169,6 +169,9 @@ d3dx11:
 cnc-ddraw:
   Description: Re-implementation of the DirectDraw API for classic games
   Category: Essentials
+dx8vb:
+  Description: Microsoft dx8vb.dll from DirectX 8.1 runtime
+  Category: Essentials
 
 # DXNT
 # ------------------------------
