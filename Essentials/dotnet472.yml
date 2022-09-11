@@ -9,7 +9,7 @@ Steps:
 - action: uninstall
   file_name: Wine Mono
 
-- action: use_windows
+- action: set_windows
   version: win7
   executable: dotnet472.exe
 
