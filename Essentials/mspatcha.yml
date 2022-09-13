@@ -1,0 +1,25 @@
+Name: mspatcha
+Description: Microsoft mspatcha.dll
+Provider: Microsoft
+License:
+License_url:
+Dependencies: []
+Steps:
+- action: download_archive
+  file_name: W2KSP4_EN.EXE
+  url: http://web.archive.org/web/20160129053851/http://download.microsoft.com/download/E/6/A/E6A04295-D2A8-40D0-A0C5-241BFECD095E/W2KSP4_EN.EXE
+  file_checksum: a4ef6c91d418418b287cefe31f958175
+
+- action: get_from_cab
+  source: W2KSP4_EN.EXE
+  file_name: i386/mspatcha.dl_
+  dest: temp/
+
+- action: get_from_cab
+  source: mspatcha.dl_
+  file_name: mspatcha.dll
+  dest: win32/
+
+- action: override_dll
+  dll: mspatcha
+  type: native,builtin

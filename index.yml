@@ -99,6 +99,9 @@ gmdls:
 mfc40:
   Description: Microsoft mfc40 Microsoft Foundation Classes
   Category: Essentials
+mspatcha:
+  Description: Microsoft mspatcha.dll
+  Category: Essentials
 msxml3:
   Description: Microsoft Core XML Services (MSXML) 3.0
   Category: Essentials
