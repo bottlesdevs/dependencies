@@ -96,6 +96,9 @@ aairruntime:
 gmdls:
   Description: General MIDI DLS Collection
   Category: Essentials
+mdac28:
+  Description: Microsoft Data Access Components 2.8 SP1
+  Category: Essentials
 mfc40:
   Description: Microsoft mfc40 Microsoft Foundation Classes
   Category: Essentials
