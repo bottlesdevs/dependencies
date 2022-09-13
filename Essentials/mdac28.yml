@@ -1,0 +1,26 @@
+Name: mdac28
+Description: Microsoft Data Access Components 2.8 SP1
+Provider: Microsoft
+License: Microsoft EULA
+License_url:
+Dependencies: []
+Steps:
+- action: set_windows
+  version: win98
+
+- action: override_dll
+  bundle:
+    - value: odbccp32
+      data: native,builtin
+    - value: mtxdm
+      data: native,builtin
+    - value: odbc32
+      data: native,builtin
+    - value: oledb32
+      data: native,builtin
+
+- action: install_exe
+  file_name: MDAC_TYP.EXE
+  url: https://web.archive.org/web/20070127061938/https://download.microsoft.com/download/4/a/a/4aafff19-9d21-4d35-ae81-02c48dcbbbff/MDAC_TYP.EXE
+  file_checksum: 6e914a7391c3b17380ce54fd3a7a133d
+  arguments: /q /C:"setup /qnt"
