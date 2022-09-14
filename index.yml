@@ -184,11 +184,17 @@ dx8vb:
 
 # DXNT
 # ------------------------------
+amstream:
+  Description: Microsoft amstream.dll
+  Category: Essentials
 directplay:
   Description: Microsoft DirectPlay redistributable
   Category: Essentials
 directmusic:
   Description: All Microsoft DirectMusic dependencies
+  Category: Essentials
+directshow:
+  Description: All Microsoft DirectShow dependencies
   Category: Essentials
 dmband:
   Description: Microsoft dmband.dll
@@ -225,6 +231,21 @@ dswave:
   Category: Essentials
 dsdmo:
   Description: Microsoft dsdmo.dll
+  Category: Essentials
+qasf:
+  Description: Microsoft qasf.dll
+  Category: Essentials
+qcap:
+  Description: Microsoft qcap.dll
+  Category: Essentials
+qdvd:
+  Description: Microsoft qdvd.dll
+  Category: Essentials
+qedit:
+  Description: Microsoft qedit.dll
+  Category: Essentials
+quartz:
+  Description: Microsoft quartz.dll
   Category: Essentials
 
 # XNA
