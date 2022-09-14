@@ -265,6 +265,9 @@ ffdshow:
 dirac:
   Description: The Dirac directshow filter v1.0.2
   Category: Essentials
+l3codecx:
+  Description: MPEG Layer-3 Audio Codec for Microsoft DirectShow
+  Category: Essentials
 lavfilters741:
   Description: LAV Filters 0.74.1
   Category: Essentials

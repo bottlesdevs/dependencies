@@ -1,0 +1,22 @@
+Name: l3codecx
+Description: MPEG Layer-3 Audio Codec for Microsoft DirectShow
+Provider: Microsoft
+License:
+License_url:
+Dependencies: []
+Steps:
+- action: archive_extract
+  file_name: dxnt.tar.xz
+  url: https://cdn.usebottles.com/dependencies/dxnt.tar.xz
+  file_checksum: 53a21ef097296da1762727e5b04e3372
+  file_size: 100275120
+  dest: temp/dxnt/
+
+- action: copy_dll
+  url: temp/dxnt.tar/dxnt/win32/
+  file_name: l3codecx.ax
+  dest: win32
+
+- action: register_dll
+  dlls:
+    - l3codecx.ax
