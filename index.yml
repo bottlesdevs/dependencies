@@ -184,9 +184,6 @@ dx8vb:
 
 # DXNT
 # ------------------------------
-amstream:
-  Description: Microsoft amstream.dll
-  Category: Essentials
 directplay:
   Description: Microsoft DirectPlay redistributable
   Category: Essentials
