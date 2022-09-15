@@ -1,0 +1,303 @@
+# WINE
+# ------------------------------
+mono:
+  Description: Wine mono
+  Category: Essentials
+gecko:
+  Description: Wine gecko
+  Category: Essentials
+
+# REDIST
+# ------------------------------
+vbrun6:
+  Description: Microsoft Visual Basic 6 Runtime SP6
+  Category: Essentials
+vcredist6:
+  Description: Microsoft Visual C++ 6 SP4 libraries
+  Category: Essentials
+vcredist6sp6:
+  Description: Microsoft Visual C++ 6 SP6 libraries
+  Category: Essentials
+vcredist2005:
+  Description: Microsoft Visual C++ Redistributable for Visual Studio 2005
+  Category: Essentials
+vcredist2008:
+  Description: Microsoft Visual C++ Redistributable for Visual Studio 2008
+  Category: Essentials
+vcredist2010:
+  Description: Microsoft Visual C++ Redistributable for Visual Studio 2010
+  Category: Essentials
+vcredist2012:
+  Description: Microsoft Visual C++ Redistributable for Visual Studio 2012
+  Category: Essentials
+vcredist2013:
+  Description: Microsoft Visual C++ Redistributable (2013) 12.0
+  Category: Essentials
+vcredist2015:
+  Description: Microsoft Visual C++ Redistributable (2015)
+  Category: Essentials
+vcredist2019:
+  Description: Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325
+  Category: Essentials
+
+# .NET FRAMEWORKS
+# ------------------------------
+dotnet20:
+  Description: Microsoft .NET Framework 2.0
+  Category: Essentials
+dotnet20sp1:
+  Description: Microsoft .NET Framework 2.0 Service Pack 1
+  Category: Essentials
+dotnet35:
+  Description: Microsoft .NET Framework 3.5
+  Category: Essentials
+dotnet35sp1:
+  Description: Microsoft .NET Framework 3.5 Service Pack 1
+  Category: Essentials
+dotnet40:
+  Description: Microsoft .NET Framework 4
+  Category: Essentials
+dotnet45:
+  Description: Microsoft .NET Framework 4.5
+  Category: Essentials
+dotnet452:
+  Description: Microsoft .NET Framework 4.5.2
+  Category: Essentials
+dotnet46:
+  Description: Microsoft .NET Framework 4.6
+  Category: Essentials
+dotnet461:
+  Description: Microsoft .NET Framework 4.6.1
+  Category: Essentials
+dotnet462:
+  Description: Microsoft .NET Framework 4.6.2
+  Category: Essentials
+dotnet472:
+  Description: Microsoft .NET Framework 4.7.2
+  Category: Essentials
+dotnet48:
+  Description: Microsoft .NET Framework 4.8
+  Category: Essentials
+dotnetcore3:
+  Description: Microsoft .NET Core Runtime 3.1 LTS
+  Category: Essentials
+dotnetcoredesktop3:
+  Description: Microsoft .NET Core Desktop Runtime 3.1 LTS
+  Category: Essentials
+
+# GENERIC
+# ------------------------------
+winhttp:
+  Description: Microsoft Windows HTTP Services
+  Category: Essentials
+aairruntime:
+  Description: Harman AIR runtime
+  Category: Essentials
+gmdls:
+  Description: General MIDI DLS Collection
+  Category: Essentials
+mfc40:
+  Description: Microsoft mfc40 Microsoft Foundation Classes
+  Category: Essentials
+mspatcha:
+  Description: Microsoft mspatcha.dll
+  Category: Essentials
+msxml3:
+  Description: Microsoft Core XML Services (MSXML) 3.0
+  Category: Essentials
+msxml4:
+  Description: Microsoft Core XML Services (MSXML) 4.0
+  Category: Essentials
+msxml6:
+  Description: Microsoft Core XML Services (MSXML) 6.0
+  Category: Essentials
+mediafoundation:
+  Description: Microsoft Media Foundation
+  Category: Essentials
+jet40:
+  Description: MS Jet 4.0 Service Pack 8
+  Category: Essentials
+art2kmin:
+  Description: MS Access 2000 runtime
+  Category: Essentials
+art2k7min:
+  Description: MS Access 2007 runtime
+  Category: Essentials
+riched20:
+  Description: Microsoft RichEdit Control 2.0 (riched20.dll)
+  Category: Essentials
+msftedit:
+  Description: Microsoft RichEdit Control 4.1 (msftedit.dll)
+  Category: Essentials
+msls31:
+  Description: Microsoft Line Services
+  Category: Essentials
+gdiplus:
+  Description: Microsoft GDI+ (Graphics Device Interface)
+  Category: Essentials
+faudio:
+  Description: FAudio (xaudio reimplementation, with xna support) builds for win32
+  Category: Essentials
+atmlib:
+  Description: Adobe Type Manager
+  Category: Essentials
+physx:
+  Description: NVIDIA PhysX System 9.19.0218
+  Category: Essentials
+quicktime72:
+  Description: QuickTime 7.2.0.240
+  Category: Essentials
+
+ie8_kb2936068:
+  Description: Cumulative Security Update for Internet Explorer 8
+  Category: Essentials
+
+# DIRECT3D
+# ------------------------------
+d3dx9:
+  Description: Microsoft d3dx9 DLLs from DirectX 9 redistributable
+  Category: Essentials
+d3dcompiler_42:
+  Description: Microsoft d3dcompiler_42.dll
+  Category: Essentials
+d3dcompiler_43:
+  Description: Microsoft d3dcompiler_43.dll
+  Category: Essentials
+d3dcompiler_46:
+  Description: Microsoft d3dcompiler_46.dll
+  Category: Essentials
+d3dcompiler_47:
+  Description: Microsoft d3dcompiler_47.dll
+  Category: Essentials
+d3dx11:
+  Description: Microsoft d3dx11 DLLs from DirectX 11 redistributable
+  Category: Essentials
+cnc-ddraw:
+  Description: Re-implementation of the DirectDraw API for classic games
+  Category: Essentials
+dx8vb:
+  Description: Microsoft dx8vb.dll from DirectX 8.1 runtime
+  Category: Essentials
+
+# DXNT
+# ------------------------------
+directplay:
+  Description: Microsoft DirectPlay redistributable
+  Category: Essentials
+directmusic:
+  Description: All Microsoft DirectMusic dependencies
+  Category: Essentials
+dmband:
+  Description: Microsoft dmband.dll
+  Category: Essentials
+dmcompos:
+  Description: Microsoft dmcompos.dll
+  Category: Essentials
+dmime:
+  Description: Microsoft dmime.dll
+  Category: Essentials
+dmloader:
+  Description: Microsoft dmloader.dll
+  Category: Essentials
+dmscript:
+  Description: Microsoft dmscript.dll
+  Category: Essentials
+dmstyle:
+  Description: Microsoft dmstyle.dll
+  Category: Essentials
+dmsynth:
+  Description: Microsoft dmsynth.dll
+  Category: Essentials
+dmusic:
+  Description: Microsoft dmusic.dll
+  Category: Essentials
+dmusic32:
+  Description: Microsoft dmusic32.dll
+  Category: Essentials
+dsound:
+  Description: Microsoft dsound.dll
+  Category: Essentials
+dswave:
+  Description: Microsoft dswave.dll
+  Category: Essentials
+dsdmo:
+  Description: Microsoft dsdmo.dll
+  Category: Essentials
+
+# XNA
+# ------------------------------
+xna31:
+  Description: Microsoft XNA Redistributable 3.1
+  Category: Essentials
+xna40:
+  Description: Microsoft XNA Redistributable 4.0
+  Category: Essentials
+
+# CODECS
+# ------------------------------
+ffdshow:
+  Description: ffdshow video codecs
+  Category: Essentials
+dirac:
+  Description: The Dirac directshow filter v1.0.2
+  Category: Essentials
+l3codecx:
+  Description: MPEG Layer-3 Audio Codec for Microsoft DirectShow
+  Category: Essentials
+lavfilters741:
+  Description: LAV Filters 0.74.1
+  Category: Essentials
+
+# FONTS
+# ------------------------------
+unifont:
+  Description: Unifont replacement for Arial Unicode MS
+  Category: Fonts
+allfonts:
+  Description: All Microsoft and Adobe essential fonts
+  Category: Fonts
+cjkfonts:
+  Description: All Chinese/Japanese/Korean fonts
+  Category: Fonts
+arial32:
+  Description: Microsoft Arial Font
+  Category: Fonts
+arialb32:
+  Description: Microsoft Arial Black Font
+  Category: Fonts
+andale32:
+  Description: Microsoft Andale Font
+  Category: Fonts
+comic32:
+  Description: Microsoft Comic Sans MS Font
+  Category: Fonts
+courie32:
+  Description: Microsoft Courier New Font
+  Category: Fonts
+georgi32:
+  Description: Microsoft Georgia Font
+  Category: Fonts
+impact32:
+  Description: Microsoft Impact Font
+  Category: Fonts
+times32:
+  Description: Microsoft Times New Roman Font
+  Category: Fonts
+tahoma32:
+  Description: Microsoft Tahoma Font
+  Category: Fonts
+trebuc32:
+  Description: Microsoft Trebuchet Font
+  Category: Fonts
+verdan32:
+  Description: Microsoft Verdan Font
+  Category: Fonts
+webdin32:
+  Description: Webdings Font
+  Category: Fonts
+consolas:
+  Description: MS Consolas console font
+  Category: Fonts
+lucon:
+  Description: MS Lucida console font
+  Category: Fonts
