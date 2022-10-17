@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: download_archive
   file_name: InstMsiW.exe
-  url: https://web.archive.org/web/20160710055851if_/http://download.microsoft.com/download/WindowsInstaller/Install/2.0/NT45/EN-US/InstMsiW.exe
+  url: https://cdn.usebottles.com/dependencies/InstMsiW.exe
   file_checksum: 53820efbc952107ee1a38be6cd5aa3f0
   file_size: 1822848
 
