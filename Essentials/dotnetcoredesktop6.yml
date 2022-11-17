@@ -1,0 +1,22 @@
+Name: dotnetcoredesktop6
+Description: Microsoft .NET Core Desktop Runtime 6.0.11
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: windowsdesktop-runtime-6.0.11-win-x86.exe
+  url: https://download.visualstudio.microsoft.com/download/pr/2a392287-fd51-4ee8-9c15-a672ab9bc55d/03d4784b3a543a0fb9ce5677ed13a9a3/windowsdesktop-runtime-6.0.11-win-x86.exe
+  rename: windowsdesktop-runtime-6.0.11-win-x86.exe
+  file_checksum: b642a16325053b266f2f2475c31e124987dcf0e010076633cfe174761a1ff736a5047019de3cc259d88775bae6ffb4b0f907e0818895fab0e2962dfa0ee66641
+  file_size: 52086400
+  arguments: /quiet
+  
+- action: install_exe
+  file_name: windowsdesktop-runtime-6.0.11-win-x64.exe
+  url: https://download.visualstudio.microsoft.com/download/pr/0192a249-3ec8-4374-a827-e186dd58d55d/cec046575f3eb2247a10ba3d50f5cf6c/windowsdesktop-runtime-6.0.11-win-x64.exe
+  rename: windowsdesktop-runtime-6.0.11-win-x64.exe
+  file_checksum: b642a16325053b266f2f2475c31e124987dcf0e010076633cfe174761a1ff736a5047019de3cc259d88775bae6ffb4b0f907e0818895fab0e2962dfa0ee66641
+  file_size: 57217584
+  arguments: /quiet
