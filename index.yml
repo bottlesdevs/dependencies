@@ -184,6 +184,9 @@ dx8vb:
 
 # DXNT
 # ------------------------------
+devenum:
+  Description: Microsoft devenum.dll
+  Category: Essentials
 directplay:
   Description: Microsoft DirectPlay redistributable
   Category: Essentials
