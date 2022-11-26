@@ -1,0 +1,36 @@
+Name: devenum
+Description: Microsoft devenum.dll
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: download_archive
+  file_name: directx_feb2010_redist.exe
+  url: https://files.holarse-linuxgaming.de/mirrors/microsoft/directx_feb2010_redist.exe
+  file_checksum: 4cf007a355cb5f34a3c5c400113b33c3
+  file_size: 109063804
+
+- action: get_from_cab
+  source: directx_feb2010_redist.exe
+  file_name: dxnt.cab
+  dest: temp/dxnt/
+
+- action: get_from_cab
+  source: dxnt/dxnt.cab
+  file_name: devenum.dll
+  dest: temp/devenum/
+
+- action: copy_dll
+  url: temp/devenum/
+  file_name: devenum.dll
+  dest: win32
+  
+- action: copy_dll
+  url: temp/devenum/
+  file_name: devenum.dll
+  dest: win64
+  
+- action: override_dll
+  dll: devenum
+  type: native,builtin
