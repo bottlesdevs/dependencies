@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: download_archive
   file_name: W2KSP4_EN.EXE
-  url: https://cdn.usebottles.com/dependencies/W2KSP4_EN.EXE
+  url: https://proxy.usebottles.com/redistributable/dependencies/W2KSP4_EN.EXE
   rename: w2ksp4_en.exe
   file_checksum: a4ef6c91d418418b287cefe31f958175
   file_size: 135477136

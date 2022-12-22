@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: install_msi
   file_name: xnafx40_redist.msi
-  url: https://cdn.usebottles.com/dependencies/xnafx40_redist.msi
+  url: https://proxy.usebottles.com/redistributable/dependencies/xnafx40_redist.msi
   rename: xnafx40_redist.msi.msi
   file_checksum: 97c2eebb30c5a88c68c8f24f37183f1d
   file_size: 0

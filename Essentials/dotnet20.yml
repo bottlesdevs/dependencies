@@ -21,7 +21,7 @@ Steps:
   
 - action: install_exe
   file_name: NetFx64.exe
-  url: https://cdn.usebottles.com/dependencies/NetFx64.exe
+  url: https://proxy.usebottles.com/redistributable/dependencies/NetFx64.exe
   arguments: /q
   rename: dotnet20_x64.exe
   file_checksum: 1f383f3a372dcdd89cd40bc65af05b37

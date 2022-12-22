@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: download_archive
   file_name: windows6.1-kb976932-x86.exe
-  url: https://cdn.usebottles.com/dependencies/windows6.1-kb976932-x86.exe
+  url: https://proxy.usebottles.com/redistributable/dependencies/windows6.1-kb976932-x86.exe
   file_checksum: 4bf28fc00d86c936c89e2d91ef46758b
   file_size: 563934504
   

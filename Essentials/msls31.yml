@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: download_archive
   file_name: InstMsiW.exe
-  url: https://cdn.usebottles.com/dependencies/InstMsiW.exe
+  url: https://proxy.usebottles.com/redistributable/dependencies/InstMsiW.exe
   file_checksum: 53820efbc952107ee1a38be6cd5aa3f0
   file_size: 1822848
 

@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: archive_extract
   file_name: d3dx11.tar.xz
-  url: https://cdn.usebottles.com/dependencies/d3dx11.tar.xz
+  url: https://proxy.usebottles.com/redistributable/dependencies/d3dx11.tar.xz
   file_checksum: 5d31356c54c33f1bc88b37fc239c32be
   file_size: 0
   dest: temp/d3dx11/
