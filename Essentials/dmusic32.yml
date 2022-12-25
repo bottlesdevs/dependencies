@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: archive_extract
   file_name: directx9_apr2006.tar.xz
-  url: https://cdn.usebottles.com/dependencies/directx9_apr2006.tar.xz
+  url: https://proxy.usebottles.com/redistributable/dependencies/directx9_apr2006.tar.xz
   file_checksum: 5f2a927ca2ab3648a26b5501924f06d1
   file_size: 0
   dest: temp/directx9_apr2006/
