@@ -84,6 +84,9 @@ dotnetcore3:
 dotnetcoredesktop3:
   Description: Microsoft .NET Core Desktop Runtime 3.1 LTS
   Category: Essentials
+dotnetcoredesktop6:
+  Description: Microsoft .NET Core Desktop Runtime 6.0 LTS
+  Category: Essentials
 
 # GENERIC
 # ------------------------------
