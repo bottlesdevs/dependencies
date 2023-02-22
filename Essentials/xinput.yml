@@ -1,0 +1,37 @@
+Name: xinput
+Description: Microsoft XInput (Xbox controller support)
+Provider: Microsoft
+License:
+License_url:
+Dependencies: []
+Steps:
+- action: download_archive
+  file_name: directx_Jun2010_redist.exe
+  url: https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe
+  file_checksum: 822e4c516600e81dc7fb16d9a77ec6d4
+
+- action: get_from_cab
+  source: directx_Jun2010_redist.exe
+  file_name: '*XINPUT*.cab'
+  dest: temp/XINPUT/
+
+- action: get_from_cab
+  source: XINPUT/*x86*.cab
+  file_name: '*.dll'
+  dest: win32/
+
+- action: get_from_cab
+  source: XINPUT/*x64*.cab
+  file_name: '*.dll'
+  dest: win64/
+
+- action: override_dll
+  bundle: 
+    - value: xinput1_1
+      data: native,builtin
+    - value: xinput1_2
+      data: native,builtin
+    - value: xinput1_3
+      data: native,builtin
+    - value: xinput9_1_0
+      data: native,builtin
