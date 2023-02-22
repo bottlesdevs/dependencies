@@ -1,0 +1,13 @@
+Name: directshow
+Description: All Microsoft DirectShow dependencies
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies:
+  - amstream
+  - qasf
+  - qcap
+  - qdvd
+  - qedit
+  - quartz
+Steps: []
