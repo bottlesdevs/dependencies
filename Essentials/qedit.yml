@@ -1,0 +1,39 @@
+Name: qedit
+Description: MS qedit.dll
+Provider: Microsoft
+License:
+License_url:
+Dependencies: []
+Steps:
+- action: cab_extract
+  file_name: windows6.1-kb976932-x86_c3516bc5c9e69fee6d9ac4f981f5b95977a8a2fa.exe
+  rename: windows6.1-kb976932-x86.exe
+  url: http://download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x86_c3516bc5c9e69fee6d9ac4f981f5b95977a8a2fa.exe
+  file_checksum: 4bf28fc00d86c936c89e2d91ef46758b
+  dest: temp/windows6.1-kb976932-x86
+
+- action: cab_extract
+  file_name: windows6.1-kb976932-x64_74865ef2562006e51d7f9333b4a8d45b7a749dab.exe
+  rename: windows6.1-kb976932-x64.exe
+  url: http://download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x64_74865ef2562006e51d7f9333b4a8d45b7a749dab.exe
+  file_checksum: 28d3932f714bf71d78e75d36aa2e0fb8
+  dest: temp/windows6.1-kb976932-x64
+
+- action: copy_dll
+  file_name: 'qedit.dll'
+  url: temp/windows6.1-kb976932-x86/x86_microsoft-windows-qedit_31bf3856ad364e35_6.1.7601.17514_none_5ca34698a5a970d2
+  dest: win32
+
+- action: copy_dll
+  file_name: 'qedit.dll'
+  url: temp/windows6.1-kb976932-x64/amd64_microsoft-windows-qedit_31bf3856ad364e35_6.1.7601.17514_none_b8c1e21c5e06e208
+  dest: win64
+
+- action: override_dll
+  bundle:
+    - value: qedit
+      data: native,builtin
+
+- action: register_dll
+  dlls:
+    - qedit.dll
