@@ -1,0 +1,159 @@
+Name: xact
+Description: MS XACT Engine (32-bit only)
+Provider: Microsoft
+License:
+License_url:
+Dependencies: []
+Steps:
+- action: download_archive
+  file_name: directx_Jun2010_redist.exe
+  url: https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe
+  file_checksum: 822e4c516600e81dc7fb16d9a77ec6d4
+
+- action: get_from_cab
+  source: directx_Jun2010_redist.exe
+  file_name: '*XACT_x86*.cab'
+  dest: temp/XACT_x86/
+
+- action: get_from_cab
+  source: directx_Jun2010_redist.exe
+  file_name: '*X3DAUDIO_x86*.cab'
+  dest: temp/XACT_x86/
+
+- action: get_from_cab
+  source: directx_Jun2010_redist.exe
+  file_name: '*XAUDIO_x86*.cab'
+  dest: temp/XACT_x86/
+
+- action: get_from_cab
+  source: XACT_x86/*.cab
+  file_name: 'xactengine*.dll'
+  dest: win32/
+
+- action: get_from_cab
+  source: XACT_x86/*.cab
+  file_name: 'xaudio*.dll'
+  dest: win32/
+
+- action: get_from_cab
+  source: XACT_x86/*.cab
+  file_name: 'x3daudio*.dll'
+  dest: win32/
+
+- action: get_from_cab
+  source: XACT_x86/*.cab
+  file_name: 'xapofx*.dll'
+  dest: win32/
+
+- action: override_dll
+  bundle: 
+    - value: xaudio2_0
+      data: native,builtin
+    - value: xaudio2_1 
+      data: native,builtin
+    - value: xaudio2_2
+      data: native,builtin
+    - value: xaudio2_3
+      data: native,builtin
+    - value: xaudio2_4
+      data: native,builtin
+    - value: xaudio2_5
+      data: native,builtin
+    - value: xaudio2_6
+      data: native,builtin
+    - value: xaudio2_7
+      data: native,builtin
+    - value: x3daudio1_0
+      data: native,builtin
+    - value: x3daudio1_1
+      data: native,builtin
+    - value: x3daudio1_2
+      data: native,builtin
+    - value: x3daudio1_3
+      data: native,builtin
+    - value: x3daudio1_4
+      data: native,builtin
+    - value: x3daudio1_5
+      data: native,builtin
+    - value: x3daudio1_6
+      data: native,builtin
+    - value: x3daudio1_7
+      data: native,builtin
+    - value: xapofx1_1
+      data: native,builtin
+    - value: xapofx1_2
+      data: native,builtin
+    - value: xapofx1_3
+      data: native,builtin
+    - value: xapofx1_4
+      data: native,builtin
+    - value: xapofx1_5
+      data: native,builtin
+    - value: xactengine2_0
+      data: native,builtin
+    - value: xactengine2_1
+      data: native,builtin
+    - value: xactengine2_2
+      data: native,builtin
+    - value: xactengine2_3
+      data: native,builtin
+    - value: xactengine2_4
+      data: native,builtin
+    - value: xactengine2_5
+      data: native,builtin
+    - value: xactengine2_6
+      data: native,builtin
+    - value: xactengine2_7
+      data: native,builtin
+    - value: xactengine2_8
+      data: native,builtin
+    - value: xactengine2_9
+      data: native,builtin
+    - value: xactengine2_10
+      data: native,builtin
+    - value: xactengine3_0
+      data: native,builtin
+    - value: xactengine3_1
+      data: native,builtin
+    - value: xactengine3_2
+      data: native,builtin
+    - value: xactengine3_3
+      data: native,builtin
+    - value: xactengine3_4
+      data: native,builtin
+    - value: xactengine3_5
+      data: native,builtin
+    - value: xactengine3_6
+      data: native,builtin
+    - value: xactengine3_7
+      data: native,builtin
+
+- action: register_dll
+  dlls:
+    - xactengine2_0.dll
+    - xactengine2_1.dll
+    - xactengine2_2.dll
+    - xactengine2_3.dll
+    - xactengine2_4.dll
+    - xactengine2_5.dll
+    - xactengine2_6.dll
+    - xactengine2_7.dll
+    - xactengine2_8.dll
+    - xactengine2_9.dll
+    - xactengine2_10.dll
+    - xactengine3_0.dll
+    - xactengine3_1.dll
+    - xactengine3_2.dll
+    - xactengine3_3.dll
+    - xactengine3_4.dll
+    - xactengine3_5.dll
+    - xactengine3_6.dll
+    - xactengine3_7.dll
+    - xaudio2_0.dll
+    - xaudio2_1.dll
+    - xaudio2_2.dll
+    - xaudio2_3.dll
+    - xaudio2_4.dll
+    - xaudio2_5.dll
+    - xaudio2_6.dll
+    - xaudio2_7.dll

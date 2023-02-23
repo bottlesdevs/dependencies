@@ -1,0 +1,17 @@
+Name: msasn1
+Description: MS ASN1
+Provider: Microsoft
+License:
+License_url:
+Dependencies: []
+Steps:
+- action: cab_extract
+  file_name: W2KSP4_EN.EXE
+  url: http://x3270.bgp.nu/download/specials/W2KSP4_EN.EXE
+  file_checksum: a4ef6c91d418418b287cefe31f958175
+  dest: temp/W2KSP4_EN
+
+- action: copy_file
+  file_name: 'msasn1.dl_'
+  url: temp/W2KSP4_EN/i386/
+  dest: win64

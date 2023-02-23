@@ -96,6 +96,9 @@ winhttp:
 aairruntime:
   Description: Harman AIR runtime
   Category: Essentials
+gfw:
+  Description: MS Games For Windows Live (xlive.dll)
+  Category: Essentials
 gmdls:
   Description: General MIDI DLS Collection
   Category: Essentials
@@ -104,6 +107,9 @@ mdac28:
   Category: Essentials
 mfc40:
   Description: Microsoft mfc40 Microsoft Foundation Classes
+  Category: Essentials
+msasn1:
+  Description: MS ASN1
   Category: Essentials
 mspatcha:
   Description: Microsoft mspatcha.dll
@@ -153,7 +159,15 @@ physx:
 quicktime72:
   Description: QuickTime 7.2.0.240
   Category: Essentials
-
+xact:
+  Description: MS XACT Engine (32-bit only)
+  Category: Essentials
+xact_x64:
+  Description: MS XACT Engine (64-bit only)
+  Category: Essentials
+xinput:
+  Description: Microsoft XInput (Xbox controller support)
+  Category: Essentials
 ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
   Category: Essentials

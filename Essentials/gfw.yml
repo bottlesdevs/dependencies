@@ -1,0 +1,12 @@
+Name: gfw
+Description: MS Games For Windows Live (xlive.dll)
+Provider: Microsoft
+License:
+License_url:
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: gfwlivesetupmin.exe
+  url: https://web.archive.org/web/20140730232216/https://download.microsoft.com/download/5/5/8/55846E20-4A46-4EF8-B272-7F988BC9090A/gfwlivesetupmin.exe
+  arguments: [/nodotnet /q]
+  file_checksum: c0d501ef65af23efa0b2414e9b85ff66
