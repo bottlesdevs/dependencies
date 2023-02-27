@@ -15,7 +15,7 @@ Steps:
 - action: get_from_cab
   source: w2ksp4_en.exe
   file_name: riched20.dl_
-  dest: temp/riched20/
+  dest: temp/riched20/i386/
 
 - action: get_from_cab
   source: riched20/i386/riched20.dl_
