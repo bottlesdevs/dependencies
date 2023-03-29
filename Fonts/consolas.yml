@@ -13,36 +13,24 @@ Steps:
   dest: temp/consolas
 
 - action: install_fonts
-  url: temp/consolas-fonts-tts.tar/Consolas-Bold.ttf
+  url: temp/consolas-fonts-tts.tar
   fonts:
   - Consolas-Bold.ttf
+  - Consolas-Bold-Italic.ttf
+  - Consolas-Italic.ttf
+  - Consolas-Regular.ttf
 
 - action: register_font
   name: Consolas Bold
   file: Consolas-Bold.ttf
 
-- action: install_fonts
-  url: temp/consolas-fonts-tts.tar/Consolas-Bold-Italic.ttf
-  fonts:
-  - Consolas-Bold-Italic.ttf
-
 - action: register_font
   name: Consolas Bold Italic
   file: Consolas-Bold-Italic.ttf
 
-- action: install_fonts
-  url: temp/consolas-fonts-tts.tar/Consolas-Italic.ttf
-  fonts:
-  - Consolas-Italic.ttf
-
 - action: register_font
   name: Consolas Italic
   file: Consolas-Italic.ttf
-
-- action: install_fonts
-  url: temp/consolas-fonts-tts.tar/Consolas-Regular.ttf
-  fonts:
-  - Consolas-Regular.ttf
 
 - action: register_font
   name: Consolas Regular
