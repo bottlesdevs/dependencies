@@ -20,6 +20,8 @@ Steps:
   source: directx_Jun2010_redist.exe
   file_name: Aug2009_D3DCompiler_42_x64.cab
   dest: temp/d3dcompiler_42_x64/
+  for:
+    - win64
   
 - action: get_from_cab
   source: d3dcompiler_42_x86/Aug2009_D3DCompiler_42_x86.cab
@@ -32,6 +34,8 @@ Steps:
   file_name: D3DCompiler_42.dll
   dest: win64/
   rename: d3dcompiler_42.dll
+  for:
+    - win64
   
 - action: override_dll
   dll: d3dcompiler_42

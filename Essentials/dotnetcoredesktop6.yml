@@ -20,3 +20,5 @@ Steps:
   file_checksum: 7c37e8a464a8248889dadc710cc7585d
   file_size: 57190080
   arguments: /quiet
+  for:
+    - win64

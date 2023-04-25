@@ -16,6 +16,8 @@ Steps:
   file_name: gm16.dls
   dest: win64/drivers
   rename: gm.dls
+  for:
+    - win64
 
 - action: get_from_cab
   source: directx_apr2006_redist/DirectX.cab

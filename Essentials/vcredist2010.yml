@@ -20,6 +20,8 @@ Steps:
   file_checksum: be79543624f806ced4c7dff25751a3e4
   file_size: 5677032
   arguments: /q
+  for:
+    - win64
 
 - action: override_dll
   dll: msvcp100

@@ -21,6 +21,8 @@ Steps:
   url: temp/d3dx11.tar/d3dx11/win64/
   file_name: d3dx11_*.dll
   dest: win64
+  for:
+    - win64
 
 - action: override_dll
   dll: d3dx11_42

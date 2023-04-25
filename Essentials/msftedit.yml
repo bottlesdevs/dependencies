@@ -18,6 +18,8 @@ Steps:
     rename: windows6.1-kb976932-x64.exe
     file_checksum: 28d3932f714bf71d78e75d36aa2e0fb8
     file_size: 947070088
+    for:
+      - win64
 
   - action: get_from_cab
     source: windows6.1-kb976932-x86.exe
@@ -28,6 +30,8 @@ Steps:
     source: windows6.1-kb976932-x64.exe
     file_name: amd64_microsoft-windows-msftedit_31bf3856ad364e35_6.1.7601.17514_none_33f6fe754dd11735/msftedit.dll
     dest: win64
+    for:
+      - win64
 
   - action: override_dll
     dll: msftedit

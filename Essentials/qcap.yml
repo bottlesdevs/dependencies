@@ -18,6 +18,8 @@ Steps:
   url: http://download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x64_74865ef2562006e51d7f9333b4a8d45b7a749dab.exe
   file_checksum: 28d3932f714bf71d78e75d36aa2e0fb8
   dest: temp/windows6.1-kb976932-x64
+  for:
+    - win64
 
 - action: copy_dll
   file_name: 'qcap.dll'
@@ -28,6 +30,8 @@ Steps:
   file_name: 'qcap.dll'
   url: temp/windows6.1-kb976932-x64/amd64_microsoft-windows-directshow-capture_31bf3856ad364e35_6.1.7601.17514_none_16ff28a2362a4060
   dest: win64
+  for:
+    - win64
 
 - action: override_dll
   bundle:
