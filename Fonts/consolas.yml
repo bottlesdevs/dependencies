@@ -22,7 +22,7 @@ Steps:
   file: Consolas-Bold.ttf
 
 - action: install_fonts
-  url: temp/consolas-fonts-tts.tar/Consolas-Bold-Italic.ttf
+  url: temp/consolas-fonts-tts.tar
   fonts:
   - Consolas-Bold-Italic.ttf
 
@@ -31,7 +31,7 @@ Steps:
   file: Consolas-Bold-Italic.ttf
 
 - action: install_fonts
-  url: temp/consolas-fonts-tts.tar/Consolas-Italic.ttf
+  url: temp/consolas-fonts-tts.tar
   fonts:
   - Consolas-Italic.ttf
 
@@ -40,7 +40,7 @@ Steps:
   file: Consolas-Italic.ttf
 
 - action: install_fonts
-  url: temp/consolas-fonts-tts.tar/Consolas-Regular.ttf
+  url: temp/consolas-fonts-tts.tar
   fonts:
   - Consolas-Regular.ttf
 
