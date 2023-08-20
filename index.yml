@@ -105,6 +105,7 @@ gmdls:
 mdac28:
   Description: Microsoft Data Access Components 2.8 SP1
   Category: Essentials
+  Arch: win32
 mfc40:
   Description: Microsoft mfc40 Microsoft Foundation Classes
   Category: Essentials
@@ -123,6 +124,7 @@ msxml4:
 msxml6:
   Description: Microsoft Core XML Services (MSXML) 6.0
   Category: Essentials
+  Arch: win64
 mediafoundation:
   Description: Microsoft Media Foundation
   Category: Essentials
@@ -162,9 +164,11 @@ quicktime72:
 xact:
   Description: MS XACT Engine (32-bit only)
   Category: Essentials
+  Arch: win32
 xact_x64:
   Description: MS XACT Engine (64-bit only)
   Category: Essentials
+  Arch: win64
 xinput:
   Description: Microsoft XInput (Xbox controller support)
   Category: Essentials

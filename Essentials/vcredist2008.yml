@@ -20,6 +20,8 @@ Steps:
   file_checksum: 472c10efa75a30deb2a15ec8b777227b
   file_size: 5211080
   arguments: /q
+  for:
+    - win64
 
 - action: override_dll
   dll: atl80

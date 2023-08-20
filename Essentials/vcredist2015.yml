@@ -20,6 +20,8 @@ Steps:
   file_checksum: 27b141aacc2777a82bb3fa9f6e5e5c1c
   file_size: 14572000
   arguments: /quiet /norestart
+  for:
+    - win64
   
 - action: override_dll
   dll: api-ms-win-crt-private-l1-1-0

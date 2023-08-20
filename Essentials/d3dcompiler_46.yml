@@ -28,6 +28,8 @@ Steps:
   file_name: fil8c20206095817436f8df4a711faee5b7
   dest: win64/
   rename: d3dcompiler_46.dll
+  for:
+    - win64
   
 - action: override_dll
   dll: d3dcompiler_46

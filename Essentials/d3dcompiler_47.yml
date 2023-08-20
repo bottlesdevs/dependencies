@@ -21,6 +21,8 @@ Steps:
   url: temp/d3dx9.tar/d3dx9/win64/
   file_name: d3dcompiler*_47.dll
   dest: win64
+  for:
+    - win64
 
 - action: override_dll
   dll: d3dcompiler_47

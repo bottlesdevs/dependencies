@@ -27,6 +27,8 @@ Steps:
   rename: dotnet20sp1_x64.exe
   file_checksum: 4c07706a2ac5806944bc6a09c103bf9f
   file_size: 0
+  for:
+    - win64
 
 - action: override_dll
   dll: mscorwks
