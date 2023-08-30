@@ -1,0 +1,24 @@
+Name: dotnetcoredesktop7
+Description: Microsoft .NET Core Desktop Runtime 7.0 LTS
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: windowsdesktop-runtime-7.0.10-win-x86.exe
+  url: https://download.visualstudio.microsoft.com/download/pr/9812249d-fc42-41ab-bd2e-6e858d5dd5a7/95fa5a1a77eace4482bcb98ede190003/windowsdesktop-runtime-7.0.10-win-x86.exe
+  rename: windowsdesktop-runtime-7.0.10-win-x86.exe
+  file_checksum: 31822427ecad965b1146c577062f8c07
+  file_size: 52813832
+  arguments: /quiet
+  
+- action: install_exe
+  file_name: windowsdesktop-runtime-7.0.10-win-x64.exe
+  url: https://download.visualstudio.microsoft.com/download/pr/747f4a98-2586-4bc6-b828-34f35e384a7d/44225cfd9d365855ec77d00c4812133c/windowsdesktop-runtime-7.0.10-win-x64.exe
+  rename: windowsdesktop-runtime-7.0.10-win-x64.exe
+  file_checksum: ae01602869316963295c7fd5a0a8b757
+  file_size: 57660896
+  arguments: /quiet
+  for:
+    - win64
