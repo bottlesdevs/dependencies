@@ -30,5 +30,5 @@ Steps:
   dest: win64/
 
 - action: override_dll
-  dll: urlmon
+  dll: wininet
   type: native,builtin
