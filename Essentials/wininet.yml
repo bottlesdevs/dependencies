@@ -1,0 +1,34 @@
+Name: wininet
+Description: Microsoft wininet Microsoft Foundation Classes from win7sp1
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: cab_extract
+  file_name: windows6.1-kb976932-x86_c3516bc5c9e69fee6d9ac4f981f5b95977a8a2fa.exe
+  rename: windows6.1-kb976932-x86.exe
+  url: https://proxy.usebottles.com/redistributable/dependencies/windows6.1-kb976932-x86.exe
+  file_checksum: 4bf28fc00d86c936c89e2d91ef46758b
+  dest: temp/windows6.1-kb976932-x86
+
+- action: cab_extract
+  file_name: windows6.1-kb976932-x64_74865ef2562006e51d7f9333b4a8d45b7a749dab.exe
+  rename: windows6.1-kb976932-x64.exe
+  url: https://proxy.usebottles.com/redistributable/dependencies/windows6.1-kb976932-x64.exe
+  file_checksum: 28d3932f714bf71d78e75d36aa2e0fb8
+  dest: temp/windows6.1-kb976932-x64
+
+- action: copy_dll
+  file_name: 'wininet.dll'
+  url: temp/windows6.1-kb976932-x86/x86_microsoft-windows-i..tocolimplementation_31bf3856ad364e35_8.0.7601.17514_none_1eaaa4a07717236e
+  dest: win32/
+
+- action: copy_dll
+  file_name: 'wininet.dll'
+  url: temp/windows6.1-kb976932-x64/amd64_microsoft-windows-i..tocolimplementation_31bf3856ad364e35_8.0.7601.17514_none_7ac940242f7494a4
+  dest: win64/
+
+- action: override_dll
+  dll: wininet
+  type: native,builtin

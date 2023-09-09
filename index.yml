@@ -93,6 +93,15 @@ dotnetcoredesktop6:
 winhttp:
   Description: Microsoft Windows HTTP Services
   Category: Essentials
+wininet:
+  Description: Windows Internet API
+  Category: Essentials
+urlmon:
+  Description: Uniform Resource Locator Moniker
+  Category: Essentials
+iertutil:
+  Description: Internet Explorer Run-Time Utility Library
+  Category: Essentials
 aairruntime:
   Description: Harman AIR runtime
   Category: Essentials
