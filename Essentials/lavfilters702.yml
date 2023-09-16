@@ -1,0 +1,12 @@
+Name: lavfilters702
+Description: LAV Filters 0.70.2
+Provider: Hendrik Leppkes
+License: GPLv2
+License_url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Dependencies: []
+Steps:
+  - action: install_exe
+    file_name: LAVFilters-0.70.2-Installer.exe
+    url: https://github.com/Nevcairiel/LAVFilters/releases/download/0.70.2/LAVFilters-0.70.2-Installer.exe
+    file_checksum: dde6b5238960ac0b67620f7fc52f200d
+    file_size: 10743016

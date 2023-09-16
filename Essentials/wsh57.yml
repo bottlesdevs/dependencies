@@ -1,0 +1,41 @@
+Name: wsh57
+Description: MS Windows Script Host 5.7
+Provider: Microsoft
+License: Microsoft
+License_url: https://www.microsoft.com/en-us/download/details.aspx?id=8247
+Dependencies: []
+Steps:
+- action: download_archive
+  file_name: scripten.exe
+  url: https://download.microsoft.com/download/4/4/d/44de8a9e-630d-4c10-9f17-b9b34d3f6417/scripten.exe
+  file_checksum: 65a8ebf870420316a939ac44fd4c731d
+  file_size: 1079152
+
+- action: get_from_cab
+  source: scripten.exe 
+  file_name: '*'
+  dest: win32/
+
+- action: override_dll
+  bundle: 
+    - value: jscript
+      data: native,builtin
+    - value: scrrun
+      data: native,builtin
+    - value: vbscript
+      data: native,builtin
+    - value: cscript.exe
+      data: native,builtin
+    - value: wscript.exe
+      data: native,builtin
+
+- action: register_dll
+  dlls:
+    - dispex.dll
+    - jscript.dll
+    - scrobj.dll
+    - scrrun.dll
+    - vbscript.dll
+    - wshcon.dll
+    - wshext.dll
+
