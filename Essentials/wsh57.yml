@@ -2,7 +2,7 @@ Name: wsh57
 Description: MS Windows Script Host 5.7
 Provider: Microsoft
 License: Microsoft
-License_url: https://download.microsoft.com/download/4/4/d/44de8a9e-630d-4c10-9f17-b9b34d3f6417/scripten.exe
+License_url: https://www.microsoft.com/en-us/download/details.aspx?id=8247
 Dependencies: []
 Steps:
 - action: download_archive
