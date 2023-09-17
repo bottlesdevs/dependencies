@@ -1,0 +1,68 @@
+Name: vcredist2022
+Description: Microsoft Visual C++ Redistributable (2015-2022) 14.36.32532
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+  - action: install_exe
+    file_name: VC_redist.x86.exe
+    url: https://aka.ms/vs/17/release/VC_redist.x86.exe
+    rename: vcredist2022_x86.exe
+    file_checksum: ae427c1329c3b211a6d09f8d9506eb74
+    file_size: 13837672
+    arguments: /quiet /norestart
+
+  - action: install_exe
+    file_name: VC_redist.x64.exe
+    url: https://aka.ms/vs/17/release/VC_redist.x64.exe
+    rename: vcredist2022_x64.exe
+    file_checksum: 077f0abdc2a3881d5c6c774af821f787
+    file_size: 25355496
+    arguments: /quiet /norestart
+    for:
+      - win64
+
+  - action: override_dll
+    dll: concrt140
+    type: native,builtin
+
+  - action: override_dll
+    dll: msvcp140
+    type: native,builtin
+
+  - action: override_dll
+    dll: msvcp140_1
+    type: native,builtin
+
+  - action: override_dll
+    dll: msvcp140_2
+    type: native,builtin
+
+  - action: override_dll
+    dll: msvcp140_atomic_wait
+    type: native,builtin
+
+  - action: override_dll
+    dll: msvcp140_codecvt_ids
+    type: native,builtin
+
+  - action: override_dll
+    dll: vcamp140
+    type: native,builtin
+
+  - action: override_dll
+    dll: vccorlib140
+    type: native,builtin
+
+  - action: override_dll
+    dll: vcomp140
+    type: native,builtin
+
+  - action: override_dll
+    dll: vcruntime140
+    type: native,builtin
+
+  - action: override_dll
+    dll: vcruntime140_1
+    type: native,builtin
