@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: cab_extract
   file_name: courie32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/courie32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/1b/courie32.exe
   file_checksum: 4e412c772294403ab62fb2d247d85c60
   file_size: 646368
   dest: temp/courie32
