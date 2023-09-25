@@ -176,7 +176,6 @@ quicktime72:
 xact:
   Description: MS XACT Engine (32-bit only)
   Category: Essentials
-  Arch: win32
 xact_x64:
   Description: MS XACT Engine (64-bit only)
   Category: Essentials
