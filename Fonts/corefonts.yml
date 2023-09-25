@@ -7,56 +7,56 @@ Dependencies: []
 Steps:
 - action: install_exe
   file_name: arial32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/arial32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/5e/arial32.exe
   file_checksum: 9637df0e91703179f0723ec095a36cb5
   file_size: 554208
 - action: install_exe
   file_name: arialb32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/arialb32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/5d/arialb32.exe
   file_checksum: c9089ae0c3b3d0d8c4b0a95979bb9ff0
   file_size: 168176
 - action: install_exe
   file_name: andale32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/andale32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/7d/andale32.exe
   file_checksum: cbdc2fdd7d2ed0832795e86a8b9ee19a
   file_size: 198384
 - action: install_exe
   file_name: comic32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/comic32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/52/comic32.exe
   file_checksum: 2b30de40bb5e803a0452c7715fc835d1
   file_size: 246008
 - action: install_exe
   file_name: courie32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/courie32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/1b/courie32.exe
   file_checksum: 4e412c772294403ab62fb2d247d85c60
   file_size: 646368
 - action: install_exe
   file_name: georgi32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/georgi32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/f0/georgi32.exe
   file_checksum: 4d90016026e2da447593b41a8d8fa8bd
   file_size: 392440
 - action: install_exe
   file_name: impact32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/impact32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/10/impact32.exe
   file_checksum: 7907c7dd6684e9bade91cff82683d9d7
   file_size: 173288
 - action: install_exe
   file_name: times32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/times32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/fe/times32.exe
   file_checksum: ed39c8ef91b9fb80f76f702568291bd5
   file_size: 661728
 - action: install_exe
   file_name: trebuc32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/trebuc32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/fa/trebuc32.exe
   file_checksum: 0d7ea16cac6261f8513a061fbfcdb2b5
   file_size: 357200
 - action: install_exe
   file_name: verdan32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/verdan32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/a1/verdan32.exe
   file_checksum: 12d2a75f8156e10607be1eaa8e8ef120
   file_size: 351992
 - action: install_exe
   file_name: webdin32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/webdin32.exe
+  url: https://mirrors.kernel.org/gentoo/distfiles/95/webdin32.exe
   file_checksum: 230a1d13a365b22815f502eb24d9149b
   file_size: 185072
