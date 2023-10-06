@@ -187,6 +187,9 @@ xinput:
 ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
   Category: Essentials
+wsh57:
+  Description: MS Windows Script Host 5.7
+  Category: Essentials
 
 # DIRECT3D
 # ------------------------------
@@ -303,6 +306,9 @@ dirac:
   Category: Essentials
 l3codecx:
   Description: MPEG Layer-3 Audio Codec for Microsoft DirectShow
+  Category: Essentials
+lavfilters702:
+  Description: LAV Filters 0.70.2
   Category: Essentials
 lavfilters741:
   Description: LAV Filters 0.74.1
