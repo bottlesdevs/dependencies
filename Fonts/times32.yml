@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: cab_extract
   file_name: times32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/fe/times32.exe
+  url: https://versaweb.dl.sourceforge.net/project/corefonts/the%20fonts/final/times32.exe
   file_checksum: ed39c8ef91b9fb80f76f702568291bd5
   file_size: 661728
   dest: temp/times32
