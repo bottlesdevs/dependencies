@@ -9,7 +9,7 @@ Steps:
     file_name: VC_redist.x86.exe
     url: https://aka.ms/vs/17/release/VC_redist.x86.exe
     rename: vcredist2022_x86.exe
-    file_checksum: ae427c1329c3b211a6d09f8d9506eb74
+    file_checksum: 0d762264d9765e21c15a58edc43f4706
     file_size: 13837672
     arguments: /quiet /norestart
 
@@ -17,7 +17,7 @@ Steps:
     file_name: VC_redist.x64.exe
     url: https://aka.ms/vs/17/release/VC_redist.x64.exe
     rename: vcredist2022_x64.exe
-    file_checksum: 077f0abdc2a3881d5c6c774af821f787
+    file_checksum: 101b0b9f74cdc6cdbd2570bfe92e302c
     file_size: 25355496
     arguments: /quiet /norestart
     for:
