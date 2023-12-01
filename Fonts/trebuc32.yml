@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: cab_extract
   file_name: trebuc32.exe
-  url: https://mirrors.kernel.org/gentoo/distfiles/fa/trebuc32.exe
+  url: https://cfhcable.dl.sourceforge.net/project/corefonts/the%20fonts/final/trebuc32.exe
   file_checksum: 0d7ea16cac6261f8513a061fbfcdb2b5
   file_size: 357200
   dest: temp/trebuc32
