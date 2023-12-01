@@ -13,7 +13,7 @@ Steps:
   dest: temp/consolas
 
 - action: install_fonts
-  url: temp/consolas-fonts-tts.tar/Consolas-Bold.ttf
+  url: temp/consolas-fonts-tts.tar
   fonts:
   - Consolas-Bold.ttf
 
