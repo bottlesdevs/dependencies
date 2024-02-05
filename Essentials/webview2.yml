@@ -1,0 +1,14 @@
+Name: webview2
+Description: Microsoft Edge Web View 2
+Provider: WebView2
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: MicrosoftEdgeWebView2RuntimeInstallerX64.exe
+  url: https://github.com/aedancullen/webview2-evergreen-standalone-installer-archive/releases/download/109.0.1518.78/MicrosoftEdgeWebView2RuntimeInstallerX64.exe
+  rename: MicrosoftEdgeWebView2RuntimeInstallerX64.exe
+  arguments: /silent /install
+  file_checksum: 10de434605516b8ea70f49757ccc2ff8
+  file_size: 145772880
