@@ -189,6 +189,9 @@ ie8_kb2936068:
 wsh57:
   Description: MS Windows Script Host 5.7
   Category: Essentials
+webview2:
+  Description: Microsoft Edge Web View 2
+  Category: Essentials
 
 # DIRECT3D
 # ------------------------------
