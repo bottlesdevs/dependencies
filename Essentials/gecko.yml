@@ -6,17 +6,17 @@ License_url: https://wiki.winehq.org/Gecko
 Dependencies: []
 Steps:
 - action: install_msi
-  file_name: wine_gecko-2.47.2-x86.msi
-  url: https://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86.msi
-  rename: wine_gecko-2.47.2-x86.msi
-  file_checksum: e0a26e37397961b2c7f624575590ef66
-  file_size: 59162112
+  file_name: wine_gecko-2.47.4-x86.msi
+  url: https://dl.winehq.org/wine/wine-gecko/2.47.4/wine-gecko-2.47.4-x86.msi
+  rename: wine_gecko-2.47.4-x86.msi
+  file_checksum: f61c2a0065301ce329aa390342e70f14
+  file_size: 55187968
   
 - action: install_msi
-  file_name: wine_gecko-2.47.2-x86_64.msi
-  url: https://dl.winehq.org/wine/wine-gecko/2.47.2/wine-gecko-2.47.2-x86_64.msi
-  rename: wine_gecko-2.47.2-x86_64.msi
-  file_checksum: ff7168b08fa901516fbaa8a66aa3cee6
-  file_size: 55354880
+  file_name: wine_gecko-2.47.4-x86_64.msi
+  url: https://dl.winehq.org/wine/wine-gecko/2.47.4/wine-gecko-2.47.4-x86_64.msi
+  rename: wine_gecko-2.47.4-x86_64.msi
+  file_checksum: 8cc7018079a8db70e822320b69185515
+  file_size: 53898752
   for:
     - win64
