@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: cab_extract
   file_name: arial32.exe
-  url: https://cfhcable.dl.sourceforge.net/project/corefonts/the%20fonts/final/arial32.exe
+  url: https://sourceforge.net/projects/corefonts/files/the%20fonts/final/arial32.exe
   file_checksum: 9637df0e91703179f0723ec095a36cb5
   file_size: 554208
   dest: temp/arial32
