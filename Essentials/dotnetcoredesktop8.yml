@@ -1,0 +1,24 @@
+Name: dotnetcoredesktop8
+Description: Microsoft .NET Core Desktop Runtime 8.0 LTS
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: windowsdesktop-runtime-8.0.4-win-x86.exe
+  url: https://download.visualstudio.microsoft.com/download/pr/1fbf5c5f-9770-402d-8971-83da662d8cf9/4e37b3c24bcb6004875b9f8b08024303/windowsdesktop-runtime-8.0.4-win-x86.exe
+  rename: windowsdesktop-runtime-8.0.4-win-x86.exe
+  file_checksum: 462d5e365c384e08539d075d6176b0e5
+  file_size: 53554592
+  arguments: /quiet
+  
+- action: install_exe
+  file_name: windowsdesktop-runtime-8.0.4-win-x64.exe
+  url: https://download.visualstudio.microsoft.com/download/pr/c1d08a81-6e65-4065-b606-ed1127a954d3/14fe55b8a73ebba2b05432b162ab3aa8/windowsdesktop-runtime-8.0.4-win-x64.exe
+  rename: windowsdesktop-runtime-8.0.4-win-x64.exe
+  file_checksum: 4ed51a4f5c761cf37a8841ebb40c5191
+  file_size: 58449920
+  arguments: /quiet
+  for:
+    - win64

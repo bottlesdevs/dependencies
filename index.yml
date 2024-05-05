@@ -93,6 +93,9 @@ dotnetcoredesktop6:
 dotnetcoredesktop7:
   Description: Microsoft .NET Core Desktop Runtime 7.0 LTS
   Category: Essentials
+dotnetcoredesktop8:
+  Description: Microsoft .NET Core Desktop Runtime 8.0 LTS
+  Category: Essentials
 # GENERIC
 # ------------------------------
 winhttp:
