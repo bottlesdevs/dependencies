@@ -1,5 +1,5 @@
 Name: vcredist2022
-Description: Microsoft Visual C++ Redistributable (2015-2022) 14.36.32532
+Description: Microsoft Visual C++ Redistributable (2015-2022) 14.38.33135
 Provider: Microsoft
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
@@ -9,7 +9,7 @@ Steps:
     file_name: VC_redist.x86.exe
     url: https://aka.ms/vs/17/release/VC_redist.x86.exe
     rename: vcredist2022_x86.exe
-    file_checksum: 9882a328c8414274555845fa6b542d1e
+    file_checksum: 8457542fd4be74cb2c3a92b3386ae8e9 
     file_size: 13837672
     arguments: /quiet /norestart
 
@@ -17,7 +17,7 @@ Steps:
     file_name: VC_redist.x64.exe
     url: https://aka.ms/vs/17/release/VC_redist.x64.exe
     rename: vcredist2022_x64.exe
-    file_checksum: a8a68bcc74b5022467f12587baf1ef93
+    file_checksum: 1d545507009cc4ec7409c1bc6e93b17b
     file_size: 25355496
     arguments: /quiet /norestart
     for:
