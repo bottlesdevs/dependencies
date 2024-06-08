@@ -126,6 +126,9 @@ mdac28:
 mfc40:
   Description: Microsoft mfc40 Microsoft Foundation Classes
   Category: Essentials
+mfc42:
+  Description: Microsoft mfc42 Microsoft Foundation Classes
+  Category: Essentials
 msasn1:
   Description: MS ASN1
   Category: Essentials
