@@ -9,11 +9,11 @@ Steps:
   file_name: Wine Mono
   
 - action: install_msi
-  file_name: wine-mono-9.1.0-x86.msi
-  url: https://dl.winehq.org/wine/wine-mono/9.1.0/wine-mono-9.1.0-x86.msi
-  rename: wine-mono-9.1.0-x86.msi
-  file_checksum: 2811aed2a6a5ff7f222179adcfe98b33
-  file_size: 84623872
+  file_name: wine-mono-9.2.0-x86.msi
+  url: https://dl.winehq.org/wine/wine-mono/9.2.0/wine-mono-9.2.0-x86.msi
+  rename: wine-mono-9.2.0-x86.msi
+  file_checksum: f8bf99572e6849fad2a4f50f6995c869
+  file_size: 84566016
 
 - action: override_dll
   dll: mscoree
