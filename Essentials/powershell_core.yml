@@ -1,0 +1,25 @@
+Name: powershell_core
+Description: Microsoft PowerShell
+Provider: Microsoft
+License: MIT
+License_url: https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt
+Dependencies: []
+Steps:
+- action: install_msi
+  file_name: PowerShell-7.2.21-win-x86.msi
+  url: https://github.com/PowerShell/PowerShell/releases/download/v7.2.21/PowerShell-7.2.21-win-x86.msi
+  rename: PowerShell-7.2.21-win-x86.msi
+  file_checksum: ff9106b27dcfbf7d5f153f95356952f8
+  file_size: 96886784
+  arguments: /quiet ENABLE_PSREMOTING=1 REGISTER_MANIFEST=1
+  for:
+    - win32
+- action: install_msi
+  file_name: PowerShell-7.2.21-win-x64.msi
+  url: https://github.com/PowerShell/PowerShell/releases/download/v7.2.21/PowerShell-7.2.21-win-x64.msi
+  rename: PowerShell-7.2.21-win-x64.msi
+  file_checksum: caa2a4cbb2ab995ca5447c442751694c
+  file_size: 105873408
+  arguments: /quiet ENABLE_PSREMOTING=1 REGISTER_MANIFEST=1
+  for:
+    - win64
