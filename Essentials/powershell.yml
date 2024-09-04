@@ -6,43 +6,25 @@ License_url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Dependencies:
 - powershell_core
 Steps:
-- action: copy_file
-  file_name: 'null'
-  url: /dev/
-  dest: temp/pswrapper-2.1.1/32/../64/../.null/
-- action: download_archive
-  file_name: powershell32.exe
-  url: https://github.com/ProjectSynchro/powershell-wrapper-for-wine/releases/download/v2.1.1/powershell32.exe
-  rename: pswrapper-2.1.1/32/powershell.exe
-  file_checksum: b2c47af45e741a89621165742998fc1b
-  file_size: 5632
-- action: download_archive
-  file_name: powershell64.exe
-  url: https://github.com/ProjectSynchro/powershell-wrapper-for-wine/releases/download/v2.1.1/powershell64.exe
-  rename: pswrapper-2.1.1/64/powershell.exe
-  file_checksum: c33d1d7cd161494a2de36de637e2d0fb
-  file_size: 6144
-  for:
-    - win64
-- action: download_archive
-  file_name: profile.ps1
-  url: https://github.com/ProjectSynchro/powershell-wrapper-for-wine/releases/download/v2.1.1/profile.ps1
-  rename: pswrapper-2.1.1/profile.ps1
-  file_checksum: d500139b341315546f5f8aea02bc3aab
-  file_size: 6421
+- action: archive_extract
+  file_name: powershell-wrapper.zip
+  url: https://github.com/ProjectSynchro/powershell-wrapper-for-wine/releases/download/v2.1.2/powershell-wrapper.zip
+  rename: pswrapper-2.1.2.zip
+  file_checksum: 0aee3b4f3da961d573766f34d70dc4ef
+  file_size: 8053
 - action: copy_file
   file_name: powershell.exe
-  url: temp/pswrapper-2.1.1/32/
+  url: temp/pswrapper-2.1.2/32/
   dest: win32/WindowsPowerShell/v1.0/
 - action: copy_file
   file_name: powershell.exe
-  url: temp/pswrapper-2.1.1/64/
+  url: temp/pswrapper-2.1.2/64/
   dest: win64/WindowsPowerShell/v1.0/
   for:
     - win64
 - action: copy_file
   file_name: profile.ps1
-  url: temp/pswrapper-2.1.1/
+  url: temp/pswrapper-2.1.2/
   dest: windows/../Program Files/PowerShell/7/
 - action: override_dll
   dll: powershell.exe
