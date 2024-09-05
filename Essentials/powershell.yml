@@ -1,5 +1,5 @@
 Name: powershell
-Description: PowerShell Wrapper For Wine
+Description: Windows PowerShell Wrapper For Wine
 Provider: ProjectSynchro
 License: GPLv2
 License_url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
