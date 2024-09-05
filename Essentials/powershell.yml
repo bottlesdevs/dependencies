@@ -1,0 +1,31 @@
+Name: powershell
+Description: PowerShell Wrapper For Wine
+Provider: ProjectSynchro
+License: GPLv2
+License_url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Dependencies:
+- powershell_core
+Steps:
+- action: archive_extract
+  file_name: powershell-wrapper.zip
+  url: https://github.com/ProjectSynchro/powershell-wrapper-for-wine/releases/download/v2.1.2/powershell-wrapper.zip
+  rename: pswrapper-2.1.2.zip
+  file_checksum: 0aee3b4f3da961d573766f34d70dc4ef
+  file_size: 8053
+- action: copy_file
+  file_name: powershell.exe
+  url: temp/pswrapper-2.1.2/32/
+  dest: win32/WindowsPowerShell/v1.0/
+- action: copy_file
+  file_name: powershell.exe
+  url: temp/pswrapper-2.1.2/64/
+  dest: win64/WindowsPowerShell/v1.0/
+  for:
+    - win64
+- action: copy_file
+  file_name: profile.ps1
+  url: temp/pswrapper-2.1.2/
+  dest: windows/../Program Files/PowerShell/7/
+- action: override_dll
+  dll: powershell.exe
+  type: native,builtin
