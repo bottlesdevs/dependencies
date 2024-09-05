@@ -197,6 +197,12 @@ wsh57:
 webview2:
   Description: Microsoft Edge Web View 2
   Category: Essentials
+powershell:
+  Description: PowerShell Wrapper For Wine
+  Category: Essentials
+powershell_core:
+  Description: Microsoft PowerShell
+  Category: Essentials
 
 # DIRECT3D
 # ------------------------------
