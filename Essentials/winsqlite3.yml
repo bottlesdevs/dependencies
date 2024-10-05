@@ -1,7 +1,12 @@
 Name: winsqlite3 
 Description: Provides winsqlite3
-Provider: Dirac
+Provider: SQlLite
 License: GPLv2
-License_url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+License_url: https://www.sqlite.org/copyright.html
 Dependencies: []
 Steps:
+- action: archive_extract
+  file_name: sqlite-dll
+  url:
+  rename:
+  
