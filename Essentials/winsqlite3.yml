@@ -1,1 +1,7 @@
 Name: winsqlite3 
+Description: Provides winsqlite3
+Provider: Dirac
+License: GPLv2
+License_url: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Dependencies: []
+Steps:
