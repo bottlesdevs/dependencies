@@ -1,5 +1,5 @@
-Name: winsqlite3 
-Description: Provides winsqlite3
+Name: sqlite3 
+Description: Provides SQLite3
 Provider: SQlLite
 License: GPLv2
 License_url: https://www.sqlite.org/copyright.html
