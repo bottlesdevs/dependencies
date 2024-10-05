@@ -98,8 +98,8 @@ dotnetcoredesktop8:
   Category: Essentials
 # GENERIC
 # ------------------------------
-winsqlite3:
-  Description: provides winsqlite3.dll
+sqlite3:
+  Description: provides sqlite3.dll
   Category: Essentials
 winhttp:
   Description: Microsoft Windows HTTP Services
