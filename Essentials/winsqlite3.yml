@@ -6,7 +6,12 @@ License_url: https://www.sqlite.org/copyright.html
 Dependencies: []
 Steps:
 - action: archive_extract
-  file_name: sqlite-dll
-  url:
-  rename:
-  
+  file_name: powershell-wrapper.zip
+  url: https://github.com/ProjectSynchro/powershell-wrapper-for-wine/releases/download/v2.1.3/powershell-wrapper.zip
+  rename: pswrapper-2.1.3.zip
+  file_checksum: e60895ea12b80d67cd609446087307ed
+  file_size: 8866
+- action: copy_file
+  file_name: powershell.exe
+  url: temp/pswrapper-2.1.3/32/
+  dest: win32/WindowsPowerShell/v1.0/
