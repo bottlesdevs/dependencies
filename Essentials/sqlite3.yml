@@ -1,0 +1,15 @@
+Name: sqlite3
+Description: Provides SQLite3 for the x64-x86 architecture
+Provider: SQlLite
+License: GPLv2
+License_url: https://www.sqlite.org/copyright.html
+Dependencies: []
+Steps:
+- action: archive_extract
+  file_name: sql-temp-dll.zip
+  url: https://www.sqlite.org/2024/sqlite-dll-win-x64-3460100.zip
+  rename: sqlite-dll.zip
+- action: copy_dll
+  file_name: sqlite3.dll
+  url: temp/sqlite-dll/sqlite3.dll
+  dest: win64
