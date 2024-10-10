@@ -31,16 +31,16 @@ vcredist2012:
   Description: Microsoft Visual C++ Redistributable for Visual Studio 2012
   Category: Essentials
 vcredist2013:
-  Description: Microsoft Visual C++ Redistributable (2013) 12.0
+  Description: Microsoft Visual C++ Redistributable (2013)
   Category: Essentials
 vcredist2015:
   Description: Microsoft Visual C++ Redistributable (2015)
   Category: Essentials
 vcredist2019:
-  Description: Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325
+  Description: Microsoft Visual C++ Redistributable (2015-2019)
   Category: Essentials
 vcredist2022:
-  Description: Microsoft Visual C++ Redistributable (2015-2022) 14.38.33135
+  Description: Microsoft Visual C++ Redistributable (2015-2022)
   Category: Essentials
 
 # .NET FRAMEWORKS
