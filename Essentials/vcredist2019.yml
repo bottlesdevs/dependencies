@@ -1,5 +1,5 @@
 Name: vcredist2019
-Description: Microsoft Visual C++ Redistributable (2015-2019) 14.28.29325
+Description: Microsoft Visual C++ Redistributable (2015-2019) 14.29.30156.0
 Provider: Microsoft
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
@@ -7,18 +7,18 @@ Dependencies: []
 Steps:
 - action: install_exe
   file_name: VC_redist.x86.exe
-  url: https://aka.ms/vs/16/release/VC_redist.x86.exe
+  url: https://download.visualstudio.microsoft.com/download/pr/5efdbcb7-d3bd-4432-a2fb-b267c386e2f3/49545CB0F6499C4A65E1E8D5033441EEEB4EDFAE465A68489A70832C6A4F6399/VC_redist.x86.exe
   rename: vcredist2019_x86.exe
-  file_checksum: 744b8a391e7e914c6604a533b50a6db8
-  file_size: 13787064
+  file_checksum: 540dd9aed5ad7e3a6fbf3f2d7753a093
+  file_size: 13888640
   arguments: /quiet /norestart
 
 - action: install_exe
   file_name: VC_redist.x64.exe
-  url: https://aka.ms/vs/16/release/VC_redist.x64.exe
+  url: https://download.visualstudio.microsoft.com/download/pr/453680ea-b88a-411f-80fd-5db37fdc9dbb/5D9999036F2B3A930F83B7FE3E2186B12E79AE7C007D538F52E3582E986A37C3/VC_redist.x64.exe
   rename: vcredist2019_x64.exe
-  file_checksum: e091e9e5ede4161b45b880ccd6e140b0
-  file_size: 25226464
+  file_checksum: 810499fc266b73d33d71a8d1e3291ad3
+  file_size: 25332216
   arguments: /quiet /norestart
   for:
     - win64
@@ -86,7 +86,7 @@ Steps:
 - action: override_dll
   dll: vcruntime140
   type: native,builtin
-  
+
 - action: override_dll
   dll: vcruntime140_1
   type: native,builtin
