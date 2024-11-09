@@ -1,0 +1,24 @@
+Name: dotnet481
+Description: Microsoft .NET Framework 4.8.1
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Conflicts:
+  - mono
+Steps:
+  - action: uninstall
+    file_name: Wine Mono
+
+  - action: install_exe
+    environment:
+      WINEDLLOVERRIDES: fusion=b
+    file_name: NDP481-x86-x64-AllOS-ENU.exe
+    url: https://download.microsoft.com/download/4/b/2/cd00d4ed-ebdd-49ee-8a33-eabc3d1030e3/NDP481-x86-x64-AllOS-ENU.exe
+    rename: dotnet481.exe
+    file_checksum: ead82f7ab00fc5847c4d7c292f424267
+    file_size: 77688504
+    arguments: /q /norestart
+
+  - action: override_dll
+    dll: mscoree
+    type: native
