@@ -81,6 +81,9 @@ dotnet472:
 dotnet48:
   Description: Microsoft .NET Framework 4.8
   Category: Essentials
+dotnet481:
+  Description: Microsoft .NET Framework 4.8.1
+  Category: Essentials
 dotnetcore3:
   Description: Microsoft .NET Core Runtime 3.1 LTS
   Category: Essentials
@@ -95,6 +98,9 @@ dotnetcoredesktop7:
   Category: Essentials
 dotnetcoredesktop8:
   Description: Microsoft .NET Core Desktop Runtime 8.0 LTS
+  Category: Essentials
+dotnetcoredesktop9:
+  Description: Microsoft .NET Core Desktop Runtime 9.0
   Category: Essentials
 
 # GENERIC

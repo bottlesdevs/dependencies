@@ -1,0 +1,21 @@
+Name: dotnetcoredesktop9
+Description: Microsoft .NET Core Desktop Runtime 9.0
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Steps:
+  - action: install_exe
+    file_name: windowsdesktop-runtime-9.0.1-win-x86.exe
+    url: https://download.visualstudio.microsoft.com/download/pr/dcd86c7a-9e55-4cc0-8c71-b99ece1350c4/7cc9c0996933075f56ad69c1169e0c1c/windowsdesktop-runtime-9.0.1-win-x86.exe
+    file_checksum: af9d879b0f68d24b05c1c967ca9bc4fb
+    file_size: 55358544
+    arguments: /quiet
+
+  - action: install_exe
+    file_name: windowsdesktop-runtime-9.0.1-win-x64.exe
+    url: https://download.visualstudio.microsoft.com/download/pr/ae0291d4-bcdc-4e56-a952-4f7d84bf2673/1bc4a93f466aab309776931e5a5c4eb4/windowsdesktop-runtime-9.0.1-win-x64.exe
+    file_checksum: e4227cd1a5bd8ef9ce567ff26f2578c6
+    file_size: 60735448
+    arguments: /quiet
+    for:
+      - win64
