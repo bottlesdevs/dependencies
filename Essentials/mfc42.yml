@@ -12,6 +12,11 @@ Steps:
   file_size: 1837888
 
 - action: get_from_cab
+  source: VC6RedistSetup_deu.exe
+  file_name: vcredist.exe
+  dest: temp/vcredist6/
+
+- action: get_from_cab
   file_name: mfc42.dll
   source: vcredist6/vcredist.exe
   dest: win32
