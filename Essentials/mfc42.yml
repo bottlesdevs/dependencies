@@ -1,0 +1,30 @@
+Name: mfc42
+Description: Microsoft mfc42.dll and mfc42u.dll
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: download_archive
+  file_name: VC6RedistSetup_deu.exe
+  url: https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe
+  file_checksum: 53a0925609b366daa17051e1e4be3b86
+  file_size: 1837888
+
+- action: get_from_cab
+  file_name: mfc42.dll
+  source: vcredist6/vcredist.exe
+  dest: win32
+
+- action: get_from_cab
+  file_name: mfc42u.dll
+  source: vcredist6/vcredist.exe
+  dest: win32
+  
+- action: override_dll
+  dll: mfc42
+  type: native,builtin
+
+- action: override_dll
+  dll: mfc42u
+  type: native,builtin
