@@ -1,20 +1,34 @@
 Name: mfc42
-Description: Microsoft mfc42 Microsoft Foundation Classes from win7sp1
+Description: Microsoft mfc42.dll and mfc42u.dll
 Provider: Microsoft
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
 Steps:
 - action: download_archive
-  file_name: windows6.1-kb976932-x86.exe
-  url: https://proxy.usebottles.com/redistributable/dependencies/windows6.1-kb976932-x86.exe
-  file_checksum: 4bf28fc00d86c936c89e2d91ef46758b
-  file_size: 563934504
+  file_name: VC6RedistSetup_deu.exe
+  url: https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe
+  file_checksum: 53a0925609b366daa17051e1e4be3b86
+  file_size: 1837888
 
 - action: get_from_cab
-  source: windows6.1-kb976932-x86.exe
-  file_name: x86_microsoft-windows-mfc42x_31bf3856ad364e35_6.1.7601.17514_none_f51c382cb3d0d225/mfc42u.dll
-  dest: win32/
+  source: VC6RedistSetup_deu.exe
+  file_name: vcredist.exe
+  dest: temp/vcredist6/
+
+- action: get_from_cab
+  file_name: mfc42.dll
+  source: vcredist6/vcredist.exe
+  dest: win32
+
+- action: get_from_cab
+  file_name: mfc42u.dll
+  source: vcredist6/vcredist.exe
+  dest: win32
+  
+- action: override_dll
+  dll: mfc42
+  type: native,builtin
 
 - action: override_dll
   dll: mfc42u
