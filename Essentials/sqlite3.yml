@@ -10,6 +10,6 @@ Steps:
   url: https://www.sqlite.org/2024/sqlite-dll-win-x64-3460100.zip
   rename: sqlite-dll.zip
 - action: copy_dll
+  url: temp/sqlite-dll/
   file_name: sqlite3.dll
-  url: temp/sqlite-dll/sqlite3.dll
   dest: win64
