@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: archive_extract
   file_name: sql-temp-dll.zip
-  url: https://www.sqlite.org/2024/sqlite-dll-win-x64-3460100.zip
+  url: https://www.sqlite.org/2024/sqlite-dll-win-x64-3470200.zip
   rename: sqlite-dll.zip
 - action: copy_dll
   url: temp/sqlite-dll/
