@@ -1,7 +1,7 @@
 Name: sqlite3
 Description: Provides SQLite3 for the x64-x86 architecture
 Provider: SQlLite
-License: GPLv2
+License: Public Domain
 License_url: https://www.sqlite.org/copyright.html
 Dependencies: []
 Steps:
