@@ -6,9 +6,8 @@ License_url: https://www.sqlite.org/copyright.html
 Dependencies: []
 Steps:
 - action: archive_extract
-  file_name: sql-temp-dll.zip
   url: https://www.sqlite.org/2024/sqlite-dll-win-x64-3470200.zip
-  rename: sqlite-dll.zip
+  file_name: sqlite-dll.zip
 - action: copy_dll
   url: temp/sqlite-dll/
   file_name: sqlite3.dll
