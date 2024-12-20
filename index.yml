@@ -96,10 +96,11 @@ dotnetcoredesktop7:
 dotnetcoredesktop8:
   Description: Microsoft .NET Core Desktop Runtime 8.0 LTS
   Category: Essentials
+
 # GENERIC
 # ------------------------------
 sqlite3:
-  Description: provides sqlite3.dll
+  Description: SQLite3
   Category: Essentials
 winhttp:
   Description: Microsoft Windows HTTP Services
