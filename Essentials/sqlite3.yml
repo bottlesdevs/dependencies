@@ -1,15 +1,25 @@
 Name: sqlite3
-Description: Provides SQLite3 for the x64-x86 architecture
-Provider: SQlLite
-License: GPLv2
+Description: SQLite3 for 32-bit and 64-bit systems
+Provider: SQLite
+License: Public Domain
 License_url: https://www.sqlite.org/copyright.html
 Dependencies: []
 Steps:
 - action: archive_extract
-  file_name: sql-temp-dll.zip
-  url: https://www.sqlite.org/2024/sqlite-dll-win-x64-3460100.zip
-  rename: sqlite-dll.zip
+  url: https://www.sqlite.org/2024/sqlite-dll-win-x86-3470200.zip
+  file_name: sqlite-dll-32.zip
 - action: copy_dll
-  url: temp/sqlite-dll/
+  url: temp/sqlite-dll-32/
+  file_name: sqlite3.dll
+  dest: win32
+- action: archive_extract
+  url: https://www.sqlite.org/2024/sqlite-dll-win-x64-3470200.zip
+  file_name: sqlite-dll-64.zip
+  for: 
+    - win64
+- action: copy_dll
+  url: temp/sqlite-dll-64/
   file_name: sqlite3.dll
   dest: win64
+  for: 
+    - win64
