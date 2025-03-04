@@ -6,15 +6,15 @@ License_url: https://www.sqlite.org/copyright.html
 Dependencies: []
 Steps:
 - action: archive_extract
-  url: https://www.sqlite.org/2024/sqlite-dll-win-x86-3470200.zip
-  file_name: sqlite-dll-32.zip
+  url: https://www.sqlite.org/2025/sqlite-dll-win-x86-3490100.zip
+  file_name: sqlite-dll-win-x86-3490100.zip
 - action: copy_dll
   url: temp/sqlite-dll-32/
   file_name: sqlite3.dll
   dest: win32
 - action: archive_extract
-  url: https://www.sqlite.org/2024/sqlite-dll-win-x64-3470200.zip
-  file_name: sqlite-dll-64.zip
+  url: https://www.sqlite.org/2025/sqlite-dll-win-x64-3490100.zip
+  file_name: sqlite-dll-win-x64-3490100.zip
   for: 
     - win64
 - action: copy_dll
