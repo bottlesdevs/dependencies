@@ -6,49 +6,15 @@ License_url: https://github.com/FunkyFr3sh/cnc-ddraw/blob/master/LICENSE
 Dependencies: []
 Steps:
 - action: archive_extract
-  file_name: cnc-ddraw.zip
-  url: https://github.com/FunkyFr3sh/cnc-ddraw/releases/download/v7.0.0.0/cnc-ddraw.zip
-  file_checksum: ca7381b1202eb4a0b75c5608e67d2e65
+  url: https://github.com/FunkyFr3sh/cnc-ddraw/releases/download/experimental/cnc-ddraw-experimental-debuglog.zip
+  file_name: cnc-ddraw-experimental-debuglog.zip
+  rename: cnc-ddraw.zip
+  file_checksum: 168e560dfc78f94a20f53d08a0d3c8b9
 
-- action: copy_file
+- action: copy_dll
   url: temp/cnc-ddraw/
-  file_name: '*'
+  file_name: 'ddraw.dll'
   dest: win32
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/
-  file_name: '*'
-  dest: win32/Shaders
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/crt/
-  file_name: '*'
-  dest: win32/Shaders/crt
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/interpolation/
-  file_name: '*'
-  dest: win32/Shaders/interpolation
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/scanlines/
-  file_name: '*'
-  dest: win32/Shaders/scanlines
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/sharpen/
-  file_name: '*'
-  dest: win32/Shaders/sharpen
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/xbr/
-  file_name: '*'
-  dest: win32/Shaders/xbr
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/xbrz/
-  file_name: '*'
-  dest: win32/Shaders/xbrz
 
 - action: override_dll
   dll: ddraw
