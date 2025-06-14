@@ -1,84 +1,30 @@
 Name: cnc-ddraw
 Description: Re-implementation of the DirectDraw API for classic games
-Provider: CnCNet
+Provider: FunkyFr3sh
 License: MIT
-License_url: https://github.com/CnCNet/cnc-ddraw/blob/master/LICENSE
+License_url: https://github.com/FunkyFr3sh/cnc-ddraw/blob/master/LICENSE
 Dependencies: []
 Steps:
 - action: archive_extract
+  url: https://github.com/FunkyFr3sh/cnc-ddraw/releases/download/v7.0.0.0/cnc-ddraw.zip
   file_name: cnc-ddraw.zip
-  url: https://github.com/CnCNet/cnc-ddraw/releases/download/v4.4.8.0/cnc-ddraw.zip
-  file_checksum: 3e0fa0d3b86ee3d73cf68dc6cdc1aab5
+  rename: cnc-ddraw-v7.0.0.0.zip
+  file_checksum: ca7381b1202eb4a0b75c5608e67d2e65
 
 - action: copy_file
   url: temp/cnc-ddraw/
-  file_name: '*.exe'
-  dest: win32
-
-- action: copy_file
-  url: temp/cnc-ddraw/
-  file_name: '*.dll'
-  dest: win32
-
-- action: copy_file
-  url: temp/cnc-ddraw/
-  file_name: '*.ini'
+  file_name: '*.*'
   dest: win32
 
 - action: copy_file
   url: temp/cnc-ddraw/Shaders/
-  file_name: '*.glsl'
+  file_name: '*.*'
   dest: win32/Shaders
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/
-  file_name: '*.txt'
-  dest: win32/Shaders
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/
-  file_name: '*.zip'
-  dest: win32/Shaders
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/crt/
-  file_name: '*.glsl'
-  dest: win32/Shaders/crt
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/cubic/
-  file_name: '*.glsl'
-  dest: win32/Shaders/cubic
 
 - action: copy_file
   url: temp/cnc-ddraw/Shaders/interpolation/
-  file_name: '*.glsl'
+  file_name: 'catmull-rom-bilinear.glsl'
   dest: win32/Shaders/interpolation
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/scanlines/
-  file_name: '*.glsl'
-  dest: win32/Shaders/scanlines
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/sharpen/
-  file_name: '*.glsl'
-  dest: win32/Shaders/sharpen
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/windowed/
-  file_name: '*.glsl'
-  dest: win32/Shaders/windowed
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/xbr/
-  file_name: '*.glsl'
-  dest: win32/Shaders/xbr
-
-- action: copy_file
-  url: temp/cnc-ddraw/Shaders/xbrz/
-  file_name: '*.glsl'
-  dest: win32/Shaders/xbrz
 
 - action: override_dll
   dll: ddraw
