@@ -8,23 +8,23 @@ Dependencies:
 Steps:
 - action: archive_extract
   file_name: powershell-wrapper.zip
-  url: https://github.com/ProjectSynchro/powershell-wrapper-for-wine/releases/download/v2.1.3/powershell-wrapper.zip
-  rename: pswrapper-2.1.3.zip
-  file_checksum: e60895ea12b80d67cd609446087307ed
-  file_size: 8866
+  url: https://codeberg.org/Synchro/powershell-wrapper-for-wine/releases/download/v3.0.6/powershell-wrapper.zip
+  rename: pswrapper-3.0.6.zip
+  file_checksum: b6ab606d822ab0ec4f8dc5a7ae63a1f0
+  file_size: 1288912
 - action: copy_file
   file_name: powershell.exe
-  url: temp/pswrapper-2.1.3/32/
+  url: temp/pswrapper-3.0.6/32/
   dest: win32/WindowsPowerShell/v1.0/
 - action: copy_file
   file_name: powershell.exe
-  url: temp/pswrapper-2.1.3/64/
+  url: temp/pswrapper-3.0.6/64/
   dest: win64/WindowsPowerShell/v1.0/
   for:
     - win64
 - action: copy_file
   file_name: profile.ps1
-  url: temp/pswrapper-2.1.3/
+  url: temp/pswrapper-3.0.6/
   dest: windows/../Program Files/PowerShell/7/
 - action: override_dll
   dll: powershell.exe

@@ -6,20 +6,20 @@ License_url: https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt
 Dependencies: []
 Steps:
 - action: install_msi
-  file_name: PowerShell-7.2.21-win-x86.msi
-  url: https://github.com/PowerShell/PowerShell/releases/download/v7.2.21/PowerShell-7.2.21-win-x86.msi
-  rename: PowerShell-7.2.21-win-x86.msi
-  file_checksum: ff9106b27dcfbf7d5f153f95356952f8
-  file_size: 96886784
-  arguments: /quiet ENABLE_PSREMOTING=1 REGISTER_MANIFEST=1
+  file_name: PowerShell-7.4.11-win-x86.msi
+  url: https://github.com/PowerShell/PowerShell/releases/download/v7.4.11/PowerShell-7.4.11-win-x86.msi
+  rename: PowerShell-7.4.11-win-x86.msi
+  file_checksum: dbc654619685cb3ea077dc041c65c49c
+  file_size: 102121472
+  arguments: /quiet ENABLE_PSREMOTING=0 REGISTER_MANIFEST=1 DISABLE_TELEMETRY=1 USE_MU=0 ENABLE_MU=0 LAUNCHAPPONEXIT=0
   for:
     - win32
 - action: install_msi
-  file_name: PowerShell-7.2.21-win-x64.msi
-  url: https://github.com/PowerShell/PowerShell/releases/download/v7.2.21/PowerShell-7.2.21-win-x64.msi
-  rename: PowerShell-7.2.21-win-x64.msi
-  file_checksum: caa2a4cbb2ab995ca5447c442751694c
-  file_size: 105873408
-  arguments: /quiet ENABLE_PSREMOTING=1 REGISTER_MANIFEST=1
+  file_name: PowerShell-7.4.11-win-x64.msi
+  url: https://github.com/PowerShell/PowerShell/releases/download/v7.4.11/PowerShell-7.4.11-win-x64.msi
+  rename: PowerShell-7.4.11-win-x64.msi
+  file_checksum: 20c4eafe62d989226b9fe57d2ea045a6
+  file_size: 110043136
+  arguments: /quiet ENABLE_PSREMOTING=0 REGISTER_MANIFEST=1 DISABLE_TELEMETRY=1 USE_MU=0 ENABLE_MU=0 LAUNCHAPPONEXIT=0
   for:
     - win64
