@@ -1,0 +1,22 @@
+Name: segoemdl2
+Description: MS Segoe MDL2 character font
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: archive_extract
+  file_name: Segoe MDL2 Assets.zip
+  url: https://aka.ms/segoemdl2
+  rename: SegoeMDL2Assets.zip
+  file_checksum: 65a987e8011292c971f5102def62ac0f
+  file_size: 140
+
+- action: install_fonts
+  url: temp/SegoeMDL2Assets
+  fonts:
+  - Segoe MDL2 Assets.ttf
+
+- action: register_font
+  name: Segoe MDL2 Assets
+  file: Segoe MDL2 Assets.ttf

@@ -393,3 +393,6 @@ consolas:
 lucon:
   Description: MS Lucida console font
   Category: Fonts
+segoemdl2:
+  Description: MS Segoe MDL2 character font
+  Category: Fonts
