@@ -21,8 +21,8 @@ Steps:
   rename: dotnet472.exe
   file_checksum: 4037bdde26bf72e2ce5108cb30387bcd
   file_size: 83937536
-  arguments: /sfxlang:1027 /norestart
-  
+  arguments: /sfxlang:1027 /q /norestart
+
 - action: override_dll
   dll: mscoree
   type: native
