@@ -25,7 +25,7 @@ Steps:
   file_name: mfc42u.dll
   source: vcredist6/vcredist.exe
   dest: win32
-  
+
 - action: override_dll
   dll: mfc42
   type: native,builtin
