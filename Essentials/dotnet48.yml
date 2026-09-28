@@ -5,6 +5,7 @@ License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies:
 - dotnet40
+Uninstaller: Microsoft .NET Framework 4.8
 Steps:
 - action: uninstall
   file_name: Wine Mono
