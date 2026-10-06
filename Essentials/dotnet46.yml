@@ -20,7 +20,7 @@ Steps:
   rename: dotnet46.exe
   file_checksum: 88bc05e20114a4506f40c36911de92fa
   file_size: 65444688
-  arguments: /norestart
+  arguments: /q /norestart
 
 - action: set_windows
   version: win10
