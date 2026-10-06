@@ -20,7 +20,7 @@ Steps:
   rename: dotnet462.exe
   file_checksum: 9fa38b5449fbb7cca1c4a622446f6110
   file_size: 62000832
-  arguments: /sfxlang:1027 /norestart
+  arguments: /sfxlang:1027 /q /norestart
 
 - action: set_windows
   version: win10
