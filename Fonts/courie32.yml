@@ -33,5 +33,5 @@ Steps:
   file: couri.ttf
 
 - action: register_font
-  name: Georgia Bold Italic
-  file: Georgiaz.TTF
+  name: Courier New Bold
+  file: courbd.ttf
