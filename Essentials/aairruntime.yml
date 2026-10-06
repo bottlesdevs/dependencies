@@ -4,6 +4,8 @@ Provider: Harman
 License: Harman
 License_url: https://airsdk.harman.com/assets/pdfs/HARMAN%20AIR%20SDK%20License%20Agreement.pdf
 Dependencies: []
+Uninstaller: Adobe AIR
+
 Steps:
 - action: install_exe
   file_name: AdobeAIR.exe
