@@ -224,6 +224,9 @@ powershell:
 powershell_core:
   Description: Microsoft PowerShell Core
   Category: Essentials
+comctl32:
+  Description: Microsoft Common Controls Library
+  Category: Essentials
 
 # DIRECT3D
 # ------------------------------
