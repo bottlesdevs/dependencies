@@ -1,0 +1,27 @@
+Name: riched30
+Description: Microsoft RichEdit Control 3.0 (riched20.dll, msls31.dll)
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: download_archive
+  file_name: InstMsiA.exe
+  url: https://web.archive.org/web/20060720160141/https://download.microsoft.com/download/WindowsInstaller/Install/2.0/W9XMe/EN-US/InstMsiA.exe
+  rename: riched30.exe
+  file_checksum: 22098231992c8c808543825e19dc9454
+  file_size: 1709160
+
+- action: get_from_cab
+  source: riched30.exe
+  file_name: msls31.dll
+  dest: win32
+
+- action: get_from_cab
+  source: riched30.exe
+  file_name: riched20.dll
+  dest: win32
+  
+- action: override_dll
+  dll: riched20
+  type: native,builtin

@@ -177,6 +177,9 @@ art2k7min:
 riched20:
   Description: Microsoft RichEdit Control 2.0 (riched20.dll)
   Category: Essentials
+riched30:
+  Description: Microsoft RichEdit Control 3.0 (riched20.dll, msls31.dll)
+  Category: Essentials
 msftedit:
   Description: Microsoft RichEdit Control 4.1 (msftedit.dll)
   Category: Essentials
