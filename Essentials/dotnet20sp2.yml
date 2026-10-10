@@ -1,0 +1,41 @@
+Name: dotnet20sp2
+Description: Microsoft .NET Framework 2.0 Service Pack 2
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+- dotnet20
+
+Steps:
+- action: uninstall
+  file_name: Wine Mono
+
+- action: set_windows
+  version: winxp
+
+- action: install_exe
+  file_name: NetFx20SP2_x86.exe
+  url: https://web.archive.org/web/20210329003118/http://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe
+  arguments: /q
+  rename: dotnet20sp2.exe
+  file_checksum: c64fd1f972822ed84378c7058fea0744
+  file_size: 0
+  for:
+    - win32
+
+- action: install_exe
+  file_name: NetFx20SP2_x64.exe
+  url: https://web.archive.org/web/20210328110521/http://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x64.exe
+  arguments: /q
+  rename: dotnet20sp2_x64.exe
+  file_checksum: ad55ad64b69fed73807429859291db8c
+  file_size: 0
+  for:
+    - win64
+
+- action: set_windows
+  version: win10
+
+- action: override_dll
+  dll: mscorwks
+  type: native,builtin
