@@ -21,6 +21,8 @@ Steps:
   file_name: vcredist6sp6.exe
   url: temp/vcredist6sp6/
   arguments: /q
+  # The redist can't replace Wine's builtin msvcrt and oleaut32 and exits with 43.
+  success_codes: [43]
   
 - action: override_dll
   dll: asycfilt
