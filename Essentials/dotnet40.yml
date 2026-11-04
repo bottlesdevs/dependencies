@@ -7,6 +7,9 @@ Dependencies: []
 Conflicts:
 - mono
 Uninstaller: Microsoft .NET Framework 4 Extended
+Uninstallers:
+- Microsoft .NET Framework 4 Extended
+- Microsoft .NET Framework 4 Client Profile
 Steps:
 - action: uninstall
   file_name: Wine Mono
