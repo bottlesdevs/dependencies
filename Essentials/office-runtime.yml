@@ -41,7 +41,7 @@ Steps:
 
 - action: download_archive
   file_name: Q811493_W2K_SP4_X86_EN.exe
-  url: https://web.archive.org/web/20150526022037/http://download.microsoft.com/download/8/d/c/8dc79965-dfbc-4b25-9546-e23bc4b791c6/Q811493_W2K_SP4_X86_EN.exe
+  url: https://am.net/lib/tools/Microsoft/nt/2000/SP4Archive/Q811493_W2K_SP4_X86_EN.exe
   file_checksum: e6fc7d6603cbacbcad1ec62d9b6f4018
   file_size: 5459984
 
