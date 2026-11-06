@@ -51,6 +51,34 @@ Steps:
   dest: win32
 
 - action: download_archive
+  file_name: d2303186aad40bc4d581da29ff1e5074.cab
+  url: https://download.microsoft.com/download/41fb59c2-1723-45f9-a270-96b73ad58233/KIT_BUNDLE_WDK_MEDIACREATION/Installers/d2303186aad40bc4d581da29ff1e5074.cab
+  file_checksum: ee65c301c12193959b6a839f965e4075
+  file_size: 224070
+
+- action: get_from_cab
+  source: d2303186aad40bc4d581da29ff1e5074.cab
+  file_name: fild65dc69c2f134bed2ada78fa942b3548
+  rename: offreg.dll
+  dest: win32
+
+- action: download_archive
+  file_name: a3e6d952abf6ea4c57299ff3ea47fac9.cab
+  url: https://download.microsoft.com/download/41fb59c2-1723-45f9-a270-96b73ad58233/KIT_BUNDLE_WDK_MEDIACREATION/Installers/a3e6d952abf6ea4c57299ff3ea47fac9.cab
+  file_checksum: d92cb05a377bdce8f16dec2f9dff3863
+  file_size: 554046
+  for:
+  - win64
+
+- action: get_from_cab
+  source: a3e6d952abf6ea4c57299ff3ea47fac9.cab
+  file_name: fil98360233e3e2718ab4ba73c2e80f5954
+  rename: offreg.dll
+  dest: win64
+  for:
+  - win64
+
+- action: download_archive
   file_name: officedeploymenttool_14729-20228.exe
   url: https://web.archive.org/web/20220224215107if_/https://download.microsoft.com/download/2/7/A/27AF1BE6-DD20-4CB4-B154-EBAB8A7D4A7E/officedeploymenttool_14729-20228.exe
   file_checksum: c13197f14fa0d938d6369841ad324dba
