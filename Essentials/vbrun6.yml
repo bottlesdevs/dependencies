@@ -13,7 +13,7 @@ Steps:
 
 - action: get_from_cab
   source: VB6.0-KB290887-X86.exe
-  file_name: vbrun60sp6
+  file_name: vbrun60sp6.exe
   dest: temp/vbrun60sp6/
 
 - action: get_from_cab
