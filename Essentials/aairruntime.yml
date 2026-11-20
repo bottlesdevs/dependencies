@@ -7,7 +7,7 @@ Dependencies: []
 Steps:
 - action: install_exe
   file_name: AdobeAIR.exe
-  url: https://airsdk.harman.com/assets/downloads/33.1.1.743/AdobeAIR.exe
-  file_checksum: 8d377b130be65e67a845c89e0117c305
-  file_size: 7838984
+  url: https://airsdk.harman.com/assets/downloads/33.1.1.744/AdobeAIR.exe
+  file_checksum: 2e5b29547e8717aec093a1ce3573a1ac
+  file_size: 7851512
   rename: adobeair.exe
