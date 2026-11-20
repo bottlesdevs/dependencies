@@ -1,0 +1,32 @@
+Name: comctl32
+Description: Microsoft Common Controls Library
+Provider: Microsoft
+License: Microsoft EULA
+License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
+Dependencies: []
+Steps:
+- action: download_archive
+  file_name: CC32inst.exe
+  url: https://downloads.sourceforge.net/project/pocmin/Win%2095_98%20Controls/Win%2095_98%20Controls/CC32inst.exe
+  file_checksum: d46736967c161d9a065064387354ec31
+  file_size: 587496
+
+- action: get_from_cab
+  source: CC32inst.exe
+  file_name: comctl32.exe
+  dest: temp/comctl32/
+
+- action: get_from_cab
+  source: comctl32/comctl32.exe
+  file_name: x86/50ComUpd.Exe
+  dest: temp/comctl32/
+
+- action: get_from_cab
+  source: comctl32/50ComUpd.Exe
+  file_name: comcnt.dll
+  dest: win32
+  rename: comctl32.dll
+
+- action: override_dll
+  dll: comctl32
+  type: native,builtin
