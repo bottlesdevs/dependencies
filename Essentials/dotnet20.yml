@@ -18,6 +18,8 @@ Steps:
   rename: dotnet20.exe
   file_checksum: 93a13358898a54643adbca67d1533462
   file_size: 0
+  for:
+    - win32
   
 - action: install_exe
   file_name: NetFx64.exe
