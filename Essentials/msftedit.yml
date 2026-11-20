@@ -25,11 +25,13 @@ Steps:
     source: windows6.1-kb976932-x86.exe
     file_name: x86_microsoft-windows-msftedit_31bf3856ad364e35_6.1.7601.17514_none_d7d862f19573a5ff/msftedit.dll
     dest: win32
+    rename: msftedit.dll
 
   - action: get_from_cab
     source: windows6.1-kb976932-x64.exe
     file_name: amd64_microsoft-windows-msftedit_31bf3856ad364e35_6.1.7601.17514_none_33f6fe754dd11735/msftedit.dll
     dest: win64
+    rename: msftedit.dll
     for:
       - win64
 
