@@ -20,7 +20,7 @@ Steps:
   rename: dotnet461.exe
   file_checksum: 864056903748706e251fec9f5d887ef9
   file_size: 67681000
-  arguments: /sfxlang:1027 /norestart
+  arguments: /sfxlang:1027 /q /norestart
 
 - action: set_windows
   version: win10
