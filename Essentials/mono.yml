@@ -4,6 +4,7 @@ Provider: WineHQ
 License: WineHQ
 License_url: https://wiki.winehq.org/Mono
 Dependencies: []
+Uninstaller: Wine Mono Runtime
 Steps:
 - action: uninstall
   file_name: Wine Mono
