@@ -4,6 +4,7 @@ Provider: WebView2
 License: Microsoft EULA
 License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: []
+Uninstaller: Microsoft Edge WebView2 Runtime
 Steps:
 - action: install_exe
   file_name: MicrosoftEdgeWebView2RuntimeInstallerX64.exe
