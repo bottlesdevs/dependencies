@@ -18,30 +18,30 @@ Steps:
 
 - action: get_from_cab
   file_name: asycfilt.dll
-  source: vbrun60sp6/vbrun60sp6.exe
+  source: temp/vbrun60sp6/vbrun60sp6.exe
   dest: win32
 
 - action: get_from_cab
   file_name: comcat.dll
-  source: vbrun60sp6/vbrun60sp6.exe
+  source: temp/vbrun60sp6/vbrun60sp6.exe
   dest: win32
 
 - action: get_from_cab
   file_name: msvbvm60.dll
-  source: vbrun60sp6/vbrun60sp6.exe
+  source: temp/vbrun60sp6/vbrun60sp6.exe
   dest: win32
 
 - action: get_from_cab
   file_name: oleaut32.dll
-  source: vbrun60sp6/vbrun60sp6.exe
+  source: temp/vbrun60sp6/vbrun60sp6.exe
   dest: win32
 
 - action: get_from_cab
   file_name: olepro32.dll
-  source: vbrun60sp6/vbrun60sp6.exe
+  source: temp/vbrun60sp6/vbrun60sp6.exe
   dest: win32
   
 - action: get_from_cab
   file_name: stdole2.tlb
-  source: vbrun60sp6/vbrun60sp6.exe
+  source: temp/vbrun60sp6/vbrun60sp6.exe
   dest: win32
