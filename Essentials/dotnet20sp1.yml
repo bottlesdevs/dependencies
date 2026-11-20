@@ -6,11 +6,14 @@ License_url: https://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm
 Dependencies: 
   - dotnet20
 
-# Tested with win10 and Caffe 7.8, seems setting win2000 is no more needed
+# Tested with win10 and win7 on Caffe 9.7, and setting winxp is needed
 
 Steps:
 - action: uninstall
   file_name: Wine Mono
+
+- action: set_windows
+  version: winxp
 
 - action: install_exe
   file_name: NetFx20SP1_x86.exe
@@ -29,6 +32,9 @@ Steps:
   file_size: 0
   for:
     - win64
+
+- action: set_windows
+  version: win10
 
 - action: override_dll
   dll: mscorwks
